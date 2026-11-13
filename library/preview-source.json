@@ -1,0 +1,28 @@
+{
+  "authorArchiveSha256": "070375a4d93bc1af9765ab5fefa6d8bf56cde5d0d1b548d64d34e3c6f442296c",
+  "preview": {
+    "height": 720,
+    "sha256": "b5a484c1c4262e2b4c89a2b7e68143e7c2f56c21b9542799195beec7fd98f032",
+    "sizeBytes": 264437,
+    "width": 1280
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivePath": "overrides/resources/nitro/backgrounds/01.png",
+    "height": 1172,
+    "references": [
+      "overrides/config/CustomMainMenu/mainmenu.json"
+    ],
+    "sha256": "0e991154eff92e7381fd74050a1b08344633a82df5d5655fea04444efeb402ea",
+    "sizeBytes": 1752019,
+    "width": 1870
+  },
+  "transformation": {
+    "format": "JPEG",
+    "method": "center crop and Lanczos resize",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}

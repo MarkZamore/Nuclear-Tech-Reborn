@@ -1,0 +1,1258 @@
+{
+  "counts": {
+    "auxiliaryEntries": 53,
+    "exactCurseForgeProjects": 134,
+    "loadedAuthorMods": 139,
+    "mainTree": 100,
+    "mainTreeAddons": 20,
+    "matchingLegacyDeclarations": 115,
+    "nativeContainers": 144,
+    "shippedJars": 146,
+    "shippedJarsWithoutActiveMods": 15
+  },
+  "entries": {
+    "_mixinbootstrap_1_1_0": {
+      "fileId": 3437402,
+      "path": "mods/_MixinBootstrap-1.1.0.jar",
+      "projectId": 357178,
+      "sha256": "17c589aad9907d4ba56d578d502afa80aac1ba2fa8677e8b4d06c019c41d7731",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mixinbootstrap"
+    },
+    "adchimneys": {
+      "fileId": 4433970,
+      "path": "mods/AdChimneys-1.12.2-3.5.16.0-build.0654.jar",
+      "projectId": 244830,
+      "sha256": "a77aedaca518d74ade39b190208d2bd9ce4df403a272c943af84a027f8f19cbd",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/advanced-chimneys"
+    },
+    "adpother": {
+      "fileId": 4760625,
+      "path": "mods/AdPother-1.12.2-1.2.25.0-build.0673.jar",
+      "projectId": 269973,
+      "sha256": "7f9698b2416612e1b8a5ff51d08efe0c59b26eb17aeeb7aa7e715b143b3faca4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms"
+    },
+    "advancedrocketry": {
+      "fileId": 4671856,
+      "path": "mods/AdvancedRocketry-1.12.2-2.0.0-17.jar",
+      "projectId": 236542,
+      "sha256": "809c2f212da1c2ab46a9e849922e7902f592fa57bef669d6a95c09b473ef12e4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry"
+    },
+    "ags_modernmarkings": {
+      "fileId": 6657304,
+      "path": "mods/AGS ModernMarkings Mod-0.4.1.jar",
+      "projectId": 1267477,
+      "sha256": "858b6d374101d4ba13cb8bf122a784b08ec5d08566ff926361544b9ee6c06809",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modernmarkings"
+    },
+    "akka_actor_2_11_2_3_3": {
+      "module": "akka-actor",
+      "path": "mods/1.12.2/akka-actor_2.11-2.3.3.jar",
+      "sha256": "4ccbc821a417f0174c9734fc721f078177cacef94ded09c3775ebf40c6a7bdfd",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/akka/akka-core/tree/v2.3.3"
+    },
+    "alcatrazcore": {
+      "fileId": 2666560,
+      "path": "mods/alcatrazcore-1.0.4.jar",
+      "projectId": 304493,
+      "sha256": "10b245b2485c2803ca335f15e371e91df507ca5e0fab7db329a09c93dcb12670",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alcatrazcore"
+    },
+    "appliedenergistics2": {
+      "fileId": 6302098,
+      "path": "mods/ae2-uel-v0.56.7.jar",
+      "projectId": 570458,
+      "sha256": "dfca9f74cfebb4e79806ae77cd6bcedc30649be2b0e505e06d629386b0c3074e",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ae2-extended-life"
+    },
+    "architecturecraft": {
+      "fileId": 4344128,
+      "path": "mods/architecturecraft-1.12-3.108.jar",
+      "projectId": 277631,
+      "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architecturecraft-tridev"
+    },
+    "art": {
+      "fileId": 2678285,
+      "path": "mods/ARTweaker-1.12.2-1.0.0.jar",
+      "projectId": 315391,
+      "sha256": "9d30a0e830c014440fd67011b0e3c7ef957d41ac007f0d348d2f042d8cdcc863",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/advanced-rocketry-tweaker"
+    },
+    "avaritia": {
+      "fileId": 3143349,
+      "path": "mods/Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "projectId": 261348,
+      "sha256": "e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/avaritia-1-10"
+    },
+    "avaritiaddons": {
+      "fileId": 4745387,
+      "path": "mods/Avaritiaddons-1.12.2-1.9.jar",
+      "projectId": 248873,
+      "sha256": "7792247b7d8ef330d08d9900b78a8b0f1ee3344359ee5954cd3c2e25201aa187",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/avaritiaddons"
+    },
+    "avaritiarecipemaker": {
+      "fileId": 2605409,
+      "path": "mods/avaritiarecipemaker-1.0.0.jar",
+      "projectId": 301144,
+      "sha256": "c29ea6749e9148579e6d467e0b211ee90909bda4859b55137c7cbf2cb2dc0287",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/avaritia-recipe-generator"
+    },
+    "avaritiatweaks": {
+      "fileId": 4511183,
+      "path": "mods/AvaritiaTweaks-1.12.2-1.3.1.jar",
+      "projectId": 286652,
+      "sha256": "85cf3d503a2a83b55a4d2a8a188c14524763d6211d3e9c922f1d1c37c0c9c0b3",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/avaritia-tweaks"
+    },
+    "base": {
+      "fileId": 3440963,
+      "path": "mods/base-1.12.2-3.14.0.jar",
+      "projectId": 246996,
+      "sha256": "5ec979220887e4e73772ecdb5dceb8a258b4da974bd4ece8fd85cade089913d4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/base"
+    },
+    "bdlib": {
+      "fileId": 4675629,
+      "path": "mods/bdlib-1.14.4.1-mc1.12.2.jar",
+      "projectId": 70496,
+      "sha256": "b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bdlib"
+    },
+    "beautifiedchatclient": {
+      "fileId": 3423557,
+      "path": "mods/beautifiedchatclient_1.12.2-1.0.jar",
+      "projectId": 514797,
+      "sha256": "c728172976a5ed943aa9a474f94688894d53af771f74af53797d5080cc8c0cc8",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/beautified-chat-client"
+    },
+    "betterbuilderswands": {
+      "fileId": 2691084,
+      "path": "mods/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar",
+      "projectId": 238403,
+      "sha256": "0bb50f545b87f19087d9dbdb9930d6be2d66ee8c76d2a1982eef9e3d2bb43108",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands"
+    },
+    "bettermineshafts": {
+      "fileId": 3247154,
+      "path": "mods/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+      "projectId": 389665,
+      "sha256": "6380ad3f470c38337e545afec5418084e95bd7ec3cd75658f9da81e46a2288b1",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge"
+    },
+    "betternether": {
+      "fileId": 2859893,
+      "path": "mods/betternether-0.1.8.6.jar",
+      "projectId": 311377,
+      "sha256": "6fffbb495ec446317f4cfdbc4f471a30bffa298c4f354adfed62e4ab5ab274b2",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/betternether"
+    },
+    "betterquesting": {
+      "fileId": 8097689,
+      "path": "mods/BetterQuestingUnofficial-4.3.2.jar",
+      "projectId": 629629,
+      "sha256": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-questing-unofficial"
+    },
+    "bloodmoon": {
+      "fileId": 2537917,
+      "path": "mods/Bloodmoon-MC1.12.2-1.5.3.jar",
+      "projectId": 226321,
+      "sha256": "1d6082293067e1a1af002c65527a41df3919f8125eaa25a9c7c9d16ba25c4d06",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bloodmoon"
+    },
+    "bqutweaker": {
+      "fileId": 4733466,
+      "path": "mods/BQUTweaker-1.3.7.jar",
+      "projectId": 905701,
+      "sha256": "07189bb7370839386d4b76073eee50c3c684b54544590dcd3545bdc91cfe1fee",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bqutweaker"
+    },
+    "byg": {
+      "fileId": 2833179,
+      "path": "mods/BiomesYouGo1.7.1.jar",
+      "projectId": 247560,
+      "sha256": "0ede6fac09cf7019d214811c32ae1e805b1814776eca983cc9ad3a7cdffbf635",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go"
+    },
+    "carbonconfig": {
+      "fileId": 8411664,
+      "path": "mods/CarbonConfig-1.12.2-2.0.2.1.jar",
+      "projectId": 898104,
+      "sha256": "1c435bd2eda5bfb4f9778301aab97091f0925c891edfae9dd6794f1dfe123482",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/carbon-config"
+    },
+    "chameleon": {
+      "fileId": 2450900,
+      "path": "mods/Chameleon-1.12-4.1.3.jar",
+      "projectId": 230497,
+      "sha256": "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chameleon"
+    },
+    "chisel": {
+      "fileId": 2915375,
+      "path": "mods/Chisel-MC1.12.2-1.0.2.45.jar",
+      "projectId": 235279,
+      "sha256": "64c62f20a89939db2c03d47737c7bd371d8bd8c10ae42e2e8c63432ae89db2c7",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chisel"
+    },
+    "chunkpregenerator": {
+      "fileId": 8748866,
+      "path": "mods/Chunk-Pregenerator-1.12.2-4.4.9.3.jar",
+      "projectId": 267193,
+      "sha256": "32161d8965e07f91a769cdf0325b368f7d2a4459af15abef165b57b91213b2bb",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator"
+    },
+    "clumps": {
+      "fileId": 2666198,
+      "path": "mods/Clumps-3.1.2.jar",
+      "projectId": 256717,
+      "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/clumps"
+    },
+    "codechickenlib": {
+      "fileId": 2779848,
+      "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "projectId": 242818,
+      "sha256": "5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8"
+    },
+    "cofhcore": {
+      "fileId": 2920433,
+      "path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "projectId": 69162,
+      "sha256": "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cofh-core"
+    },
+    "cofhworld": {
+      "fileId": 2920434,
+      "path": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "projectId": 271384,
+      "sha256": "f10cd57075690ecbe52094f8af0d2a5af12f89c82b7c6eb73d3d090d74206ea0",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cofh-world"
+    },
+    "collective": {
+      "fileId": 3533131,
+      "path": "mods/collective-1.12.2-3.0.jar",
+      "projectId": 342584,
+      "sha256": "43541ab1d57cf5aa3aba63fa34b6b6ebffd67f602b9fb4d220e4bec365cb754c",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/collective"
+    },
+    "comforts": {
+      "fileId": 2880613,
+      "path": "mods/comforts-1.12.2-1.4.1.3.jar",
+      "projectId": 276951,
+      "sha256": "62183a1fa282032e2fea2c3ff6348611a03685a50769199243a42d38605d08a6",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/comforts"
+    },
+    "config_1_2_1": {
+      "module": "config",
+      "path": "mods/1.12.2/config-1.2.1.jar",
+      "sha256": "c160fbd78f51a0c2375a794e435ce2112524a6871f64d0331895e9e26ee8b9ee",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/lightbend/config/tree/v1.2.1"
+    },
+    "configanytime": {
+      "fileId": 5212709,
+      "path": "mods/!configanytime-3.0.jar",
+      "projectId": 870276,
+      "sha256": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/configanytime"
+    },
+    "configmod": {
+      "fileId": 2902920,
+      "path": "mods/coroutil-1.12.1-1.2.37.jar",
+      "projectId": 237749,
+      "sha256": "a16c09b2ac5894078cc1aef5b6fe11a04cb5bf43f2a703a5b9545fb8be0b748a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/coroutil"
+    },
+    "contenttweaker": {
+      "fileId": 3331364,
+      "path": "mods/ContentTweaker-1.12.2-4.10.0.jar",
+      "projectId": 237065,
+      "sha256": "3371fcccdda4c0701e0991d576db58e2806046c2cb27c22c1e52764080f0e3e9",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/contenttweaker"
+    },
+    "controlling": {
+      "fileId": 5408385,
+      "path": "mods/Controlling-3.0.12.4.jar",
+      "projectId": 250398,
+      "sha256": "f5edd4793f96cd5a6f31aecbd3030093b367a51afba5d6f7281756d0f9c03786",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/controlling"
+    },
+    "cookingforblockheads": {
+      "fileId": 2862651,
+      "path": "mods/CookingForBlockheads_1.12.2-6.5.0.jar",
+      "projectId": 231484,
+      "sha256": "3a8ed073a9d84213d6a1f2947bf9e8a4e70730fa123e3ca53769fdc99ef4db9b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads"
+    },
+    "coroutil": {
+      "fileId": 2902920,
+      "path": "mods/coroutil-1.12.1-1.2.37.jar",
+      "projectId": 237749,
+      "sha256": "a16c09b2ac5894078cc1aef5b6fe11a04cb5bf43f2a703a5b9545fb8be0b748a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/coroutil"
+    },
+    "cosmeticarmorreworked": {
+      "fileId": 2937869,
+      "path": "mods/CosmeticArmorReworked-1.12.2-v5a.jar",
+      "projectId": 237307,
+      "sha256": "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked"
+    },
+    "crafttweaker": {
+      "fileId": 8051578,
+      "path": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "projectId": 239197,
+      "sha256": "2cd1c68628b78ff5b58a12c94c0dbed8e91d322836bf2d34c9156fee60390e53",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker"
+    },
+    "crafttweakerjei": {
+      "fileId": 8051578,
+      "path": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "projectId": 239197,
+      "sha256": "2cd1c68628b78ff5b58a12c94c0dbed8e91d322836bf2d34c9156fee60390e53",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker"
+    },
+    "ctgui": {
+      "fileId": 8051578,
+      "path": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "projectId": 239197,
+      "sha256": "2cd1c68628b78ff5b58a12c94c0dbed8e91d322836bf2d34c9156fee60390e53",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker"
+    },
+    "ctm": {
+      "fileId": 2915363,
+      "path": "mods/CTM-MC1.12.2-1.0.2.31.jar",
+      "projectId": 267602,
+      "sha256": "433f441dc9c0aa75a4168df832900720ddadac1f22cc3bba4e4f25ca789b268b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ctm"
+    },
+    "cucumber": {
+      "fileId": 2645867,
+      "path": "mods/Cucumber-1.12.2-1.1.3.jar",
+      "projectId": 272335,
+      "sha256": "0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cucumber"
+    },
+    "customloadingscreen": {
+      "fileId": 6771073,
+      "path": "mods/CustomLoadingScreen-1.12.2-1.5.9.jar",
+      "projectId": 229302,
+      "sha256": "4a00498619ce464376bc1d0c2a1267128f1955062973b7db2bb5a8a0f2afd3be",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-loading-screen"
+    },
+    "custommainmenu": {
+      "fileId": 2857869,
+      "path": "mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "projectId": 226406,
+      "sha256": "63b8e4d86b336739c9df8275d28e61519c73c815d0ba9ec18fb8d0cf8a218488",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu"
+    },
+    "duradisplay": {
+      "fileId": 7933246,
+      "path": "mods/DuraDisplay-1.7.jar",
+      "projectId": 1255064,
+      "sha256": "609e86941f5e138abeab48eeef6de6bd116cdb02b4aa5bbfa981ad0f1f821b85",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/vintagedisplay"
+    },
+    "entityculling": {
+      "fileId": 6215595,
+      "path": "mods/EntityCulling-1.12.2-6.5.0.jar",
+      "projectId": 409087,
+      "sha256": "f6c43debaa3b6ac46160c39e09a434cbf9f17d495a49e0a81defdaad3ace2cb2",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/entity-culling"
+    },
+    "equipmenttooltips": {
+      "fileId": 2563651,
+      "path": "mods/EquipmentTooltips-1.12.2-1.0.3-4.jar",
+      "projectId": 293973,
+      "sha256": "82ad1a03cf9b19f10e11763219c16afc967310685cf928ec45caa217e9b856d4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/equipment-tooltips"
+    },
+    "exchangers": {
+      "fileId": 4732479,
+      "path": "mods/Exchangers-1.12.2-2.10.3.jar",
+      "projectId": 270183,
+      "sha256": "19f56f24a0a2481926b1035b1619bd0958938a88630a1d439bb3b03d607f8c0a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/exchangers"
+    },
+    "extendedrenderer": {
+      "fileId": 2902920,
+      "path": "mods/coroutil-1.12.1-1.2.37.jar",
+      "projectId": 237749,
+      "sha256": "a16c09b2ac5894078cc1aef5b6fe11a04cb5bf43f2a703a5b9545fb8be0b748a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/coroutil"
+    },
+    "extremesoundmuffler": {
+      "fileId": 8196151,
+      "path": "mods/esm-legacy-1.12.2-1.0.10.jar",
+      "projectId": 1052470,
+      "sha256": "3a44f7d45f8388682f3f3c5bb28811ba97692eebe0cfddae572be49025acddb5",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy"
+    },
+    "farseek": {
+      "fileId": 3093852,
+      "path": "mods/Farseek-1.12-2.5.1.jar",
+      "projectId": 229708,
+      "sha256": "28016063a5bce9f229305692795b1e64702985abc026d480e45d9663a96ea80c",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/farseek"
+    },
+    "fasterladderclimbing": {
+      "fileId": 2512758,
+      "path": "mods/FasterLadderClimbing-1.12-0.1-146.jar",
+      "projectId": 258881,
+      "sha256": "aac69179428a4efd0f4a28668a5467c4807c256ae85d6cbba51c1245f77b68c7",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/faster-ladder-climbing"
+    },
+    "fastfurnace": {
+      "fileId": 2706111,
+      "path": "mods/FastFurnace-1.12.2-1.3.1.jar",
+      "projectId": 299540,
+      "sha256": "61362af8dd5de20a6f5b7ab9c2f95cfaec911a0ab428c7b469e8d2a7ff89c89d",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace"
+    },
+    "flare": {
+      "fileId": 7857037,
+      "path": "mods/flare-0.8.0.jar",
+      "projectId": 692142,
+      "sha256": "2ef35ce392c086127a8c5a8364c1ca0af29fdcb7cb1fe303fdfbbf9f03aeff99",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/flare"
+    },
+    "forgeendertech": {
+      "fileId": 4402062,
+      "path": "mods/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar",
+      "projectId": 244844,
+      "sha256": "21e155cacd664ba822862ce459cd4b5c8aa56d4273d66d1408904b71b6115104",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgeendertech"
+    },
+    "ftbbackups": {
+      "fileId": 2819669,
+      "path": "mods/FTBBackups-1.1.0.1.jar",
+      "projectId": 314904,
+      "sha256": "6b6bcbbf6ac4528657345e1696339528a44643ecb06e6137908eafb8432bd962",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge"
+    },
+    "ftblib": {
+      "fileId": 2985811,
+      "path": "mods/FTBLib-5.4.7.2.jar",
+      "projectId": 237167,
+      "sha256": "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge"
+    },
+    "ftbultimine": {
+      "fileId": 3078750,
+      "path": "mods/ftb-ultimine-1202.3.5.jar",
+      "projectId": 386134,
+      "sha256": "97642be69016944afab202f3a3edbce422af3d6485b60fdc81025bf7e29b99de",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge"
+    },
+    "ftbutilities": {
+      "fileId": 3157548,
+      "path": "mods/FTBUtilities-5.4.1.131.jar",
+      "projectId": 237102,
+      "sha256": "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge"
+    },
+    "groovyscript": {
+      "fileId": 7925117,
+      "path": "mods/groovyscript-1.4.3.jar",
+      "projectId": 687577,
+      "sha256": "07617b7ce9170a857199bd61d730a0db3af2685cf83d31734a2d4b628fda7533",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/groovyscript"
+    },
+    "gunpowderlib": {
+      "fileId": 3168863,
+      "path": "mods/GunpowderLib-1.12.2-1.1.jar",
+      "projectId": 356646,
+      "sha256": "6130bd064d4aa1158308d699f370b5586447d026e2f559dfe14aa7df76cd6203",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/gunpowderlib"
+    },
+    "harvestcraft": {
+      "fileId": 2904825,
+      "path": "mods/Pam's HarvestCraft 1.12.2zg.jar",
+      "projectId": 221857,
+      "sha256": "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft"
+    },
+    "hbm": {
+      "fileId": 8873889,
+      "path": "mods/NTM-CE-1.12.2-2.6.1.0.jar",
+      "projectId": 1312314,
+      "sha256": "43b0a3f71e58cca548d3ff1aa01faf45ad2eaa5477adfcaa9d161300b589266d",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/hbm-nuclear-tech-mod-community-edition"
+    },
+    "hbmcore": {
+      "fileId": 8873889,
+      "fmlCorePlugin": "com.hbm.core.HbmCorePlugin",
+      "modContainer": "com.hbm.core.HbmCoreModContainer",
+      "path": "mods/NTM-CE-1.12.2-2.6.1.0.jar",
+      "projectId": 1312314,
+      "sha256": "43b0a3f71e58cca548d3ff1aa01faf45ad2eaa5477adfcaa9d161300b589266d",
+      "type": "core_container_registration",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/hbm-nuclear-tech-mod-community-edition"
+    },
+    "industrialrenewal": {
+      "fileId": 3340876,
+      "path": "mods/IndustrialRenewal_1.12.2-0.21.8.jar",
+      "projectId": 299849,
+      "sha256": "53cd62fac4023c3a1b13b445af5483ec133a108c7a049a4077b118f973d71271",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/industrial-renewal"
+    },
+    "ironjetpacks": {
+      "fileId": 2653408,
+      "path": "mods/IronJetpacks-1.12-2-1.1.0.jar",
+      "projectId": 284497,
+      "sha256": "3007220a56179c5665faa68077372cc99fb91f8f7bd6a88f7fe497a7db15e00f",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks"
+    },
+    "itemfilters": {
+      "fileId": 3003364,
+      "path": "mods/ItemFilters-1.0.4.2.jar",
+      "projectId": 309674,
+      "sha256": "cdffbb810f75db50afce9681374f0604e4c1ed2dcfe768cff5b4e17d5384166b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/item-filters"
+    },
+    "ivtoolkit": {
+      "fileId": 2443253,
+      "fmlCorePlugin": "ivorius.ivtoolkit.IvToolkitLoadingPlugin",
+      "modContainer": "ivorius.ivtoolkit.IvToolkitCoreContainer",
+      "path": "mods/IvToolkit-1.3.3-1.12.jar",
+      "projectId": 224535,
+      "sha256": "ffb745111790e27cb7810a2e03d5270265dee7ebd3ef98fde897c409d58b1e59",
+      "type": "core_container_registration",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ivtoolkit"
+    },
+    "jei": {
+      "fileId": 8752694,
+      "path": "mods/jei_1.12.2-4.16.5.1030.jar",
+      "projectId": 238222,
+      "sha256": "73357b5c3b5f44f6d0ce667bbed21ba4c5db49070944ca2bc0fa73b8d9061d51",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jei"
+    },
+    "jeiintegration": {
+      "fileId": 2951731,
+      "path": "mods/jeiintegration_1.12.2-1.6.0.jar",
+      "projectId": 265917,
+      "sha256": "b072944ed22907db480bea91b0660924d3dcef266e6501de236d08c45d07dc19",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jei-integration"
+    },
+    "jeresources": {
+      "fileId": 2728585,
+      "path": "mods/JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "projectId": 240630,
+      "sha256": "9ea4d7df19c0a53880aae5e745ef1e886854bea5c533878688587a5e3fdaebdd",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer"
+    },
+    "journeymap": {
+      "fileId": 5172461,
+      "path": "mods/journeymap-1.12.2-5.7.1p3.jar",
+      "projectId": 32274,
+      "sha256": "b72c9dd7e6dd0f7438c01ea8e440519bf4a3c0b47674810929a9c899dc98b406",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/journeymap"
+    },
+    "konkrete": {
+      "fileId": 4514895,
+      "path": "mods/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+      "projectId": 410295,
+      "sha256": "5b412639b99dea3dbc7311cd4bdcf310dbdfd8e9c6eba4f2abe839c261aa0c7a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/konkrete"
+    },
+    "lemonskin": {
+      "fileId": 7763338,
+      "path": "mods/lemonskin-4.0.0.jar",
+      "projectId": 1337144,
+      "sha256": "41d231e9b217c4b1d6f30e57ade3e60b886ced99d9bfd4b7bc9f0791a93b3870",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lemonskin"
+    },
+    "letmedespawn": {
+      "fileId": 3948166,
+      "path": "mods/letmedespawn-1.12.2-forge-1.0.2.jar",
+      "projectId": 663477,
+      "sha256": "fcaa0e28468b19d216da9b1c343e70761849eb44ca71a64933d74bbf536b07ee",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/let-me-despawn"
+    },
+    "libvulpes": {
+      "fileId": 3801015,
+      "path": "mods/LibVulpes-1.12.2-0.4.2-25-universal.jar",
+      "projectId": 236541,
+      "sha256": "8a339ac3cb88526f61256a1e04d29c0d09e21187c8abd2766f009e217a7fa2f9",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/libvulpes"
+    },
+    "loliasm": {
+      "fileId": 8225778,
+      "path": "mods/loliasm-5.33.jar",
+      "projectId": 460609,
+      "sha256": "1573e02e488eac5e72cf02dd0654e1a0a5b252329b2de9a836714d7ff9a1adb8",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chibi"
+    },
+    "mantle": {
+      "fileId": 2713386,
+      "path": "mods/Mantle-1.12-1.3.3.55.jar",
+      "projectId": 74924,
+      "sha256": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mantle"
+    },
+    "mcjtylib_ng": {
+      "fileId": 2745846,
+      "path": "mods/mcjtylib-1.12-3.5.4.jar",
+      "projectId": 233105,
+      "sha256": "af7d2b3c421329e7b97202302a072867e7c9bd73c5b8fab9bdb3a76fbfe474e3",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mcjtylib"
+    },
+    "mixinbooter": {
+      "fileId": 8800561,
+      "fmlCorePlugin": "zone.rong.mixinbooter.MixinBooterPlugin",
+      "modContainer": "zone.rong.mixinbooter.MixinBooterModContainer",
+      "path": "mods/!mixinbooter-11.17.jar",
+      "projectId": 419286,
+      "sha256": "7f99ac012f792a5effaea0733daf3d8df0ebd9a2ee9f65f678e927ddc073ec88",
+      "type": "core_container_registration",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mixin-booter"
+    },
+    "modtweaker": {
+      "fileId": 3840577,
+      "path": "mods/modtweaker-4.0.20.11.jar",
+      "projectId": 220954,
+      "sha256": "2c2db905cae947092fe46dba301d1f6777fdab9cc8e79140c050b09fe62dda7a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modtweaker"
+    },
+    "modulardiversity": {
+      "fileId": 2899375,
+      "path": "mods/Modular Diversity-1.10.jar",
+      "projectId": 280506,
+      "sha256": "0d1820b56f3a306c8f6f91d4bebef69c1d013b32d7f4be80ce6de67d8470a38b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modular-diversity"
+    },
+    "modularmachinery": {
+      "fileId": 2713714,
+      "path": "mods/modularmachinery-1.12.2-1.10.0.jar",
+      "projectId": 270790,
+      "sha256": "87ec44f78e4b33488f6ad803cfb38dc7cf95737b4d019be7605f32979c65a84a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modular-machinery"
+    },
+    "moreavaritia": {
+      "fileId": 4058469,
+      "path": "mods/moreavaritia-mc1.12.2-v1.5.jar",
+      "projectId": 271236,
+      "sha256": "81080ce655946fee7ed2df18a8cc697f07ce32e795526ed1baf8cfc041ed513b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/more-avaritia"
+    },
+    "morpheus": {
+      "fileId": 2664449,
+      "path": "mods/Morpheus-1.12.2-3.5.106.jar",
+      "projectId": 69118,
+      "sha256": "1904c32a8e0077e005bfefe005c26834c2df09881bc075a7deadce8da97fb457",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/morpheus"
+    },
+    "mousetweaks": {
+      "fileId": 5876158,
+      "path": "mods/mousetweaks-1.12.2-3.1.5.jar",
+      "projectId": 461660,
+      "sha256": "4874dc0e614ea47f4c049875ffffc4a48b79dceebb5b76f41945b42dfd624175",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks-unofficial"
+    },
+    "mtlib": {
+      "fileId": 3308160,
+      "path": "mods/MTLib-3.0.7.jar",
+      "projectId": 253211,
+      "sha256": "e978ce61b6177ec07a9db231d05a64415239c836f43f5cbcc0cf01bd9da4b3e2",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mtlib"
+    },
+    "mutantbeasts": {
+      "fileId": 3225395,
+      "path": "mods/MutantBeasts-1.12.2-1.0.2.jar",
+      "projectId": 336272,
+      "sha256": "a8f07c4a0cf3bb86f0cb0ba00ea0fafdd215fbb7d960e3fae61f1ef70f97e37a",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mutant-beasts"
+    },
+    "naughthirium": {
+      "fileId": 6473489,
+      "path": "mods/naughthirium-2.3.0.jar",
+      "projectId": 1153019,
+      "sha256": "b4c071fd3d2f4722db6bb3b6b744e57b51d114041d1a2583579666517300175d",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/naughthirium"
+    },
+    "nclegacy": {
+      "fileId": 5414463,
+      "path": "mods/NCOLegacyLib-1.12.2-1.2.jar",
+      "projectId": 1032769,
+      "sha256": "14474ae40ee9f4cd2da244450f6d112ab57585d3fcbcce8f9a372cbf041242cf",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nco-java-legacy-lib"
+    },
+    "ncsteamadditions": {
+      "fileId": 5767969,
+      "path": "mods/NuclearCraftAdditions-1.12.2-1.0.0.jar",
+      "projectId": 564602,
+      "sha256": "12b3774452d150fb442290a7f16f946b968b2b6374c6e9642a1f5485982f67d8",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nc-additions"
+    },
+    "neid": {
+      "fileId": 2695044,
+      "path": "mods/NotEnoughIDs-1.5.4.4.jar",
+      "projectId": 235107,
+      "sha256": "f042f90c5623a1f2bbcc1d0bd93cfca40109b9c0659399e1f48aa8ce37b75622",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/notenoughids"
+    },
+    "neverenoughanimations": {
+      "fileId": 7289408,
+      "path": "mods/neverenoughanimations-1.0.7.jar",
+      "projectId": 1062347,
+      "sha256": "117e0b1076be4965d8962b9fe4a6f6b123e2952457c3190549f119365b57b1e7",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/neverenoughanimation"
+    },
+    "nothirium": {
+      "fileId": 7441674,
+      "path": "mods/Nothirium-1.12.2-0.4.9-beta.jar",
+      "projectId": 624960,
+      "sha256": "a86e5aa4fd09b6fd782da9d797ca9e4ab32de4453cf762e1aa3212dfb9e27d12",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nothirium"
+    },
+    "nuclearcraft": {
+      "fileId": 8197222,
+      "path": "mods/nuclearcraft-1.12.2-2o.9.7.jar",
+      "projectId": 336895,
+      "sha256": "cf12ca1cf0dfbcc352dbabd610ab6411c5b745e7f99cfe36a1677054d8a1e0df",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-overhauled"
+    },
+    "oauth": {
+      "fileId": 3739783,
+      "path": "mods/oauth-1.06.4.jar",
+      "projectId": 513857,
+      "sha256": "211db6d0687fffd970752c7a4b1a69d26182736ce41a06b1bc5516c6031fa50e",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/oauth"
+    },
+    "opencomputers": {
+      "fileId": 8582726,
+      "path": "mods/OpenComputers-MC1.12.2-1.8.10+258943363.jar",
+      "projectId": 223008,
+      "sha256": "9ba075d1bbdebe0c253bd6594deedcb81cdec3158ec7afc6c76ff8f5986c6816",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/opencomputers"
+    },
+    "opencomputers|core": {
+      "fileId": 8582726,
+      "fmlCorePlugin": "li.cil.oc.common.launch.TransformerLoader",
+      "modContainer": "li.cil.oc.common.launch.CoreModContainer",
+      "path": "mods/OpenComputers-MC1.12.2-1.8.10+258943363.jar",
+      "projectId": 223008,
+      "sha256": "9ba075d1bbdebe0c253bd6594deedcb81cdec3158ec7afc6c76ff8f5986c6816",
+      "type": "core_container_registration",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/opencomputers"
+    },
+    "orelib": {
+      "fileId": 2820815,
+      "path": "mods/OreLib-1.12.2-3.6.0.1.jar",
+      "projectId": 307806,
+      "sha256": "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/orelib"
+    },
+    "particleculling": {
+      "fileId": 5337217,
+      "path": "mods/particleculling-1.12.2-v1.4.3.jar",
+      "projectId": 408853,
+      "sha256": "bb00f2f5cdbe710cfa92af782581531dc0056bfedb552d05f4fddfbee5416847",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/particle-culling"
+    },
+    "placebo": {
+      "fileId": 4629597,
+      "path": "mods/Placebo-1.12.2-1.6.1.jar",
+      "projectId": 283644,
+      "sha256": "6fe241d316a61314aad22ab80664a1741a2c8f1b2368d73723b62ecc41dfeb0f",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/placebo"
+    },
+    "placeholdername": {
+      "fileId": 7925117,
+      "path": "mods/groovyscript-1.4.3.jar",
+      "projectId": 687577,
+      "sha256": "07617b7ce9170a857199bd61d730a0db3af2685cf83d31734a2d4b628fda7533",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/groovyscript"
+    },
+    "pollutantpump": {
+      "fileId": 3190007,
+      "path": "mods/pollutantpump-1.12.2-1.3.0.jar",
+      "projectId": 305122,
+      "sha256": "af9e1c2e26df870ebf0660b3853930dcceab9e8c4b165b7c2e0d03273c23899b",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pollutant-pump"
+    },
+    "pressure": {
+      "fileId": 2490064,
+      "path": "mods/pressure-1.3.1.9-mc1.12.2.jar",
+      "projectId": 221214,
+      "sha256": "1a8312adfdd93875fa6feda214e5eafa576848c5052a55df5e3233785cb62049",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes"
+    },
+    "qmd": {
+      "fileId": 8928601,
+      "path": "mods/QMD-1.12.2-1.6.jar",
+      "projectId": 362056,
+      "sha256": "48b3c59278b3560b8555bfe67216e112b380f85f1a0ea146ba77b812e43cd573",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/qmd"
+    },
+    "quantumhue": {
+      "fileId": 7872670,
+      "path": "mods/quantumhue-1.0.4.jar",
+      "projectId": 1398201,
+      "sha256": "6e80a8da5806c663288348e5f74de8552f5a77c2ace2974fbc7450f9deab2d1d",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/quantumhue-visualizer"
+    },
+    "randomtp": {
+      "fileId": 3279685,
+      "path": "mods/RandomTP-MC1.12.2-1.3.5.jar",
+      "projectId": 354834,
+      "sha256": "5a1576e1434ca69f6a789e95ceb096f11a47a3bf24d67822d8593810bbed73de",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/randomtp"
+    },
+    "realistictorches": {
+      "fileId": 3152820,
+      "path": "mods/RealisticTorches-1.12.2-2.1.2.jar",
+      "projectId": 235729,
+      "sha256": "1b060fbd1ceefe2647a305d8143fbecec214b66a745183ff0df6c974410a7467",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/realistic-torches"
+    },
+    "redcore": {
+      "fileId": 7455761,
+      "path": "mods/!Red-Core-MC-1.8-1.12-0.7.1.jar",
+      "projectId": 873867,
+      "sha256": "9935912816062ca46a2ecd020d813ee2dde8e6b228daec068b465eb72ea51368",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/red-core"
+    },
+    "redstoneflux": {
+      "fileId": 2920436,
+      "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "projectId": 270789,
+      "sha256": "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/redstone-flux"
+    },
+    "renderlib": {
+      "fileId": 6461209,
+      "path": "mods/RenderLib-1.12.2-1.4.5.jar",
+      "projectId": 624967,
+      "sha256": "eeca6dc4ef5acf3069e4b8747e4dbfa253323cc44cd90c8ddb6d70587fe0d35f",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/renderlib"
+    },
+    "rflux": {
+      "fileId": 2704416,
+      "path": "mods/rflux-1.12-0.4.0.jar",
+      "projectId": 250207,
+      "sha256": "241636cfc0ff14ac975110dac0d51abd456f50980a300a1c60005709a267fcc1",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rf-lux"
+    },
+    "rftools": {
+      "fileId": 2861573,
+      "path": "mods/rftools-1.12-7.73.jar",
+      "projectId": 224641,
+      "sha256": "558c38d0f7852d17a03aef81e4bd6cc2f28e60db8a8749c710c9ee829f2de0a4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools"
+    },
+    "rftoolsdim": {
+      "fileId": 2707390,
+      "path": "mods/rftoolsdim-1.12-5.71.jar",
+      "projectId": 240950,
+      "sha256": "ac731cd6b991c6da850499a83585ca34c971e2de8106515d1ee5830995110820",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions"
+    },
+    "rftoolspower": {
+      "fileId": 2704404,
+      "path": "mods/rftoolspower-1.12-1.2.0.jar",
+      "projectId": 290209,
+      "sha256": "bf678ca007953e8d5aee96f29aeefd88120485a988a05b7ec6d37663bb824891",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools-power"
+    },
+    "rgbchat": {
+      "fileId": 8024238,
+      "path": "mods/rgbchat-2.1.jar",
+      "projectId": 1425245,
+      "sha256": "8362c800132d31bf6ab526e91f89ef2828be70a9c09559dc37141cecc0b7eaf5",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rgb-chat-vintage"
+    },
+    "rsgauges": {
+      "fileId": 3907346,
+      "path": "mods/rsgauges-1.12.2-1.2.8.jar",
+      "projectId": 296686,
+      "sha256": "3580bde230456674b64dfea55e1f6d53f9fcdf300076a58697f262c7bf539e3e",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/redstone-gauges-and-switches"
+    },
+    "scala_actors_2_11_0": {
+      "module": "scala-actors",
+      "path": "mods/1.12.2/scala-actors-2.11.0.jar",
+      "sha256": "fa33c031c291ef618e33398aa193ddf4d4c6859d805c9fb3cd4b7c4fbc9acbc6",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.scala-lang.org/news/2.11.0/"
+    },
+    "scala_actors_migration_2_11_1_1_0": {
+      "module": "scala-actors-migration",
+      "path": "mods/1.12.2/scala-actors-migration_2.11-1.1.0.jar",
+      "sha256": "b89d0beb76df20c7b2c2bee59ba53b802cc48566bc3e89ac96ce6361c5c2ee38",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/actors-migration"
+    },
+    "scala_compiler_2_11_1": {
+      "module": "scala-compiler",
+      "path": "mods/1.12.2/scala-compiler-2.11.1.jar",
+      "sha256": "3aa616f5c56d2052fc5e3231f3e8cf1736f876caff0142a66096fc5b4dc87ae5",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.scala-lang.org/news/2.11.1/"
+    },
+    "scala_continuations_library_2_11_1_0_2_mc": {
+      "module": "scala-continuations-library",
+      "path": "mods/1.12.2/scala-continuations-library_2.11-1.0.2_mc.jar",
+      "sha256": "8dd0a4941f4564117cc991734ca36aa53dff6bb0be329f39eab46d8819f60d1a",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/scala-continuations"
+    },
+    "scala_continuations_plugin_2_11_1_1_0_2_mc": {
+      "module": "scala-continuations-plugin",
+      "path": "mods/1.12.2/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
+      "sha256": "79329971a31ede7b6823f21a6ab765506b4093d9276debdc9dbe17b996884f2b",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/scala-continuations"
+    },
+    "scala_library_2_11_1": {
+      "module": "scala-library",
+      "path": "mods/1.12.2/scala-library-2.11.1.jar",
+      "sha256": "088bcb80f71b6e6a2a31d2fe7288c1fd64f19663ce281b924cdfab3fb105f4f3",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.scala-lang.org/news/2.11.1/"
+    },
+    "scala_parser_combinators_2_11_1_0_1": {
+      "module": "scala-parser-combinators",
+      "path": "mods/1.12.2/scala-parser-combinators_2.11-1.0.1.jar",
+      "sha256": "19495ce701fd9ba3c499c137e3ad5364acee8f87a01ef99e912f995a23fd4cb1",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/scala-parser-combinators"
+    },
+    "scala_reflect_2_11_1": {
+      "module": "scala-reflect",
+      "path": "mods/1.12.2/scala-reflect-2.11.1.jar",
+      "sha256": "41938d1e89670979dd783102777a8b879999f4fb00a5b811b51c105b02a9d4f8",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.scala-lang.org/news/2.11.1/"
+    },
+    "scala_swing_2_11_1_0_1": {
+      "module": "scala-swing",
+      "path": "mods/1.12.2/scala-swing_2.11-1.0.1.jar",
+      "sha256": "4a7c757d4d87dd37382bd777ad611b5875748aef148277cf25bb39eebb496d07",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/scala-swing"
+    },
+    "scala_xml_2_11_1_0_2": {
+      "module": "scala-xml",
+      "path": "mods/1.12.2/scala-xml_2.11-1.0.2.jar",
+      "sha256": "13c0d8d442bde14b73af3ed60e8d53452f9e1ad62ffbe3d944cb918df652db6f",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://github.com/scala/scala-xml"
+    },
+    "scalar_legacy_1_0_1": {
+      "fileId": 6842491,
+      "path": "mods/Scalar Legacy-1.0.1.jar",
+      "projectId": 1235372,
+      "sha256": "350d1c378f3b0ac8e7b3df0432482bbb5341c79d07df843c747be1d5fdc23cfe",
+      "type": "shipped_non_mod_jar",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/scalar-legacy"
+    },
+    "simple-rpc": {
+      "fileId": 3899272,
+      "path": "mods/simple-rpc-1.12.2-3.1.1.jar",
+      "projectId": 411816,
+      "sha256": "34952d0cd4fc85fd8cfba1532486fafad159d492f5e3e7038e7a6fdf789f5741",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc"
+    },
+    "starterkit": {
+      "fileId": 3222149,
+      "path": "mods/starterkit_1.12.2-2.4.jar",
+      "projectId": 390717,
+      "sha256": "125398c49ffb0172f2f1baba606ac8cd765f0fc7b589667e2dd04dacd78f4de6",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/starter-kit"
+    },
+    "stellar_core": {
+      "fileId": 8406201,
+      "path": "mods/StellarCore-1.6.0.jar",
+      "projectId": 1064321,
+      "sha256": "5cd0734ef965b021dcf92b708802e8b5ef61407867eb0d8d20b6bcfe50836314",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/stellarcore"
+    },
+    "storagedrawers": {
+      "fileId": 5981297,
+      "path": "mods/StorageDrawers-1.12.2-5.5.3.jar",
+      "projectId": 223852,
+      "sha256": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/storage-drawers"
+    },
+    "theoneprobe": {
+      "fileId": 2667280,
+      "path": "mods/theoneprobe-1.12-1.4.28.jar",
+      "projectId": 245211,
+      "sha256": "f3e5048dbe58f37f98f8130886ede880ac5b3333ee73cae2381c337e500c4bd1",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/the-one-probe"
+    },
+    "tips": {
+      "fileId": 2906537,
+      "path": "mods/Tips-1.12.2-1.0.9.jar",
+      "projectId": 306549,
+      "sha256": "09b1fb75a712b4e3bf524ad29bf5c65e0dfde2cd5eb17ea64ada4a5fc3879ebc",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tips"
+    },
+    "tombmanygraves": {
+      "fileId": 2619249,
+      "path": "mods/TombManyGraves-1.12-4.2.0.jar",
+      "projectId": 262823,
+      "sha256": "3fef07b3124a16250645c9549b9b67e0a85dde29b5b27b16d33581b531f25fce",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tomb-many-graves-2"
+    },
+    "tombmanygraves2api": {
+      "fileId": 2563073,
+      "path": "mods/tombmanygraves2api-1.12.2-1.0.0.jar",
+      "projectId": 294202,
+      "sha256": "939dac94a134d69b1f12122311dfa0c045721a3d325674b53e6e84e5c7c0e457",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tombmanygraves-2-api"
+    },
+    "treechop": {
+      "fileId": 3532213,
+      "path": "mods/TreeChop-1.12.2-0.14.7.jar",
+      "projectId": 421377,
+      "sha256": "049b91d2dc2cf56448cbb51818531d2771f71fc633bbe3feef21aae4997bfcd3",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/treechop"
+    },
+    "trinity": {
+      "fileId": 6217851,
+      "path": "mods/Trinity-1.12.2-1.5.h.jar",
+      "projectId": 354949,
+      "sha256": "910fda0db83daba6b9734b466987bd8c75e4396a50d5c83affd618dc0557f523",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/trinity"
+    },
+    "universaltweaks": {
+      "fileId": 8941250,
+      "path": "mods/UniversalTweaks-1.12.2-1.21.0.jar",
+      "projectId": 705000,
+      "sha256": "9386ed5a00cc8b86ae5369a8c0d71ae8fa12711ad419767c2a7da1977c7f7870",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks"
+    },
+    "usefulbackpacks": {
+      "fileId": 3104696,
+      "path": "mods/useful_backpacks-1.12.2-1.5.4.85.jar",
+      "projectId": 274338,
+      "sha256": "ff231e76e4f5263cdb5b6aa825fb428c72fc6d39841ff9a19736a163e025e448",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/useful-backpacks"
+    },
+    "uteamcore": {
+      "fileId": 6548186,
+      "path": "mods/u_team_core-forge-1.12.2-2.2.5.375.jar",
+      "projectId": 273744,
+      "sha256": "92d27852bd081fc9cd2d95172cbf4473fa697653f6236bb3f5779eef60960ad4",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/u-team-core"
+    },
+    "villagernames": {
+      "fileId": 3521660,
+      "path": "mods/villagernames_1.12.2-3.4.jar",
+      "projectId": 345854,
+      "sha256": "6cf76898738c6ae4e107b19328f8f65327ce20d9cfd4da67fdb08518fdb8f564",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/villager-names"
+    },
+    "vintagefix": {
+      "fileId": 8895999,
+      "path": "mods/vintagefix-0.7.1.jar",
+      "projectId": 871198,
+      "sha256": "e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/vintagefix"
+    },
+    "voicechat": {
+      "fileId": 8601101,
+      "path": "mods/voicechat-forge-1.12.2-2.6.22.jar",
+      "projectId": 416089,
+      "sha256": "c282698b1ddd7fe7acd4aee47ccd3574486e4bda009cea43a57281ddb59005e7",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat"
+    },
+    "voicechat_api": {
+      "fileId": 8601101,
+      "path": "mods/voicechat-forge-1.12.2-2.6.22.jar",
+      "projectId": 416089,
+      "sha256": "c282698b1ddd7fe7acd4aee47ccd3574486e4bda009cea43a57281ddb59005e7",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat"
+    },
+    "wanionlib": {
+      "fileId": 4623135,
+      "path": "mods/WanionLib-1.12.2-2.91.jar",
+      "projectId": 253043,
+      "sha256": "6dbb4140af8171d07752abfe225d6ad0a6981b4dc143b53d78fed4ea0ea3f00c",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wanionlib"
+    },
+    "worleycaves": {
+      "fileId": 3038801,
+      "path": "mods/worleycaves-1.12.2-1.5.2.jar",
+      "projectId": 299815,
+      "sha256": "85aaefc2caae45fecf584160bf41db75d72a65b8ae7d879eceafd77fde03a501",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/worleys-caves"
+    },
+    "wrapup": {
+      "fileId": 2486198,
+      "path": "mods/WrapUp-1.12-1.1.3.jar",
+      "projectId": 275153,
+      "sha256": "133c55730e48e1652c861898d05c6092b4f58badf9e627f12019000426e7df95",
+      "type": "forge_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/wrapup"
+    }
+  },
+  "excludedNativeContainers": {
+    "FML": "Forge Mod Loader",
+    "e4steam": "e4steam",
+    "forge": "Minecraft Forge",
+    "mcp": "Minecraft Coder Pack",
+    "minecraft": "Minecraft"
+  },
+  "nativeEventSha256": "6f7babf1d9dee39492935410afa9b0ca7f1b860437f764375edbd53490acad82",
+  "projectRecordSource": "Verified existing project records and FTB public CurseForge project metadata",
+  "schemaVersion": 1,
+  "source": "Forge Loader.getActiveModList and ModContainer.getSource",
+  "unlistedLoaderComponents": {
+    "mixincompat": {
+      "fileId": 4641243,
+      "path": "mods/[___MixinCompat-1.1-1.12.2___].jar",
+      "projectId": 405327,
+      "sha256": "84bf7e2d3debebde099310052b662fc83779947df32f0b2284c6de998e58b353",
+      "tweakClass": "org.spongepowered.asm.launch.MixinTweaker",
+      "type": "tweaker_without_active_mod_container",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mixin-0-7-0-8-compatibility"
+    }
+  },
+  "upstreamLockSha256": "ee18dae0f97b58304dbdd75133fe4966e41182c72ffc3eafeb3af654307ce4e1"
+}

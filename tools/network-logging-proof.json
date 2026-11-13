@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_BYTECODE_EQUIVALENCE_AND_LOGGING_FIXTURE",
+  "minecraftVersion": "1.12.2",
+  "forgeVersion": "14.23.5.2859",
+  "forgeJarSha256": "bd8314729d787e35164476d75afb337afb9783917e4f6fa1f77f049adba22f2d",
+  "vanillaJarSha256": "8ada07da5ee77dad3527bd7278fbd05ee1fc8a597813b216a871a2d7d64cc64f",
+  "binaryPatchArchiveSha256": "ceebaefd4abca814aa0160e71e62c507d63733b7da1773c1268e04ac9a720882",
+  "sameBinaryPatchArchiveAsForge": "14.23.5.2860",
+  "binaryPatchedNetworkManagerSha256": "f633fa64c0669cb274fc9b4582a552c85bf18ab09e6330a7fc57a5a939118b6d",
+  "referenceProof": "tools/PackData/Logging/Verification/forge-java8-proof.json",
+  "templateSha256": "dc0c922ad275f86615474e3bfcd3cd693a29cd5596494d219953ec59afe648a9",
+  "fixture": {
+    "nativeDebugNestedCauses": 2,
+    "infoWarnErrorPreserved": true,
+    "packetAndOtherDebugExcluded": true
+  },
+  "log4jFixtures": [
+    {
+      "log4jVersion": "2.8.1",
+      "log4jApiSha256": "1205ab764b1326f7d96d99baa4a4e12614599bf3d735790947748ee116511fa2",
+      "log4jCoreSha256": "815a73e20e90a413662eefe8594414684df3d5723edcd76070e1a5aee864616e",
+      "runtimeRole": "vanilla baseline"
+    },
+    {
+      "log4jVersion": "2.15.0",
+      "log4jApiSha256": "c8c33e7e8e05496dae69cf0caac8c3092cffd937a164526e92922d2d566d0a55",
+      "log4jCoreSha256": "419a8512895971b7b4f4f33e620d361254e5c9552b904b0474b09ddd4a6a220b",
+      "runtimeRole": "Forge 2859 launch profile"
+    }
+  ]
+}

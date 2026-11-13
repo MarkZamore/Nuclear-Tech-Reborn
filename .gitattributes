@@ -1,0 +1,13 @@
+/.gitattributes text eol=lf
+/NOTICE.md text eol=lf
+/README.md text eol=lf
+/portable-pack.json text eol=lf
+/tools/overlay.json text eol=lf
+/launcher/pack-owned.txt text eol=lf
+/config/log4j2.xml -text
+/launcher/jvm-args.txt text eol=lf
+/tools/network-logging-policy.json text eol=lf
+/tools/network_logging_policy.py text eol=lf
+*.json text eol=lf
+/licenses/** -text
+/licenses/Scala-2.11-LICENSE.md whitespace=-blank-at-eof

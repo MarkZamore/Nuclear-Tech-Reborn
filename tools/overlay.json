@@ -1,0 +1,40 @@
+{
+  "additions": [
+    {
+      "path": "config/log4j2.xml",
+      "sha256": "dc0c922ad275f86615474e3bfcd3cd693a29cd5596494d219953ec59afe648a9",
+      "sizeBytes": 1742
+    },
+    {
+      "path": "launcher/jvm-args.txt",
+      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c",
+      "sizeBytes": 44
+    }
+  ],
+  "authorArchiveSha256": "070375a4d93bc1af9765ab5fefa6d8bf56cde5d0d1b548d64d34e3c6f442296c",
+  "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",
+  "patches": [
+    {
+      "after": {
+        "sha256": "e3f063d789c9b6ffcb811963dd3d65cb04ca78e4cb1f56b05d14d05efeda056b",
+        "sizeBytes": 75267
+      },
+      "before": {
+        "sha256": "e3a62b9db4da2e838c5a0b5b74d793ed6d2410d67f53f0b75d479718d9cb55fb",
+        "sizeBytes": 75265
+      },
+      "path": "config/Universal Tweaks - Tweaks.cfg",
+      "replacements": [
+        {
+          "from": "B:\"LAN Server Properties\"=true",
+          "to": "B:\"LAN Server Properties\"=false"
+        },
+        {
+          "from": "B:\"Toggle Cheats Button\"=true",
+          "to": "B:\"Toggle Cheats Button\"=false"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1
+}

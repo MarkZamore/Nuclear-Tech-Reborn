@@ -1,0 +1,992 @@
+{
+  "loader": {
+    "type": "forge",
+    "version": "14.23.5.2859"
+  },
+  "minecraftVersion": "1.12.2",
+  "mods": [
+    {
+      "id": "adchimneys",
+      "name": "Advanced Chimneys",
+      "source": "mods/AdChimneys-1.12.2-3.5.16.0-build.0654.jar",
+      "version": "1.12.2-3.5.16.0"
+    },
+    {
+      "id": "adpother",
+      "name": "Pollution of the Realms",
+      "source": "mods/AdPother-1.12.2-1.2.25.0-build.0673.jar",
+      "version": "1.12.2-1.2.25.0"
+    },
+    {
+      "id": "advancedrocketry",
+      "name": "Advanced Rocketry",
+      "source": "mods/AdvancedRocketry-1.12.2-2.0.0-17.jar",
+      "version": "1.12.2-2.0.0-17"
+    },
+    {
+      "id": "ags_modernmarkings",
+      "name": "AGS ModernMarkings Mod",
+      "source": "mods/AGS ModernMarkings Mod-0.4.1.jar",
+      "version": "0.2"
+    },
+    {
+      "id": "alcatrazcore",
+      "name": "AlcatrazCore",
+      "source": "mods/alcatrazcore-1.0.4.jar",
+      "version": "1.0.4"
+    },
+    {
+      "id": "appliedenergistics2",
+      "name": "AE2 Unofficial Extended Life",
+      "source": "mods/ae2-uel-v0.56.7.jar",
+      "version": "v0.56.7"
+    },
+    {
+      "id": "architecturecraft",
+      "name": "ArchitectureCraft",
+      "source": "mods/architecturecraft-1.12-3.108.jar",
+      "version": "@VERSION@"
+    },
+    {
+      "id": "art",
+      "name": "Advanced Rocketry Tweaker",
+      "source": "mods/ARTweaker-1.12.2-1.0.0.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "avaritia",
+      "name": "Avaritia",
+      "source": "mods/Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "version": "3.3.0"
+    },
+    {
+      "id": "avaritiaddons",
+      "name": "Avaritiaddons",
+      "source": "mods/Avaritiaddons-1.12.2-1.9.jar",
+      "version": "1.12.2-1.9"
+    },
+    {
+      "id": "avaritiarecipemaker",
+      "name": "Avaritia Recipe Maker",
+      "source": "mods/avaritiarecipemaker-1.0.0.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "avaritiatweaks",
+      "name": "Avaritia Tweaks",
+      "source": "mods/AvaritiaTweaks-1.12.2-1.3.1.jar",
+      "version": "1.12.2-1.3.1"
+    },
+    {
+      "id": "base",
+      "name": "B.A.S.E",
+      "source": "mods/base-1.12.2-3.14.0.jar",
+      "version": "3.14.0"
+    },
+    {
+      "id": "bdlib",
+      "name": "BD Lib",
+      "source": "mods/bdlib-1.14.4.1-mc1.12.2.jar",
+      "version": "1.14.4.1"
+    },
+    {
+      "id": "beautifiedchatclient",
+      "name": "Beautified Chat Server",
+      "source": "mods/beautifiedchatclient_1.12.2-1.0.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "betterbuilderswands",
+      "name": "Better Builder's Wands",
+      "source": "mods/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar",
+      "version": "0.13.2"
+    },
+    {
+      "id": "bettermineshafts",
+      "name": "YUNG's Better Mineshafts",
+      "source": "mods/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+      "version": "1.12.2-2.2.1"
+    },
+    {
+      "id": "betternether",
+      "name": "Better Nether",
+      "source": "mods/betternether-0.1.8.6.jar",
+      "version": "0.1.8.6"
+    },
+    {
+      "id": "betterquesting",
+      "name": "Better Questing Unofficial",
+      "source": "mods/BetterQuestingUnofficial-4.3.2.jar",
+      "version": "4.3.2"
+    },
+    {
+      "id": "bloodmoon",
+      "name": "Bloodmoon",
+      "source": "mods/Bloodmoon-MC1.12.2-1.5.3.jar",
+      "version": "1.5.3"
+    },
+    {
+      "id": "bqutweaker",
+      "name": "BQUTweaker",
+      "source": "mods/BQUTweaker-1.3.7.jar",
+      "version": "1.3.7"
+    },
+    {
+      "id": "byg",
+      "name": "Biomes You Go ",
+      "source": "mods/BiomesYouGo1.7.1.jar",
+      "version": "1.7.1"
+    },
+    {
+      "id": "carbonconfig",
+      "name": "Carbon Config Library",
+      "source": "mods/CarbonConfig-1.12.2-2.0.2.1.jar",
+      "version": "1.2.1"
+    },
+    {
+      "id": "chameleon",
+      "name": "Chameleon",
+      "source": "mods/Chameleon-1.12-4.1.3.jar",
+      "version": "1.12-4.1.3"
+    },
+    {
+      "id": "chisel",
+      "name": "Chisel",
+      "source": "mods/Chisel-MC1.12.2-1.0.2.45.jar",
+      "version": "MC1.12.2-1.0.2.45"
+    },
+    {
+      "id": "chunkpregenerator",
+      "name": "Chunk Pregenerator",
+      "source": "mods/Chunk-Pregenerator-1.12.2-4.4.9.3.jar",
+      "version": "4.4.9"
+    },
+    {
+      "id": "clumps",
+      "name": "Clumps",
+      "source": "mods/Clumps-3.1.2.jar",
+      "version": "3.1.2"
+    },
+    {
+      "id": "codechickenlib",
+      "name": "CodeChicken Lib",
+      "source": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "version": "3.2.3.358"
+    },
+    {
+      "id": "cofhcore",
+      "name": "CoFH Core",
+      "source": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "version": "4.6.6"
+    },
+    {
+      "id": "cofhworld",
+      "name": "CoFH World",
+      "source": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "version": "1.4.0"
+    },
+    {
+      "id": "collective",
+      "name": "Collective",
+      "source": "mods/collective-1.12.2-3.0.jar",
+      "version": "3.0"
+    },
+    {
+      "id": "comforts",
+      "name": "Comforts",
+      "source": "mods/comforts-1.12.2-1.4.1.3.jar",
+      "version": "1.4.1.3"
+    },
+    {
+      "id": "configanytime",
+      "name": "ConfigAnytime",
+      "source": "mods/!configanytime-3.0.jar",
+      "version": "3.0"
+    },
+    {
+      "id": "configmod",
+      "name": "Extended Mod Config",
+      "source": "mods/coroutil-1.12.1-1.2.37.jar",
+      "version": "v1.0"
+    },
+    {
+      "id": "contenttweaker",
+      "name": "ContentTweaker",
+      "source": "mods/ContentTweaker-1.12.2-4.10.0.jar",
+      "version": "1.12.2-4.10.0"
+    },
+    {
+      "id": "controlling",
+      "name": "Controlling",
+      "source": "mods/Controlling-3.0.12.4.jar",
+      "version": "3.0.10"
+    },
+    {
+      "id": "cookingforblockheads",
+      "name": "Cooking for Blockheads",
+      "source": "mods/CookingForBlockheads_1.12.2-6.5.0.jar",
+      "version": "6.5.0"
+    },
+    {
+      "id": "coroutil",
+      "name": "CoroUtil Library",
+      "source": "mods/coroutil-1.12.1-1.2.37.jar",
+      "version": "1.12.1-1.2.37"
+    },
+    {
+      "id": "cosmeticarmorreworked",
+      "name": "CosmeticArmorReworked",
+      "source": "mods/CosmeticArmorReworked-1.12.2-v5a.jar",
+      "version": "1.12.2-v5a"
+    },
+    {
+      "id": "crafttweaker",
+      "name": "CraftTweaker2",
+      "source": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "version": "4.1.20"
+    },
+    {
+      "id": "crafttweakerjei",
+      "name": "CraftTweaker JEI Support",
+      "source": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "version": "2.0.3"
+    },
+    {
+      "id": "ctgui",
+      "name": "CT-GUI",
+      "source": "mods/CraftTweaker2-1.12-4.1.20.715.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ctm",
+      "name": "CTM",
+      "source": "mods/CTM-MC1.12.2-1.0.2.31.jar",
+      "version": "MC1.12.2-1.0.2.31"
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber Library",
+      "source": "mods/Cucumber-1.12.2-1.1.3.jar",
+      "version": "1.1.3"
+    },
+    {
+      "id": "customloadingscreen",
+      "name": "Custom Loading Screen",
+      "source": "mods/CustomLoadingScreen-1.12.2-1.5.9.jar",
+      "version": "1.12.2-1.5.9"
+    },
+    {
+      "id": "custommainmenu",
+      "name": "Custom Main Menu",
+      "source": "mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "version": "2.0.9.1"
+    },
+    {
+      "id": "duradisplay",
+      "name": "DuraDisplay",
+      "source": "mods/DuraDisplay-1.7.jar",
+      "version": "1.7"
+    },
+    {
+      "id": "entityculling",
+      "name": "EntityCulling",
+      "source": "mods/EntityCulling-1.12.2-6.5.0.jar",
+      "version": "6.5.0"
+    },
+    {
+      "id": "equipmenttooltips",
+      "name": "Equipment Tooltips",
+      "source": "mods/EquipmentTooltips-1.12.2-1.0.3-4.jar",
+      "version": "1.0.3"
+    },
+    {
+      "id": "exchangers",
+      "name": "Exchangers",
+      "source": "mods/Exchangers-1.12.2-2.10.3.jar",
+      "version": "1.12.2-2.10.3"
+    },
+    {
+      "id": "extendedrenderer",
+      "name": "Extended Renderer",
+      "source": "mods/coroutil-1.12.1-1.2.37.jar",
+      "version": "v1.0"
+    },
+    {
+      "id": "extremesoundmuffler",
+      "name": "Extreme Sound Muffler: Legacy",
+      "source": "mods/esm-legacy-1.12.2-1.0.10.jar",
+      "version": "1.0.10"
+    },
+    {
+      "id": "farseek",
+      "name": "Farseek",
+      "source": "mods/Farseek-1.12-2.5.1.jar",
+      "version": "2.5.1"
+    },
+    {
+      "id": "fasterladderclimbing",
+      "name": "Faster Ladder Climbing",
+      "source": "mods/FasterLadderClimbing-1.12-0.1-146.jar",
+      "version": "0.1-146"
+    },
+    {
+      "id": "fastfurnace",
+      "name": "FastFurnace",
+      "source": "mods/FastFurnace-1.12.2-1.3.1.jar",
+      "version": "1.3.1"
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "source": "mods/flare-0.8.0.jar",
+      "version": "0.8.0"
+    },
+    {
+      "id": "forgeendertech",
+      "name": "Forge Endertech",
+      "source": "mods/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar",
+      "version": "1.12.2-4.5.6.1"
+    },
+    {
+      "id": "ftbbackups",
+      "name": "FTB Backups",
+      "source": "mods/FTBBackups-1.1.0.1.jar",
+      "version": "1.1.0.1"
+    },
+    {
+      "id": "ftblib",
+      "name": "FTB Library",
+      "source": "mods/FTBLib-5.4.7.2.jar",
+      "version": "5.4.7.2"
+    },
+    {
+      "id": "ftbultimine",
+      "name": "FTB Ultimine",
+      "source": "mods/ftb-ultimine-1202.3.5.jar",
+      "version": "1202.3.5"
+    },
+    {
+      "id": "ftbutilities",
+      "name": "FTB Utilities",
+      "source": "mods/FTBUtilities-5.4.1.131.jar",
+      "version": "5.4.1.131"
+    },
+    {
+      "id": "groovyscript",
+      "name": "GroovyScript",
+      "source": "mods/groovyscript-1.4.3.jar",
+      "version": "1.4.3"
+    },
+    {
+      "id": "gunpowderlib",
+      "name": "GunpowderLib",
+      "source": "mods/GunpowderLib-1.12.2-1.1.jar",
+      "version": "1.12.2-1.1"
+    },
+    {
+      "id": "harvestcraft",
+      "name": "Pam's HarvestCraft",
+      "source": "mods/Pam's HarvestCraft 1.12.2zg.jar",
+      "version": "1.12.2zb"
+    },
+    {
+      "id": "hbm",
+      "name": "HBM's Nuclear Tech - Community Edition",
+      "source": "mods/NTM-CE-1.12.2-2.6.1.0.jar",
+      "version": "2.6.1.0"
+    },
+    {
+      "id": "hbmcore",
+      "name": "NTMCore",
+      "source": "mods/NTM-CE-1.12.2-2.6.1.0.jar",
+      "version": "1.12.2-4.0.1"
+    },
+    {
+      "id": "industrialrenewal",
+      "name": "Industrial Renewal",
+      "source": "mods/IndustrialRenewal_1.12.2-0.21.8.jar",
+      "version": "0.21.8"
+    },
+    {
+      "id": "ironjetpacks",
+      "name": "Iron Jetpacks",
+      "source": "mods/IronJetpacks-1.12-2-1.1.0.jar",
+      "version": "1.1.0"
+    },
+    {
+      "id": "itemfilters",
+      "name": "Item Filters",
+      "source": "mods/ItemFilters-1.0.4.2.jar",
+      "version": "1.0.4.2"
+    },
+    {
+      "id": "ivtoolkit",
+      "name": "IvToolkit",
+      "source": "mods/IvToolkit-1.3.3-1.12.jar",
+      "version": "1.3.3-1.12"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "source": "mods/jei_1.12.2-4.16.5.1030.jar",
+      "version": "4.16.5.1030"
+    },
+    {
+      "id": "jeiintegration",
+      "name": "JEI Integration",
+      "source": "mods/jeiintegration_1.12.2-1.6.0.jar",
+      "version": "1.6.0"
+    },
+    {
+      "id": "jeresources",
+      "name": "Just Enough Resources",
+      "source": "mods/JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "version": "0.9.2.60"
+    },
+    {
+      "id": "journeymap",
+      "name": "JourneyMap",
+      "source": "mods/journeymap-1.12.2-5.7.1p3.jar",
+      "version": "1.12.2-5.7.1p3"
+    },
+    {
+      "id": "konkrete",
+      "name": "Konkrete",
+      "source": "mods/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+      "version": "1.6.1"
+    },
+    {
+      "id": "lemonskin",
+      "name": "LemonSkin",
+      "source": "mods/lemonskin-4.0.0.jar",
+      "version": "4.0.0"
+    },
+    {
+      "id": "letmedespawn",
+      "name": "letmedespawn",
+      "source": "mods/letmedespawn-1.12.2-forge-1.0.2.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "libvulpes",
+      "name": "Vulpes library",
+      "source": "mods/LibVulpes-1.12.2-0.4.2-25-universal.jar",
+      "version": "0.4.2.-25"
+    },
+    {
+      "id": "loliasm",
+      "name": "LoliASM",
+      "source": "mods/loliasm-5.33.jar",
+      "version": "5.33"
+    },
+    {
+      "id": "mantle",
+      "name": "Mantle",
+      "source": "mods/Mantle-1.12-1.3.3.55.jar",
+      "version": "1.12-1.3.3.55"
+    },
+    {
+      "id": "mcjtylib_ng",
+      "name": "McJtyLib",
+      "source": "mods/mcjtylib-1.12-3.5.4.jar",
+      "version": "3.5.4"
+    },
+    {
+      "id": "mixinbooter",
+      "name": "MixinBooter",
+      "source": "mods/!mixinbooter-11.17.jar",
+      "version": "11.17"
+    },
+    {
+      "id": "modtweaker",
+      "name": "Mod Tweaker",
+      "source": "mods/modtweaker-4.0.20.11.jar",
+      "version": "4.0.19"
+    },
+    {
+      "id": "modulardiversity",
+      "name": "Modular Diversity",
+      "source": "mods/Modular Diversity-1.10.jar",
+      "version": "1.10"
+    },
+    {
+      "id": "modularmachinery",
+      "name": "Modular Machinery",
+      "source": "mods/modularmachinery-1.12.2-1.10.0.jar",
+      "version": "1.10.0"
+    },
+    {
+      "id": "moreavaritia",
+      "name": "More Avaritia",
+      "source": "mods/moreavaritia-mc1.12.2-v1.5.jar",
+      "version": "3.5"
+    },
+    {
+      "id": "morpheus",
+      "name": "Morpheus",
+      "source": "mods/Morpheus-1.12.2-3.5.106.jar",
+      "version": "1.12.2-3.5.106"
+    },
+    {
+      "id": "mousetweaks",
+      "name": "Mouse Tweaks Unofficial",
+      "source": "mods/mousetweaks-1.12.2-3.1.5.jar",
+      "version": "3.1.5"
+    },
+    {
+      "id": "mtlib",
+      "name": "MTLib",
+      "source": "mods/MTLib-3.0.7.jar",
+      "version": "3.0.7"
+    },
+    {
+      "id": "mutantbeasts",
+      "name": "Mutant Beasts",
+      "source": "mods/MutantBeasts-1.12.2-1.0.2.jar",
+      "version": "1.12.2-1.0.2"
+    },
+    {
+      "id": "naughthirium",
+      "name": "Naughthirium",
+      "source": "mods/naughthirium-2.3.0.jar",
+      "version": "2.3.0"
+    },
+    {
+      "id": "nclegacy",
+      "name": "NCO Legacy Lib",
+      "source": "mods/NCOLegacyLib-1.12.2-1.2.jar",
+      "version": "1.2"
+    },
+    {
+      "id": "ncsteamadditions",
+      "name": "NuclearCraft Additions",
+      "source": "mods/NuclearCraftAdditions-1.12.2-1.0.0.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "neid",
+      "name": "NotEnoughIDs",
+      "source": "mods/NotEnoughIDs-1.5.4.4.jar",
+      "version": "1.5.4.4"
+    },
+    {
+      "id": "neverenoughanimations",
+      "name": "NeverEnoughAnimations",
+      "source": "mods/neverenoughanimations-1.0.7.jar",
+      "version": "1.0.7"
+    },
+    {
+      "id": "nothirium",
+      "name": "Nothirium",
+      "source": "mods/Nothirium-1.12.2-0.4.9-beta.jar",
+      "version": "0.4.9-beta"
+    },
+    {
+      "id": "nuclearcraft",
+      "name": "NuclearCraft",
+      "source": "mods/nuclearcraft-1.12.2-2o.9.7.jar",
+      "version": "2o.9.7"
+    },
+    {
+      "id": "oauth",
+      "name": "OAuth",
+      "source": "mods/oauth-1.06.4.jar",
+      "version": "1.06.4"
+    },
+    {
+      "id": "opencomputers",
+      "name": "OpenComputers",
+      "source": "mods/OpenComputers-MC1.12.2-1.8.10+258943363.jar",
+      "version": "1.8.10"
+    },
+    {
+      "id": "opencomputers|core",
+      "name": "OpenComputers (Core)",
+      "source": "mods/OpenComputers-MC1.12.2-1.8.10+258943363.jar",
+      "version": "1.8.10"
+    },
+    {
+      "id": "orelib",
+      "name": "§3OreLib Support Library",
+      "source": "mods/OreLib-1.12.2-3.6.0.1.jar",
+      "version": "3.6.0.1"
+    },
+    {
+      "id": "particleculling",
+      "name": "Particle Culling",
+      "source": "mods/particleculling-1.12.2-v1.4.3.jar",
+      "version": "v1.4.3"
+    },
+    {
+      "id": "placebo",
+      "name": "Placebo",
+      "source": "mods/Placebo-1.12.2-1.6.1.jar",
+      "version": "1.6.0"
+    },
+    {
+      "id": "placeholdername",
+      "name": "PlaceHolder name",
+      "source": "mods/groovyscript-1.4.3.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pollutantpump",
+      "name": "Pollutant Pump",
+      "source": "mods/pollutantpump-1.12.2-1.3.0.jar",
+      "version": "1.3.0"
+    },
+    {
+      "id": "pressure",
+      "name": "Pressure Pipes",
+      "source": "mods/pressure-1.3.1.9-mc1.12.2.jar",
+      "version": "1.3.1.9"
+    },
+    {
+      "id": "qmd",
+      "name": "Quantum Minecraft Dynamics",
+      "source": "mods/QMD-1.12.2-1.6.jar",
+      "version": "1.5.1"
+    },
+    {
+      "id": "quantumhue",
+      "name": "QuantumHue-Visualizer",
+      "source": "mods/quantumhue-1.0.4.jar",
+      "version": "1.0.4"
+    },
+    {
+      "id": "randomtp",
+      "name": "Random Teleport Mod",
+      "source": "mods/RandomTP-MC1.12.2-1.3.5.jar",
+      "version": "MC1.12.2-1.3.4"
+    },
+    {
+      "id": "realistictorches",
+      "name": "Realistic Torches",
+      "source": "mods/RealisticTorches-1.12.2-2.1.2.jar",
+      "version": "2.1.2"
+    },
+    {
+      "id": "redcore",
+      "name": "Red Core",
+      "source": "mods/!Red-Core-MC-1.8-1.12-0.7.1.jar",
+      "version": "0.7.1"
+    },
+    {
+      "id": "redstoneflux",
+      "name": "Redstone Flux",
+      "source": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "version": "2.1.1"
+    },
+    {
+      "id": "renderlib",
+      "name": "RenderLib",
+      "source": "mods/RenderLib-1.12.2-1.4.5.jar",
+      "version": "1.4.5"
+    },
+    {
+      "id": "rflux",
+      "name": "RF Lux",
+      "source": "mods/rflux-1.12-0.4.0.jar",
+      "version": "0.4.0"
+    },
+    {
+      "id": "rftools",
+      "name": "RFTools",
+      "source": "mods/rftools-1.12-7.73.jar",
+      "version": "7.73"
+    },
+    {
+      "id": "rftoolsdim",
+      "name": "RFTools Dimensions",
+      "source": "mods/rftoolsdim-1.12-5.71.jar",
+      "version": "5.71"
+    },
+    {
+      "id": "rftoolspower",
+      "name": "RFToolsPower",
+      "source": "mods/rftoolspower-1.12-1.2.0.jar",
+      "version": "1.2.0"
+    },
+    {
+      "id": "rgbchat",
+      "name": "RGB Chat",
+      "source": "mods/rgbchat-2.1.jar",
+      "version": "2.1"
+    },
+    {
+      "id": "rsgauges",
+      "name": "Gauges and Switches",
+      "source": "mods/rsgauges-1.12.2-1.2.8.jar",
+      "version": "1.2.8"
+    },
+    {
+      "id": "simple-rpc",
+      "name": "Simple RPC",
+      "source": "mods/simple-rpc-1.12.2-3.1.1.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "starterkit",
+      "name": "Starter Kit",
+      "source": "mods/starterkit_1.12.2-2.4.jar",
+      "version": "2.4"
+    },
+    {
+      "id": "stellar_core",
+      "name": "Stellar Core",
+      "source": "mods/StellarCore-1.6.0.jar",
+      "version": "1.6.0"
+    },
+    {
+      "id": "storagedrawers",
+      "name": "Storage Drawers",
+      "source": "mods/StorageDrawers-1.12.2-5.5.3.jar",
+      "version": "5.5.3"
+    },
+    {
+      "id": "theoneprobe",
+      "name": "The One Probe",
+      "source": "mods/theoneprobe-1.12-1.4.28.jar",
+      "version": "1.4.28"
+    },
+    {
+      "id": "tips",
+      "name": "Tips",
+      "source": "mods/Tips-1.12.2-1.0.9.jar",
+      "version": "1.0.9"
+    },
+    {
+      "id": "tombmanygraves",
+      "name": "Tomb Many Graves",
+      "source": "mods/TombManyGraves-1.12-4.2.0.jar",
+      "version": "1.12-4.2.0"
+    },
+    {
+      "id": "tombmanygraves2api",
+      "name": "TombManyGraves2 API",
+      "source": "mods/tombmanygraves2api-1.12.2-1.0.0.jar",
+      "version": "1.12.2-1.0.0"
+    },
+    {
+      "id": "treechop",
+      "name": "HT's TreeChop",
+      "source": "mods/TreeChop-1.12.2-0.14.7.jar",
+      "version": "0.14.6"
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity",
+      "source": "mods/Trinity-1.12.2-1.5.h.jar",
+      "version": "1.5.h"
+    },
+    {
+      "id": "universaltweaks",
+      "name": "Universal Tweaks",
+      "source": "mods/UniversalTweaks-1.12.2-1.21.0.jar",
+      "version": "1.21.0"
+    },
+    {
+      "id": "usefulbackpacks",
+      "name": "Useful Backpacks",
+      "source": "mods/useful_backpacks-1.12.2-1.5.4.85.jar",
+      "version": "1.5.4.85"
+    },
+    {
+      "id": "uteamcore",
+      "name": "U Team Core",
+      "source": "mods/u_team_core-forge-1.12.2-2.2.5.375.jar",
+      "version": "2.2.5.375"
+    },
+    {
+      "id": "villagernames",
+      "name": "Villager Names",
+      "source": "mods/villagernames_1.12.2-3.4.jar",
+      "version": "3.4"
+    },
+    {
+      "id": "vintagefix",
+      "name": "VintageFix",
+      "source": "mods/vintagefix-0.7.1.jar",
+      "version": "0.7.1"
+    },
+    {
+      "id": "voicechat",
+      "name": "Simple Voice Chat",
+      "source": "mods/voicechat-forge-1.12.2-2.6.22.jar",
+      "version": "1.12.2-2.6.22"
+    },
+    {
+      "id": "voicechat_api",
+      "name": "Simple Voice Chat API",
+      "source": "mods/voicechat-forge-1.12.2-2.6.22.jar",
+      "version": "2.6.20"
+    },
+    {
+      "id": "wanionlib",
+      "name": "WanionLib",
+      "source": "mods/WanionLib-1.12.2-2.91.jar",
+      "version": "1.12.2-2.91"
+    },
+    {
+      "id": "worleycaves",
+      "name": "Worley's Caves",
+      "source": "mods/worleycaves-1.12.2-1.5.2.jar",
+      "version": "1.5.2"
+    },
+    {
+      "id": "wrapup",
+      "name": "WrapUp",
+      "source": "mods/WrapUp-1.12-1.1.3.jar",
+      "version": "1.12-1.1.3"
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceJars": {
+    "mods/!Red-Core-MC-1.8-1.12-0.7.1.jar": "9935912816062ca46a2ecd020d813ee2dde8e6b228daec068b465eb72ea51368",
+    "mods/!configanytime-3.0.jar": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575",
+    "mods/!mixinbooter-11.17.jar": "7f99ac012f792a5effaea0733daf3d8df0ebd9a2ee9f65f678e927ddc073ec88",
+    "mods/1.12.2/akka-actor_2.11-2.3.3.jar": "4ccbc821a417f0174c9734fc721f078177cacef94ded09c3775ebf40c6a7bdfd",
+    "mods/1.12.2/config-1.2.1.jar": "c160fbd78f51a0c2375a794e435ce2112524a6871f64d0331895e9e26ee8b9ee",
+    "mods/1.12.2/scala-actors-2.11.0.jar": "fa33c031c291ef618e33398aa193ddf4d4c6859d805c9fb3cd4b7c4fbc9acbc6",
+    "mods/1.12.2/scala-actors-migration_2.11-1.1.0.jar": "b89d0beb76df20c7b2c2bee59ba53b802cc48566bc3e89ac96ce6361c5c2ee38",
+    "mods/1.12.2/scala-compiler-2.11.1.jar": "3aa616f5c56d2052fc5e3231f3e8cf1736f876caff0142a66096fc5b4dc87ae5",
+    "mods/1.12.2/scala-continuations-library_2.11-1.0.2_mc.jar": "8dd0a4941f4564117cc991734ca36aa53dff6bb0be329f39eab46d8819f60d1a",
+    "mods/1.12.2/scala-continuations-plugin_2.11.1-1.0.2_mc.jar": "79329971a31ede7b6823f21a6ab765506b4093d9276debdc9dbe17b996884f2b",
+    "mods/1.12.2/scala-library-2.11.1.jar": "088bcb80f71b6e6a2a31d2fe7288c1fd64f19663ce281b924cdfab3fb105f4f3",
+    "mods/1.12.2/scala-parser-combinators_2.11-1.0.1.jar": "19495ce701fd9ba3c499c137e3ad5364acee8f87a01ef99e912f995a23fd4cb1",
+    "mods/1.12.2/scala-reflect-2.11.1.jar": "41938d1e89670979dd783102777a8b879999f4fb00a5b811b51c105b02a9d4f8",
+    "mods/1.12.2/scala-swing_2.11-1.0.1.jar": "4a7c757d4d87dd37382bd777ad611b5875748aef148277cf25bb39eebb496d07",
+    "mods/1.12.2/scala-xml_2.11-1.0.2.jar": "13c0d8d442bde14b73af3ed60e8d53452f9e1ad62ffbe3d944cb918df652db6f",
+    "mods/AGS ModernMarkings Mod-0.4.1.jar": "858b6d374101d4ba13cb8bf122a784b08ec5d08566ff926361544b9ee6c06809",
+    "mods/ARTweaker-1.12.2-1.0.0.jar": "9d30a0e830c014440fd67011b0e3c7ef957d41ac007f0d348d2f042d8cdcc863",
+    "mods/AdChimneys-1.12.2-3.5.16.0-build.0654.jar": "a77aedaca518d74ade39b190208d2bd9ce4df403a272c943af84a027f8f19cbd",
+    "mods/AdPother-1.12.2-1.2.25.0-build.0673.jar": "7f9698b2416612e1b8a5ff51d08efe0c59b26eb17aeeb7aa7e715b143b3faca4",
+    "mods/AdvancedRocketry-1.12.2-2.0.0-17.jar": "809c2f212da1c2ab46a9e849922e7902f592fa57bef669d6a95c09b473ef12e4",
+    "mods/Avaritia-1.12.2-3.3.0.37-universal.jar": "e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876",
+    "mods/AvaritiaTweaks-1.12.2-1.3.1.jar": "85cf3d503a2a83b55a4d2a8a188c14524763d6211d3e9c922f1d1c37c0c9c0b3",
+    "mods/Avaritiaddons-1.12.2-1.9.jar": "7792247b7d8ef330d08d9900b78a8b0f1ee3344359ee5954cd3c2e25201aa187",
+    "mods/BQUTweaker-1.3.7.jar": "07189bb7370839386d4b76073eee50c3c684b54544590dcd3545bdc91cfe1fee",
+    "mods/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar": "0bb50f545b87f19087d9dbdb9930d6be2d66ee8c76d2a1982eef9e3d2bb43108",
+    "mods/BetterMineshaftsForge-1.12.2-2.2.1.jar": "6380ad3f470c38337e545afec5418084e95bd7ec3cd75658f9da81e46a2288b1",
+    "mods/BetterQuestingUnofficial-4.3.2.jar": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b",
+    "mods/BiomesYouGo1.7.1.jar": "0ede6fac09cf7019d214811c32ae1e805b1814776eca983cc9ad3a7cdffbf635",
+    "mods/Bloodmoon-MC1.12.2-1.5.3.jar": "1d6082293067e1a1af002c65527a41df3919f8125eaa25a9c7c9d16ba25c4d06",
+    "mods/CTM-MC1.12.2-1.0.2.31.jar": "433f441dc9c0aa75a4168df832900720ddadac1f22cc3bba4e4f25ca789b268b",
+    "mods/CarbonConfig-1.12.2-2.0.2.1.jar": "1c435bd2eda5bfb4f9778301aab97091f0925c891edfae9dd6794f1dfe123482",
+    "mods/Chameleon-1.12-4.1.3.jar": "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87",
+    "mods/Chisel-MC1.12.2-1.0.2.45.jar": "64c62f20a89939db2c03d47737c7bd371d8bd8c10ae42e2e8c63432ae89db2c7",
+    "mods/Chunk-Pregenerator-1.12.2-4.4.9.3.jar": "32161d8965e07f91a769cdf0325b368f7d2a4459af15abef165b57b91213b2bb",
+    "mods/Clumps-3.1.2.jar": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4",
+    "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar": "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+    "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar": "f10cd57075690ecbe52094f8af0d2a5af12f89c82b7c6eb73d3d090d74206ea0",
+    "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar": "5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74",
+    "mods/ContentTweaker-1.12.2-4.10.0.jar": "3371fcccdda4c0701e0991d576db58e2806046c2cb27c22c1e52764080f0e3e9",
+    "mods/Controlling-3.0.12.4.jar": "f5edd4793f96cd5a6f31aecbd3030093b367a51afba5d6f7281756d0f9c03786",
+    "mods/CookingForBlockheads_1.12.2-6.5.0.jar": "3a8ed073a9d84213d6a1f2947bf9e8a4e70730fa123e3ca53769fdc99ef4db9b",
+    "mods/CosmeticArmorReworked-1.12.2-v5a.jar": "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+    "mods/CraftTweaker2-1.12-4.1.20.715.jar": "2cd1c68628b78ff5b58a12c94c0dbed8e91d322836bf2d34c9156fee60390e53",
+    "mods/Cucumber-1.12.2-1.1.3.jar": "0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5",
+    "mods/CustomLoadingScreen-1.12.2-1.5.9.jar": "4a00498619ce464376bc1d0c2a1267128f1955062973b7db2bb5a8a0f2afd3be",
+    "mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar": "63b8e4d86b336739c9df8275d28e61519c73c815d0ba9ec18fb8d0cf8a218488",
+    "mods/DuraDisplay-1.7.jar": "609e86941f5e138abeab48eeef6de6bd116cdb02b4aa5bbfa981ad0f1f821b85",
+    "mods/EntityCulling-1.12.2-6.5.0.jar": "f6c43debaa3b6ac46160c39e09a434cbf9f17d495a49e0a81defdaad3ace2cb2",
+    "mods/EquipmentTooltips-1.12.2-1.0.3-4.jar": "82ad1a03cf9b19f10e11763219c16afc967310685cf928ec45caa217e9b856d4",
+    "mods/Exchangers-1.12.2-2.10.3.jar": "19f56f24a0a2481926b1035b1619bd0958938a88630a1d439bb3b03d607f8c0a",
+    "mods/FTBBackups-1.1.0.1.jar": "6b6bcbbf6ac4528657345e1696339528a44643ecb06e6137908eafb8432bd962",
+    "mods/FTBLib-5.4.7.2.jar": "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac",
+    "mods/FTBUtilities-5.4.1.131.jar": "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
+    "mods/Farseek-1.12-2.5.1.jar": "28016063a5bce9f229305692795b1e64702985abc026d480e45d9663a96ea80c",
+    "mods/FastFurnace-1.12.2-1.3.1.jar": "61362af8dd5de20a6f5b7ab9c2f95cfaec911a0ab428c7b469e8d2a7ff89c89d",
+    "mods/FasterLadderClimbing-1.12-0.1-146.jar": "aac69179428a4efd0f4a28668a5467c4807c256ae85d6cbba51c1245f77b68c7",
+    "mods/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar": "21e155cacd664ba822862ce459cd4b5c8aa56d4273d66d1408904b71b6115104",
+    "mods/GunpowderLib-1.12.2-1.1.jar": "6130bd064d4aa1158308d699f370b5586447d026e2f559dfe14aa7df76cd6203",
+    "mods/IndustrialRenewal_1.12.2-0.21.8.jar": "53cd62fac4023c3a1b13b445af5483ec133a108c7a049a4077b118f973d71271",
+    "mods/IronJetpacks-1.12-2-1.1.0.jar": "3007220a56179c5665faa68077372cc99fb91f8f7bd6a88f7fe497a7db15e00f",
+    "mods/ItemFilters-1.0.4.2.jar": "cdffbb810f75db50afce9681374f0604e4c1ed2dcfe768cff5b4e17d5384166b",
+    "mods/IvToolkit-1.3.3-1.12.jar": "ffb745111790e27cb7810a2e03d5270265dee7ebd3ef98fde897c409d58b1e59",
+    "mods/JustEnoughResources-1.12.2-0.9.2.60.jar": "9ea4d7df19c0a53880aae5e745ef1e886854bea5c533878688587a5e3fdaebdd",
+    "mods/LibVulpes-1.12.2-0.4.2-25-universal.jar": "8a339ac3cb88526f61256a1e04d29c0d09e21187c8abd2766f009e217a7fa2f9",
+    "mods/MTLib-3.0.7.jar": "e978ce61b6177ec07a9db231d05a64415239c836f43f5cbcc0cf01bd9da4b3e2",
+    "mods/Mantle-1.12-1.3.3.55.jar": "0975ad3ef3b8b35fe43461feabe44d406b5521b0a2f3d1965c8d2f6a59ad2e65",
+    "mods/Modular Diversity-1.10.jar": "0d1820b56f3a306c8f6f91d4bebef69c1d013b32d7f4be80ce6de67d8470a38b",
+    "mods/Morpheus-1.12.2-3.5.106.jar": "1904c32a8e0077e005bfefe005c26834c2df09881bc075a7deadce8da97fb457",
+    "mods/MutantBeasts-1.12.2-1.0.2.jar": "a8f07c4a0cf3bb86f0cb0ba00ea0fafdd215fbb7d960e3fae61f1ef70f97e37a",
+    "mods/NCOLegacyLib-1.12.2-1.2.jar": "14474ae40ee9f4cd2da244450f6d112ab57585d3fcbcce8f9a372cbf041242cf",
+    "mods/NTM-CE-1.12.2-2.6.1.0.jar": "43b0a3f71e58cca548d3ff1aa01faf45ad2eaa5477adfcaa9d161300b589266d",
+    "mods/NotEnoughIDs-1.5.4.4.jar": "f042f90c5623a1f2bbcc1d0bd93cfca40109b9c0659399e1f48aa8ce37b75622",
+    "mods/Nothirium-1.12.2-0.4.9-beta.jar": "a86e5aa4fd09b6fd782da9d797ca9e4ab32de4453cf762e1aa3212dfb9e27d12",
+    "mods/NuclearCraftAdditions-1.12.2-1.0.0.jar": "12b3774452d150fb442290a7f16f946b968b2b6374c6e9642a1f5485982f67d8",
+    "mods/OpenComputers-MC1.12.2-1.8.10+258943363.jar": "9ba075d1bbdebe0c253bd6594deedcb81cdec3158ec7afc6c76ff8f5986c6816",
+    "mods/OreLib-1.12.2-3.6.0.1.jar": "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9",
+    "mods/Pam's HarvestCraft 1.12.2zg.jar": "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa",
+    "mods/Placebo-1.12.2-1.6.1.jar": "6fe241d316a61314aad22ab80664a1741a2c8f1b2368d73723b62ecc41dfeb0f",
+    "mods/QMD-1.12.2-1.6.jar": "48b3c59278b3560b8555bfe67216e112b380f85f1a0ea146ba77b812e43cd573",
+    "mods/RandomTP-MC1.12.2-1.3.5.jar": "5a1576e1434ca69f6a789e95ceb096f11a47a3bf24d67822d8593810bbed73de",
+    "mods/RealisticTorches-1.12.2-2.1.2.jar": "1b060fbd1ceefe2647a305d8143fbecec214b66a745183ff0df6c974410a7467",
+    "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar": "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+    "mods/RenderLib-1.12.2-1.4.5.jar": "eeca6dc4ef5acf3069e4b8747e4dbfa253323cc44cd90c8ddb6d70587fe0d35f",
+    "mods/Scalar Legacy-1.0.1.jar": "350d1c378f3b0ac8e7b3df0432482bbb5341c79d07df843c747be1d5fdc23cfe",
+    "mods/StellarCore-1.6.0.jar": "5cd0734ef965b021dcf92b708802e8b5ef61407867eb0d8d20b6bcfe50836314",
+    "mods/StorageDrawers-1.12.2-5.5.3.jar": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f",
+    "mods/Tips-1.12.2-1.0.9.jar": "09b1fb75a712b4e3bf524ad29bf5c65e0dfde2cd5eb17ea64ada4a5fc3879ebc",
+    "mods/TombManyGraves-1.12-4.2.0.jar": "3fef07b3124a16250645c9549b9b67e0a85dde29b5b27b16d33581b531f25fce",
+    "mods/TreeChop-1.12.2-0.14.7.jar": "049b91d2dc2cf56448cbb51818531d2771f71fc633bbe3feef21aae4997bfcd3",
+    "mods/Trinity-1.12.2-1.5.h.jar": "910fda0db83daba6b9734b466987bd8c75e4396a50d5c83affd618dc0557f523",
+    "mods/UniversalTweaks-1.12.2-1.21.0.jar": "9386ed5a00cc8b86ae5369a8c0d71ae8fa12711ad419767c2a7da1977c7f7870",
+    "mods/WanionLib-1.12.2-2.91.jar": "6dbb4140af8171d07752abfe225d6ad0a6981b4dc143b53d78fed4ea0ea3f00c",
+    "mods/WrapUp-1.12-1.1.3.jar": "133c55730e48e1652c861898d05c6092b4f58badf9e627f12019000426e7df95",
+    "mods/[___MixinCompat-1.1-1.12.2___].jar": "84bf7e2d3debebde099310052b662fc83779947df32f0b2284c6de998e58b353",
+    "mods/_MixinBootstrap-1.1.0.jar": "17c589aad9907d4ba56d578d502afa80aac1ba2fa8677e8b4d06c019c41d7731",
+    "mods/ae2-uel-v0.56.7.jar": "dfca9f74cfebb4e79806ae77cd6bcedc30649be2b0e505e06d629386b0c3074e",
+    "mods/alcatrazcore-1.0.4.jar": "10b245b2485c2803ca335f15e371e91df507ca5e0fab7db329a09c93dcb12670",
+    "mods/architecturecraft-1.12-3.108.jar": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e",
+    "mods/avaritiarecipemaker-1.0.0.jar": "c29ea6749e9148579e6d467e0b211ee90909bda4859b55137c7cbf2cb2dc0287",
+    "mods/base-1.12.2-3.14.0.jar": "5ec979220887e4e73772ecdb5dceb8a258b4da974bd4ece8fd85cade089913d4",
+    "mods/bdlib-1.14.4.1-mc1.12.2.jar": "b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045",
+    "mods/beautifiedchatclient_1.12.2-1.0.jar": "c728172976a5ed943aa9a474f94688894d53af771f74af53797d5080cc8c0cc8",
+    "mods/betternether-0.1.8.6.jar": "6fffbb495ec446317f4cfdbc4f471a30bffa298c4f354adfed62e4ab5ab274b2",
+    "mods/collective-1.12.2-3.0.jar": "43541ab1d57cf5aa3aba63fa34b6b6ebffd67f602b9fb4d220e4bec365cb754c",
+    "mods/comforts-1.12.2-1.4.1.3.jar": "62183a1fa282032e2fea2c3ff6348611a03685a50769199243a42d38605d08a6",
+    "mods/coroutil-1.12.1-1.2.37.jar": "a16c09b2ac5894078cc1aef5b6fe11a04cb5bf43f2a703a5b9545fb8be0b748a",
+    "mods/esm-legacy-1.12.2-1.0.10.jar": "3a44f7d45f8388682f3f3c5bb28811ba97692eebe0cfddae572be49025acddb5",
+    "mods/flare-0.8.0.jar": "2ef35ce392c086127a8c5a8364c1ca0af29fdcb7cb1fe303fdfbbf9f03aeff99",
+    "mods/ftb-ultimine-1202.3.5.jar": "97642be69016944afab202f3a3edbce422af3d6485b60fdc81025bf7e29b99de",
+    "mods/groovyscript-1.4.3.jar": "07617b7ce9170a857199bd61d730a0db3af2685cf83d31734a2d4b628fda7533",
+    "mods/jei_1.12.2-4.16.5.1030.jar": "73357b5c3b5f44f6d0ce667bbed21ba4c5db49070944ca2bc0fa73b8d9061d51",
+    "mods/jeiintegration_1.12.2-1.6.0.jar": "b072944ed22907db480bea91b0660924d3dcef266e6501de236d08c45d07dc19",
+    "mods/journeymap-1.12.2-5.7.1p3.jar": "b72c9dd7e6dd0f7438c01ea8e440519bf4a3c0b47674810929a9c899dc98b406",
+    "mods/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar": "5b412639b99dea3dbc7311cd4bdcf310dbdfd8e9c6eba4f2abe839c261aa0c7a",
+    "mods/lemonskin-4.0.0.jar": "41d231e9b217c4b1d6f30e57ade3e60b886ced99d9bfd4b7bc9f0791a93b3870",
+    "mods/letmedespawn-1.12.2-forge-1.0.2.jar": "fcaa0e28468b19d216da9b1c343e70761849eb44ca71a64933d74bbf536b07ee",
+    "mods/loliasm-5.33.jar": "1573e02e488eac5e72cf02dd0654e1a0a5b252329b2de9a836714d7ff9a1adb8",
+    "mods/mcjtylib-1.12-3.5.4.jar": "af7d2b3c421329e7b97202302a072867e7c9bd73c5b8fab9bdb3a76fbfe474e3",
+    "mods/modtweaker-4.0.20.11.jar": "2c2db905cae947092fe46dba301d1f6777fdab9cc8e79140c050b09fe62dda7a",
+    "mods/modularmachinery-1.12.2-1.10.0.jar": "87ec44f78e4b33488f6ad803cfb38dc7cf95737b4d019be7605f32979c65a84a",
+    "mods/moreavaritia-mc1.12.2-v1.5.jar": "81080ce655946fee7ed2df18a8cc697f07ce32e795526ed1baf8cfc041ed513b",
+    "mods/mousetweaks-1.12.2-3.1.5.jar": "4874dc0e614ea47f4c049875ffffc4a48b79dceebb5b76f41945b42dfd624175",
+    "mods/naughthirium-2.3.0.jar": "b4c071fd3d2f4722db6bb3b6b744e57b51d114041d1a2583579666517300175d",
+    "mods/neverenoughanimations-1.0.7.jar": "117e0b1076be4965d8962b9fe4a6f6b123e2952457c3190549f119365b57b1e7",
+    "mods/nuclearcraft-1.12.2-2o.9.7.jar": "cf12ca1cf0dfbcc352dbabd610ab6411c5b745e7f99cfe36a1677054d8a1e0df",
+    "mods/oauth-1.06.4.jar": "211db6d0687fffd970752c7a4b1a69d26182736ce41a06b1bc5516c6031fa50e",
+    "mods/particleculling-1.12.2-v1.4.3.jar": "bb00f2f5cdbe710cfa92af782581531dc0056bfedb552d05f4fddfbee5416847",
+    "mods/pollutantpump-1.12.2-1.3.0.jar": "af9e1c2e26df870ebf0660b3853930dcceab9e8c4b165b7c2e0d03273c23899b",
+    "mods/pressure-1.3.1.9-mc1.12.2.jar": "1a8312adfdd93875fa6feda214e5eafa576848c5052a55df5e3233785cb62049",
+    "mods/quantumhue-1.0.4.jar": "6e80a8da5806c663288348e5f74de8552f5a77c2ace2974fbc7450f9deab2d1d",
+    "mods/rflux-1.12-0.4.0.jar": "241636cfc0ff14ac975110dac0d51abd456f50980a300a1c60005709a267fcc1",
+    "mods/rftools-1.12-7.73.jar": "558c38d0f7852d17a03aef81e4bd6cc2f28e60db8a8749c710c9ee829f2de0a4",
+    "mods/rftoolsdim-1.12-5.71.jar": "ac731cd6b991c6da850499a83585ca34c971e2de8106515d1ee5830995110820",
+    "mods/rftoolspower-1.12-1.2.0.jar": "bf678ca007953e8d5aee96f29aeefd88120485a988a05b7ec6d37663bb824891",
+    "mods/rgbchat-2.1.jar": "8362c800132d31bf6ab526e91f89ef2828be70a9c09559dc37141cecc0b7eaf5",
+    "mods/rsgauges-1.12.2-1.2.8.jar": "3580bde230456674b64dfea55e1f6d53f9fcdf300076a58697f262c7bf539e3e",
+    "mods/simple-rpc-1.12.2-3.1.1.jar": "34952d0cd4fc85fd8cfba1532486fafad159d492f5e3e7038e7a6fdf789f5741",
+    "mods/starterkit_1.12.2-2.4.jar": "125398c49ffb0172f2f1baba606ac8cd765f0fc7b589667e2dd04dacd78f4de6",
+    "mods/theoneprobe-1.12-1.4.28.jar": "f3e5048dbe58f37f98f8130886ede880ac5b3333ee73cae2381c337e500c4bd1",
+    "mods/tombmanygraves2api-1.12.2-1.0.0.jar": "939dac94a134d69b1f12122311dfa0c045721a3d325674b53e6e84e5c7c0e457",
+    "mods/u_team_core-forge-1.12.2-2.2.5.375.jar": "92d27852bd081fc9cd2d95172cbf4473fa697653f6236bb3f5779eef60960ad4",
+    "mods/useful_backpacks-1.12.2-1.5.4.85.jar": "ff231e76e4f5263cdb5b6aa825fb428c72fc6d39841ff9a19736a163e025e448",
+    "mods/villagernames_1.12.2-3.4.jar": "6cf76898738c6ae4e107b19328f8f65327ce20d9cfd4da67fdb08518fdb8f564",
+    "mods/vintagefix-0.7.1.jar": "e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8",
+    "mods/voicechat-forge-1.12.2-2.6.22.jar": "c282698b1ddd7fe7acd4aee47ccd3574486e4bda009cea43a57281ddb59005e7",
+    "mods/worleycaves-1.12.2-1.5.2.jar": "85aaefc2caae45fecf584160bf41db75d72a65b8ae7d879eceafd77fde03a501"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "pack-owned-bounded-network-logging",
+  "minecraftVersion": "1.12.2",
+  "config": {
+    "path": "config/log4j2.xml",
+    "sizeBytes": 1742,
+    "sha256": "dc0c922ad275f86615474e3bfcd3cd693a29cd5596494d219953ec59afe648a9"
+  },
+  "jvmSelector": "-Dlog4j.configurationFile=config/log4j2.xml",
+  "ownership": "config/log4j2.xml",
+  "logger": "net.minecraft.network.NetworkManager",
+  "referenceConfigSha256": "dc0c922ad275f86615474e3bfcd3cd693a29cd5596494d219953ec59afe648a9",
+  "localizedDebugPattern": "(?s)^(?!(?:Enabled auto read|Disabled auto read|Set listener of .* to .*)$).*"
+}

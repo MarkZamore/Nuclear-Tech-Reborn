@@ -1,0 +1,10 @@
+{
+  "javaMajorVersion": 8,
+  "loader": {
+    "type": "forge",
+    "version": "14.23.5.2859"
+  },
+  "minecraftVersion": "1.12.2",
+  "preserveWorldSettingsOnShare": true,
+  "schemaVersion": 1
+}
