@@ -1,0 +1,197 @@
+--- a/tools/PackData/CurseForge/Forge112SteamQaAgent.java
++++ b/tools/PackData/CurseForge/Forge112SteamQaAgent.java
+@@ -89,12 +89,14 @@
+             verifyWindowTitle("title_screen");
+             scheduled(client, () -> { recordModSources(); return null; });
+             boolean reopen = !reopenLevelSha256.isEmpty();
++            if (reopen) scheduled(client, () -> { checkNativeDiscovery(); return null; });
+             scheduled(client, () -> { openWorld(reopen); return null; });
+             await(115, () -> scheduled(client, () -> player() != null && server() != null), "world join");
+             int playerDimension = scheduled(client, () -> ((Number) field(player(), "field_71093_bK")).intValue());
+             event(reopen ? "world_reopened" : "world_created", "\"commands\":false,\"mode\":\"SURVIVAL\",\"playerDimension\":"
+                     + playerDimension);
+             verifyWindowTitle("world_before_steam");
++            if (reopen) scheduled(client, () -> { checkNativePublicationFailure(); return null; });
+             scheduled(client, () -> { publishFromNativePause(); return null; });
+             event("published", "\"oneNativeAction\":true,\"intermediateScreen\":false,\"reports\":true,\"reportsLabel\":"
+                     + json(translated("text.e4steam_minecraft.launcherReports")));
+@@ -104,6 +106,10 @@
+                     + json(translated("text.e4steam_minecraft.launcherDomainAssigned")));
+             require(chat, "Steam did not produce the expected local-port and sharing chat messages.");
+             scheduled(client, () -> { verifySteamMetadata(); return null; });
++            if (reopen) {
++                await(8, () -> scheduled(client, this::nativeAdvertisementStopped), "native LAN suppression");
++                event("native_host_advertisement", "\"suppressed\":true");
++            }
+             verifyWindowTitle("world_after_steam");
+             event("steam_metadata", "\"lobbyReady\":true,\"worldName\":" + json(worldName)
+                     + ",\"launcherNickname\":" + json(System.getProperty("link.e4steam.launcherPlayerName")));
+@@ -263,6 +269,106 @@
+                 type("net.minecraft.world.WorldSettings")}, worldName, worldName, settings);
+     }
+ 
++    private void checkNativeDiscovery() throws Exception {
++        require(Files.notExists(game.resolve("servers.dat")), "The isolated QA manual server list is not empty.");
++        Object original = screen();
++        Class<?> minecraftType = type(MC);
++        Class<?> serverListType = type("net.minecraft.client.multiplayer.ServerList");
++        Class<?> serverDataType = type("net.minecraft.client.multiplayer.ServerData");
++        Object manualList = serverListType.getConstructor(minecraftType).newInstance(client);
++        Object manual = serverDataType.getConstructor(String.class, String.class, boolean.class)
++                .newInstance("QA manual server", "127.0.0.1:65534", false);
++        call(manualList, "func_78849_a", new Class<?>[] {serverDataType}, manual);
++        call(manualList, "func_78855_b", NONE);
++        Path servers = game.resolve("servers.dat");
++        byte[] savedBefore = Files.readAllBytes(servers);
++        Class<?> multiplayerType = type(GUI + "GuiMultiplayer");
++        Object multiplayer = multiplayerType.getConstructor(type(GUI + "GuiScreen")).newInstance(original);
++        setScreen(multiplayer);
++        try {
++            Object selection = field(multiplayer, "field_146803_h");
++            Object detected = field(multiplayer, "field_146799_A");
++            call(detected, "func_77551_a", new Class<?>[] {String.class, java.net.InetAddress.class},
++                    "[MOTD]Ordinary LAN QA[/MOTD][AD]65533[/AD]", java.net.InetAddress.getByName("127.0.0.1"));
++            require(Boolean.TRUE.equals(call(detected, "func_77553_a", NONE))
++                    && !((List<?>) call(detected, "func_77554_c", NONE)).isEmpty(), "Vanilla LAN fixture was not accepted.");
++            call(multiplayer, "func_73876_c", NONE);
++            require(Boolean.FALSE.equals(call(detected, "func_77553_a", NONE))
++                    && ((List<?>) field(selection, "field_148199_m")).isEmpty(), "An ordinary LAN entry appeared in the UI.");
++            Class<?> steamWorld = type("link.e4steam.steam.SteamLanWorld");
++            java.lang.reflect.Constructor<?> constructor = steamWorld.getDeclaredConstructor(long.class, long.class,
++                    String.class, String.class);
++            constructor.setAccessible(true);
++            Object entry = constructor.newInstance(1001L, 2001L, worldName, "LanMcPackQa");
++            Method discoveryCallback = null;
++            Class<?>[] callbackParameters = {minecraftType, Throwable.class, List.class};
++            for (Method candidate : multiplayerType.getDeclaredMethods()) {
++                if (java.util.Arrays.equals(candidate.getParameterTypes(), callbackParameters)) {
++                    require(discoveryCallback == null, "Multiple Steam list callbacks.");
++                    discoveryCallback = candidate;
++                }
++            }
++            require(discoveryCallback != null, "Steam list callback is absent.");
++            discoveryCallback.setAccessible(true);
++            discoveryCallback.invoke(multiplayer, client, null, java.util.Collections.singletonList(entry));
++            List<?> automatic = (List<?>) field(selection, "field_148199_m");
++            require(automatic.size() == 1, "Steam fixture did not yield exactly one automatic row.");
++            Object row = automatic.get(0);
++            Object info = call(row, "func_189995_a", NONE);
++            require("LanMcPackQa".equals(call(info, "func_77487_a", NONE)), "Wrong Steam row host nickname.");
++            Method title = null;
++            for (Method candidate : row.getClass().getDeclaredMethods()) {
++                if (candidate.getName().contains("$showWorldName")) title = candidate;
++            }
++            require(title != null, "The Steam UI title redirect is absent.");
++            title.setAccessible(true);
++            require(worldName.equals(title.invoke(row, "lanServer.title", new Object[0])), "Wrong rendered Steam row title.");
++            List<?> manualRows = (List<?>) field(selection, "field_148198_l");
++            Object persisted = call(call(multiplayer, "func_146795_p", NONE), "func_78850_a",
++                    new Class<?>[] {int.class}, 0);
++            require(manualRows.size() == 1 && "QA manual server".equals(field(persisted, "field_78847_a"))
++                    && "127.0.0.1:65534".equals(field(persisted, "field_78845_b"))
++                    && java.util.Arrays.equals(savedBefore, Files.readAllBytes(servers)), "Manual server list was changed.");
++        } finally {
++            setScreen(original);
++        }
++        event("discovery_fixture", "\"ordinaryLanFiltered\":true,\"steamRows\":1,\"steamRowSource\":\"synthetic\","
++                + "\"worldTitle\":true,\"launcherNickname\":true,\"manualServerPersisted\":true");
++    }
++
++    private void checkNativePublicationFailure() throws Exception {
++        Class<?> bootstrap = type("link.e4steam.retro.RetroBootstrap");
++        require(Boolean.TRUE.equals(invoke(bootstrap, null, "beginPublication", NONE)), "Could not stage a busy relay ticket.");
++        try {
++            Object pause = type(GUI + "GuiIngameMenu").getConstructor().newInstance();
++            setScreen(pause);
++            List<?> buttons = (List<?>) field(pause, "field_146292_n");
++            Object lan = lanSlot(buttons);
++            fireNativeLanAction(pause, buttons, lan);
++            require(screen() == pause && Boolean.FALSE.equals(call(server(), "func_71344_c", NONE))
++                    && translated("menu.shareToLan").equals(field(lan, "field_146126_j")),
++                    "Publication failure did not preserve the native pause screen and action.");
++            String failureMessage = translated("commands.publish.failed");
++            Object chat = call(field(client, "field_71456_v"), "func_146158_b", NONE);
++            boolean shown = false;
++            for (Object line : (List<?>) field(chat, "field_146252_h")) {
++                Object message = call(line, "func_151461_a", NONE);
++                if (failureMessage.equals(call(message, "func_150260_c", NONE))) shown = true;
++            }
++            require(shown, "The native publication failure message was absent.");
++        } finally {
++            invoke(bootstrap, null, "cancelPublication", NONE);
++        }
++        event("publication_failure_fixture", "\"busyRelayTicket\":true,\"nativePauseRetained\":true,"
++                + "\"publishButtonRetained\":true,\"stockFailureChat\":true");
++    }
++
++    private boolean nativeAdvertisementStopped() throws Exception {
++        Object advertiser = field(server(), "field_71345_q");
++        return advertiser instanceof Thread && !((Thread) advertiser).isAlive()
++                && ((java.net.DatagramSocket) field(advertiser, "field_77529_c")).isClosed();
++    }
++
+     private void publishFromNativePause() throws Exception {
+         Object pause = type(GUI + "GuiIngameMenu").getConstructor().newInstance();
+         setScreen(pause);
+@@ -270,13 +376,7 @@
+         Object lan = lanSlot(buttons);
+         require(translated("menu.shareToLan").equals(field(lan, "field_146126_j"))
+                 && noWorldControls(buttons), "Unexpected native pause controls.");
+-        Class<?> eventClass = type("net.minecraftforge.client.event.GuiScreenEvent$ActionPerformedEvent$Pre");
+-        Object action = eventClass.getConstructor(type(GUI + "GuiScreen"), type(GUI + "GuiButton"), List.class)
+-                .newInstance(pause, lan, buttons);
+-        Object bus = type("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);
+-        require(Boolean.TRUE.equals(call(bus, "post",
+-                new Class<?>[] {type("net.minecraftforge.fml.common.eventhandler.Event")}, action)),
+-                "Managed native pause action was not handled.");
++        fireNativeLanAction(pause, buttons, lan);
+         require(screen() == null && Boolean.TRUE.equals(call(server(), "func_71344_c", NONE)),
+                 "A single native action did not publish and close the menu.");
+         Object after = type(GUI + "GuiIngameMenu").getConstructor().newInstance();
+@@ -288,6 +388,16 @@
+         setScreen(null);
+     }
+ 
++    private void fireNativeLanAction(Object pause, List<?> buttons, Object lan) throws Exception {
++        Class<?> eventClass = type("net.minecraftforge.client.event.GuiScreenEvent$ActionPerformedEvent$Pre");
++        Object action = eventClass.getConstructor(type(GUI + "GuiScreen"), type(GUI + "GuiButton"), List.class)
++                .newInstance(pause, lan, buttons);
++        Object bus = type("net.minecraftforge.common.MinecraftForge").getField("EVENT_BUS").get(null);
++        require(Boolean.TRUE.equals(call(bus, "post",
++                new Class<?>[] {type("net.minecraftforge.fml.common.eventhandler.Event")}, action)),
++                "Managed native pause action was not handled.");
++    }
++
+     private static Object lanSlot(List<?> buttons) throws Exception {
+         for (Object button : buttons) if (Integer.valueOf(7).equals(field(button, "field_146127_k"))) return button;
+         throw new IllegalStateException("Missing native LAN slot.");
+@@ -310,6 +420,7 @@
+         Object guest = profile.getConstructor(UUID.class, String.class).newInstance(
+                 UUID.fromString("ad587e6a-e53c-43bd-955b-de8d677ff0dd"), "LanMcQaGuest");
+         TreeMap<String, Boolean> registeredPermissions = new TreeMap<>();
++        boolean[] jeiHostAllowed = new boolean[1];
+         scheduled(server, () -> {
+             Object data = call(call(server, "func_71218_a", new Class<?>[] {int.class}, 0), "func_72912_H", NONE);
+             Object players = call(server, "func_184103_al", NONE);
+@@ -323,6 +434,11 @@
+                     && !allows(players, profile, host) && !allows(players, profile, guest)
+                     && !allowsGameMode(liveHost),
+                     "A mutation granted commands or changed the saved world policy.");
++            Class<?> stackType = type("net.minecraft.item.ItemStack");
++            Object stone = type("net.minecraft.init.Blocks").getField("field_150348_b").get(null);
++            Object ordinaryStack = stackType.getConstructor(type("net.minecraft.block.Block")).newInstance(stone);
++            jeiHostAllowed[0] = (Boolean) invoke(type("mezz.jei.util.CommandUtilServer"), null, "hasPermission",
++                    new Class<?>[] {type("net.minecraft.entity.player.EntityPlayerMP"), stackType}, liveHost, ordinaryStack);
+             Object commands = call(server, "func_71187_D", NONE);
+             java.util.Map<?, ?> registered = (java.util.Map<?, ?>) call(commands, "func_71555_a", NONE);
+             Class<?>[] permissionParameters = {type("net.minecraft.server.MinecraftServer"),
+@@ -343,6 +459,9 @@
+         }
+         actual.append('}');
+         event("registered_command_permissions", "\"hostAllowed\":" + actual);
++        event("jei_give_permission", "\"hostAllowed\":" + jeiHostAllowed[0]
++                + ",\"entryPoint\":\"mezz.jei.util.CommandUtilServer.hasPermission\",\"creativeGive\":false");
++        require(!jeiHostAllowed[0], "JEI give permits the host in a commands-disabled world.");
+         require(Boolean.FALSE.equals(registeredPermissions.get("gamemode"))
+                 && Boolean.FALSE.equals(registeredPermissions.get("give"))
+                 && !registeredPermissions.containsValue(true), "A registered cheat command allows the host.");

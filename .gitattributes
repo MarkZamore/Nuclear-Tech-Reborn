@@ -11,3 +11,4 @@
 *.json text eol=lf
 /licenses/** -text
 /licenses/Scala-2.11-LICENSE.md whitespace=-blank-at-eof
+/tools/nuclear-tech-reborn-native-witness.patch -text whitespace=-blank-at-eol,-blank-at-eof

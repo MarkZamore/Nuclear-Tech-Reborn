@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "pack": "Nuclear Tech Reborn",
+  "id": "minecraft-24",
+  "status": "PASS",
+  "documentationRevision": "7400fab6ff971161922d6014dac22c36d4523b8f",
+  "catalog": {
+    "commit": "129a7461c3d1012294dfabe27bbe351869faa1dd",
+    "previousCatalogBlob": "ac8cc7a0e023bfa272aaa542c2c3aabb77c126d6",
+    "catalogBlob": "7b3d771cc13752c465be0550a032d2b0b3c0b9f9",
+    "entry": {
+      "id": "minecraft-24",
+      "relativePath": "Nuclear Tech Reborn",
+      "source": {
+        "owner": "MarkZamore",
+        "repo": "Nuclear-Tech-Reborn",
+        "tag": "pack-latest"
+      }
+    }
+  },
+  "release": {
+    "outcome": "PASS",
+    "releaseId": 444804098,
+    "releaseUrl": "https://github.com/MarkZamore/Nuclear-Tech-Reborn/releases/tag/pack-latest",
+    "revision": "50d49075edf7aa1b4eb2a1b1f16af2837e451fc1",
+    "publicAssets": 126,
+    "notices": {
+      "name": "notices-d75c1bc07fe6266c42c85a88b0323f51eaa8177ccb98c4706e7973508c050db9.zip",
+      "sha256": "d75c1bc07fe6266c42c85a88b0323f51eaa8177ccb98c4706e7973508c050db9",
+      "sizeBytes": 24619
+    }
+  },
+  "publicInstallation": {
+    "outcome": "PASS",
+    "revision": "50d49075edf7aa1b4eb2a1b1f16af2837e451fc1",
+    "manifestSha256": "8ce0e4bf5ae3fc7c49189617e1bf46596b4f6a0005b8156dcec137d765ed1913",
+    "librarySha256": "b9566abc085a3376c77899cc647770ac45760300c9c92cb56d5db4188accb156",
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "gameAssets": 123,
+    "gameAssetBytes": 321040991,
+    "installedFiles": 2348,
+    "installedBytes": 328514601.0
+  },
+  "coldStartup": {
+    "outcome": "PASS",
+    "computerUse": false,
+    "actualExecutableStarted": true,
+    "network": "real public GitHub",
+    "packId": "minecraft-24",
+    "revision": "50d49075edf7aa1b4eb2a1b1f16af2837e451fc1",
+    "manifestSha256": "8ce0e4bf5ae3fc7c49189617e1bf46596b4f6a0005b8156dcec137d765ed1913",
+    "librarySha256": "b9566abc085a3376c77899cc647770ac45760300c9c92cb56d5db4188accb156",
+    "loadedModCount": 139,
+    "priorEntriesPreserved": 23,
+    "launcherSha256": "1169b958dca5633ecabc43b32cfd5091ce4f9de111fa767c5c58f4ec765a6b7c",
+    "releaseNumber": 497,
+    "launchLog": "Launch Nuclear Tech Reborn: verified startup manifest revision \"50d49075edf7aa1b4eb2a1b1f16af2837e451fc1\", SHA256 8ce0e4bf5ae3fc7c49189617e1bf46596b4f6a0005b8156dcec137d765ed1913.",
+    "title": "Nuclear Tech Reborn",
+    "catalogEntries": 24,
+    "elapsedMilliseconds": 69927
+  },
+  "liveCard": {
+    "outcome": "PASS",
+    "computerUse": false,
+    "actualExecutableStarted": false,
+    "network": "real public GitHub",
+    "packId": "minecraft-24",
+    "revision": "50d49075edf7aa1b4eb2a1b1f16af2837e451fc1",
+    "manifestSha256": "8ce0e4bf5ae3fc7c49189617e1bf46596b4f6a0005b8156dcec137d765ed1913",
+    "librarySha256": "b9566abc085a3376c77899cc647770ac45760300c9c92cb56d5db4188accb156",
+    "loadedModCount": 139,
+    "priorEntriesPreserved": 23,
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "releaseNumber": 497,
+    "title": "Nuclear Tech Reborn",
+    "versionLabel": "Minecraft 1.12.2 Forge (100 модов)",
+    "displayedModCount": 100,
+    "previewWidth": 1280,
+    "previewHeight": 720,
+    "catalogEntries": 24,
+    "elapsedMilliseconds": 67180
+  },
+  "verification": {
+    "numberedCatalogTestsPassed": 5,
+    "lockedStage": "PASS",
+    "upstreamOverlayReview": "PASS",
+    "packLoggingFixture": "PASS",
+    "changedLauncherImplementation": false,
+    "realSteamGuest": "NOT RUN",
+    "scope": "Existing catalog entries preserved. A pre-existing UniversIO startup manifest request timed out in the same cold session.",
+    "curseForgePipelineTestsPassed": 34
+  }
+}

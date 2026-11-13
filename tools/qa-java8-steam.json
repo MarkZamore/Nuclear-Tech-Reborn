@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "pack": "Nuclear Tech Reborn",
+  "id": "minecraft-24",
+  "upstream": {
+    "projectId": 539213,
+    "fileId": 8946536,
+    "release": "NITRO-1.12.2-v1.14.1",
+    "archiveSha256": "070375a4d93bc1af9765ab5fefa6d8bf56cde5d0d1b548d64d34e3c6f442296c"
+  },
+  "tested": {
+    "manifestRevision": "50d49075edf7aa1b4eb2a1b1f16af2837e451fc1",
+    "manifestSha256": "8ce0e4bf5ae3fc7c49189617e1bf46596b4f6a0005b8156dcec137d765ed1913",
+    "launcherRelease": 497,
+    "launcherExeSha256": "1169b958dca5633ecabc43b32cfd5091ce4f9de111fa767c5c58f4ec765a6b7c",
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "minecraftVersion": "1.12.2",
+    "minecraftJarSha256": "8ada07da5ee77dad3527bd7278fbd05ee1fc8a597813b216a871a2d7d64cc64f",
+    "forgeVersion": "14.23.5.2859",
+    "forgeJarSha256": "bd8314729d787e35164476d75afb337afb9783917e4f6fa1f77f049adba22f2d",
+    "java": "Temurin 8u504-b01",
+    "javaRuntimeZipSha256": "ea43d46ede95b51e44a12c66711706cddc762e0a766c54bccea18954e902b2aa",
+    "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",
+    "steamVersion": "0.3.2-lanmc.1",
+    "steamComponentSha256": "a0e0593ec5bc45ab098b0b30711edc3c4167f9bac4c65cad296d612a6c242f40",
+    "testLocale": "ru_ru",
+    "testPlayer": "LanMcPackQa",
+    "oneSequentialInstance": true
+  },
+  "fixture": {
+    "entryPoint": "tools/PackData/CurseForge/Start-LocalQa.ps1",
+    "baseAgent": "tools/PackData/CurseForge/Forge112SteamQaAgent.java",
+    "baseAgentSha256": "00e7907581c3571c7d3b4e3c82e305c6501daa0d634e42aeb6e16a016c1e909c",
+    "supplementalAgentPatch": "nuclear-tech-reborn-native-witness.patch",
+    "supplementalAgentPatchSha256": "800b3a6b549f0f14d9006ed66e3bdeeca631d9fc18109afc63fd735cbaabdab1",
+    "bridgeJarSha256": "0d22fd4f01b89e7d5819c14131c3a511cdd0c41146845a6f8762ea081bbd3e32",
+    "bridgeCompiledAgainstForge": "14.23.5.2860 (same 1.12.2 FML event ABI)",
+    "bridgeCompileForgeSha256": "cd3fbf85d7ca744507fd6a37a41b90122d43e616a4f8962332b1b658655e8a64",
+    "fixtureIncludedInRelease": false,
+    "freshLibrary": "Title metadata fixture built from pack content and preview before runtime inventory was available.",
+    "finalLibrary": "Exact immutable release library archive"
+  },
+  "fresh": {
+    "case": "ntr-fresh-497",
+    "agentSha256": "baf9410c4de77fb6af4ef25b15d9e8c82bf93a7a76bb1b2cba79bda4bc1b7a61",
+    "librarySha256": "60aa48ec1d1c1ad5110fcc73d95fc227fe102763b46777853e840294a78ca7df",
+    "status": "PASS",
+    "witnessEvents": [
+      {
+        "kind": "started",
+        "nativeRuntime": true,
+        "transformer": false,
+        "computerUse": false
+      },
+      {
+        "kind": "title",
+        "loaded": true
+      },
+      {
+        "kind": "window_title",
+        "phase": "title_screen",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "loaded_mod_sources",
+        "count": 144
+      },
+      {
+        "kind": "world_created",
+        "commands": false,
+        "mode": "SURVIVAL",
+        "playerDimension": 0
+      },
+      {
+        "kind": "window_title",
+        "phase": "world_before_steam",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "published",
+        "oneNativeAction": true,
+        "intermediateScreen": false,
+        "reports": true,
+        "reportsLabel": "Жалобы"
+      },
+      {
+        "kind": "permissions",
+        "nativePlayerList": true,
+        "hostDenied": true,
+        "syntheticGuestDenied": true,
+        "liveHostGameModeDenied": true,
+        "worldSetterDenied": true,
+        "grantSetterDenied": true
+      },
+      {
+        "kind": "registered_command_permissions",
+        "hostAllowed": {
+          "fly": false,
+          "gamemode": false,
+          "give": false,
+          "god": false,
+          "heal": false
+        }
+      },
+      {
+        "kind": "jei_give_permission",
+        "hostAllowed": false,
+        "entryPoint": "mezz.jei.util.CommandUtilServer.hasPermission",
+        "creativeGive": false
+      },
+      {
+        "kind": "chat",
+        "onePortOneAddressCopyInviteCloseAndColors": true,
+        "addressLabel": "Адрес Steam готов:"
+      },
+      {
+        "kind": "window_title",
+        "phase": "world_after_steam",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "steam_metadata",
+        "lobbyReady": true,
+        "worldName": "LanMcSteamQa112NTR",
+        "launcherNickname": "LanMcPackQa"
+      },
+      {
+        "kind": "complete",
+        "worldSaved": true,
+        "worldReopened": "NOT RUN",
+        "steamHostChat": true,
+        "realSteamGuest": "NOT RUN"
+      }
+    ],
+    "exitCode": 0,
+    "stopReason": null
+  },
+  "reopenInput": {
+    "levelDatSha256": "889cfd1298433b7dacad64a8b4c1c97d106b7058cfd6e1a62dc32e2a07b8fb32",
+    "betterQuesting": {
+      "file": "betterquesting/QuestDatabase.json",
+      "bytes": 1246854,
+      "questCount": 684,
+      "questLineCount": 17,
+      "sha256": "06ab60699460ca31e862249c42b153c7ce5d5c8e7582d7652c604f754a095de6"
+    }
+  },
+  "coverageBoundaries": {
+    "steamHostLobby": "Actual local Steam runtime and one native publication",
+    "realSecondSteamAccount": "NOT RUN",
+    "guestPermissions": "Synthetic profile evaluated by native integrated server player list",
+    "campaignProgress": "Checked author quest database loading/persistence only. No quest completion or long campaign tested.",
+    "publicationFailure": "Forced busy publication ticket, exercised native Esc action and stock chat in exact runtime.",
+    "discovery": "Real vanilla LAN detector and manual list; Steam UI callback received one synthetic row; separate actual Steam host lobby was confirmed."
+  },
+  "nonfatalAuthorDiagnostics": [
+    "HBM/NTM CE 2.6.1.0 caught a missing Chunk.getIntBiomeArray() lookup in WorldUtil after probing JEID/REID/NEID. The paired NoSuchMethodException and NoSuchMethodError are one chain. World creation proceeded.",
+    "CustomMainMenu reported missing nitro:mainmenu/splashes.txt, and Forge model/texture diagnostics appeared. The author title screen still loaded.",
+    "RenderLib reported GL_INVALID_ENUM during splash. The client continued into the world.",
+    "CensoredASM reported JEI suffix-tree writes after optimization from OpenComputers dynamic ingredients, with caught UnsupportedOperationException."
+  ],
+  "reopen": {
+    "case": "ntr-reopen-497-final",
+    "agentSha256": "e6a4aedaadb3c7a954ccc8309f1bab8095bcdaf9a41ca1ceaa8422b258e3c83b",
+    "librarySha256": "b9566abc085a3376c77899cc647770ac45760300c9c92cb56d5db4188accb156",
+    "status": "PASS",
+    "witnessEvents": [
+      {
+        "kind": "started",
+        "nativeRuntime": true,
+        "transformer": false,
+        "computerUse": false
+      },
+      {
+        "kind": "title",
+        "loaded": true
+      },
+      {
+        "kind": "window_title",
+        "phase": "title_screen",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "loaded_mod_sources",
+        "count": 144
+      },
+      {
+        "kind": "discovery_fixture",
+        "ordinaryLanFiltered": true,
+        "steamRows": 1,
+        "steamRowSource": "synthetic",
+        "worldTitle": true,
+        "launcherNickname": true,
+        "manualServerPersisted": true
+      },
+      {
+        "kind": "world_reopened",
+        "commands": false,
+        "mode": "SURVIVAL",
+        "playerDimension": 0
+      },
+      {
+        "kind": "window_title",
+        "phase": "world_before_steam",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "publication_failure_fixture",
+        "busyRelayTicket": true,
+        "nativePauseRetained": true,
+        "publishButtonRetained": true,
+        "stockFailureChat": true
+      },
+      {
+        "kind": "published",
+        "oneNativeAction": true,
+        "intermediateScreen": false,
+        "reports": true,
+        "reportsLabel": "Жалобы"
+      },
+      {
+        "kind": "permissions",
+        "nativePlayerList": true,
+        "hostDenied": true,
+        "syntheticGuestDenied": true,
+        "liveHostGameModeDenied": true,
+        "worldSetterDenied": true,
+        "grantSetterDenied": true
+      },
+      {
+        "kind": "registered_command_permissions",
+        "hostAllowed": {
+          "fly": false,
+          "gamemode": false,
+          "give": false,
+          "god": false,
+          "heal": false
+        }
+      },
+      {
+        "kind": "jei_give_permission",
+        "hostAllowed": false,
+        "entryPoint": "mezz.jei.util.CommandUtilServer.hasPermission",
+        "creativeGive": false
+      },
+      {
+        "kind": "chat",
+        "onePortOneAddressCopyInviteCloseAndColors": true,
+        "addressLabel": "Адрес Steam готов:"
+      },
+      {
+        "kind": "native_host_advertisement",
+        "suppressed": true
+      },
+      {
+        "kind": "window_title",
+        "phase": "world_after_steam",
+        "matches": true,
+        "nativeWindow": true,
+        "expected": "Nuclear Tech Reborn",
+        "actual": "Nuclear Tech Reborn"
+      },
+      {
+        "kind": "steam_metadata",
+        "lobbyReady": true,
+        "worldName": "LanMcSteamQa112NTR",
+        "launcherNickname": "LanMcPackQa"
+      },
+      {
+        "kind": "complete",
+        "worldSaved": true,
+        "worldReopened": true,
+        "steamHostChat": true,
+        "realSteamGuest": "NOT RUN"
+      }
+    ],
+    "exitCode": 0,
+    "stopReason": null
+  },
+  "reopenOutput": {
+    "levelDatSha256": "dd0d05b466e60663d1f615c9f50daa4b97fb41ed1a8584dc595fc939074c405c",
+    "betterQuesting": {
+      "file": "betterquesting/QuestDatabase.json",
+      "bytes": 1246854,
+      "questCount": 684,
+      "questLineCount": 17,
+      "sha256": "06ab60699460ca31e862249c42b153c7ce5d5c8e7582d7652c604f754a095de6",
+      "sameBytesAsAfterFirstSave": true
+    },
+    "playerDataFiles": 1
+  },
+  "harnessRetry": "The initial supplemental reopen attempt reached final-card title and stopped before opening the world because its test-only SRG field selected the LAN listener thread. The verified patch corrects that field. The final run reopened the same unchanged level.dat SHA256.",
+  "status": "PASS"
+}
