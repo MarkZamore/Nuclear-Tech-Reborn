@@ -7,16 +7,25 @@
 Из корня LANMinecraft укажите новый каталог `$stage` внутри принадлежащего задаче стенда с `RUN.json`.
 
 ```powershell
-python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source LocalSources/Nuclear-Tech-Reborn --output $stage --locked
+python -B LocalSources/Nuclear-Tech-Reborn/tools/skin-agent/prepare_release.py . stage --pack-source LocalSources/Nuclear-Tech-Reborn --output $stage --locked
 ```
 
 `tools/upstream-client-lock.json` закрепляет исходный ZIP и overrides. `tools/upstream-lock.json` добавляет исходные JAR, размеры, SHA256 и официальные источники. `tools/overlay.json` выключает в Universal Tweaks две функции меню, `LAN Server Properties` и `Toggle Cheats Button`, и устанавливает настройки журналирования для Forge 1.12.2. Остальные настройки автора, включая квесты, оформление и конфигурацию Simple Voice Chat, остаются побайтно сверяемыми.
 
 `tools/network-logging-proof.json` закрепляет проверку Forge 14.23.5.2859 и его Log4j 2.15.0 на Java 8. Сетевые исключения сохраняются со вложенными причинами, а обычный DEBUG-поток пакетов отфильтрован. Атрибуция и условия поставки находятся в [NOTICE.md](NOTICE.md).
 
+`lanminecraft/nuclear-legacy-skins.jar` передаёт скин лаунчера в Authlib
+1.5.25 на Java 8. Агент проверяет точный класс Authlib и разрешает локальный
+URL только после подстановки скина того же UUID из реестра. Для остальных
+профилей действуют штатные проверки подписи и домена. Агент собирается через
+`tools/skin-agent/Build-Bootstrap.ps1` с Adoptium 8u504, JDK 25.0.2 и
+закреплёнными исходниками LANMinecraft. Проверка
+`tools/skin-agent/Verify-LegacySkin.java` использует LaunchWrapper и настоящую
+Authlib. Состав и порядок загрузки MixinBooter сохраняются.
+
 ## Обновление автора
 
-Снимите `prepare.py --client-only` для нового официального file ID в отдельном каталоге. Сверьте новую квитанцию и выполните `release_overlay.py review-update`. Изменение входных байтов Universal Tweaks требует пересмотра двух точечных замен. После переноса рецепта заново сформируйте полный lock, снимите фактический список загруженных модов и повторите нативную проверку. Выполните `stage_release.py` и `release_overlay.py verify` по [инструкции инструментов](https://github.com/MarkZamore/LANMinecraft/blob/main/tools/PackData/CurseForge/README.md).
+Снимите `prepare.py --client-only` для нового официального file ID в отдельном каталоге. Сверьте новую квитанцию и выполните `tools/skin-agent/prepare_release.py <корень LANMinecraft> review-update`. Изменение входных байтов Universal Tweaks требует пересмотра двух точечных замен. После переноса рецепта заново сформируйте полный lock, снимите фактический список загруженных модов и повторите нативную проверку. Для упаковки и проверки используйте тот же инструмент с режимами `release` и `verify` и аргументами из [инструкции CurseForge](https://github.com/MarkZamore/LANMinecraft/blob/main/tools/PackData/CurseForge/README.md).
 
 На проверке создайте новый мир без команд и откройте его через Steam. Подтвердите возврат в игру одним нажатием, «Жалобы», сообщение с адресом и действиями Steam, запрет команд у хоста и тестового гостя и сохранение мира. Для повторного открытия используйте SHA256 `level.dat` после штатного выхода. Отдельно фиксируйте подключение настоящего второго аккаунта, если оно проверялось. Настройки конкретной сборки находятся здесь, общий Java 8 адаптер Steam остаётся в LANMinecraft.
 

@@ -7,11 +7,23 @@
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c",
-      "sizeBytes": 44
+      "sha256": "3b05c48d3515fea871eb45eeb29b4c30718a5bbcda92ab614dc437806ff4c855",
+      "sizeBytes": 93
     }
   ],
   "authorArchiveSha256": "070375a4d93bc1af9765ab5fefa6d8bf56cde5d0d1b548d64d34e3c6f442296c",
+  "bootstrap": {
+    "authlib": {
+      "version": "1.5.25",
+      "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
+      "sessionClassSha256": "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7"
+    },
+    "artifact": {
+      "path": "lanminecraft/nuclear-legacy-skins.jar",
+      "sha256": "83b62f54a64b57627737883b3ce79203e88331c368a6115783ec55a92ada0c42",
+      "sizeBytes": 16551
+    }
+  },
   "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",
   "patches": [
     {
