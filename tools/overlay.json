@@ -25,8 +25,8 @@
     },
     "artifact": {
       "path": "lanminecraft/nuclear-legacy-skins.jar",
-      "sha256": "83b62f54a64b57627737883b3ce79203e88331c368a6115783ec55a92ada0c42",
-      "sizeBytes": 16551
+      "sha256": "11322a2227b56375b5a4797c2d39d5d1ffdd62cc61dd291cec92d0d66de68a44",
+      "sizeBytes": 25463
     }
   },
   "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",
@@ -53,5 +53,2840 @@
       ]
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "bookLocalization": [
+    {
+      "path": "config/lanminecraft/nuclear-book-ru.tsv",
+      "inputs": {
+        "config/betterquesting/DefaultQuests.json": {
+          "sizeBytes": 1246801,
+          "sha256": "e9d2a1bf89066c22085496c2a33557b66728ff8547ce51d8551a677def974dcb"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/100.json": {
+          "sizeBytes": 11837,
+          "sha256": "5302af1b7a8205ba53ac1b0b8ed28ed05695ddfa0ddde3fdac363d90fac8dd58"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/26.json": {
+          "sizeBytes": 5089,
+          "sha256": "e6ef0bde19624cb7db1023d85ca5e8dcb5d3d320914b5fa69442ae6d5f4f7e1d"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/50.json": {
+          "sizeBytes": 4049,
+          "sha256": "0ad295f8803af50057ab5071116585e8e8da99ec09d038bfa0d3bd6ad860d567"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/56.json": {
+          "sizeBytes": 797,
+          "sha256": "72e0732a9091a9a5718d00345891cfaaa1f8fd112db1f44d461252c355485381"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/57.json": {
+          "sizeBytes": 845,
+          "sha256": "2a7f98289f83c54e46ff92378e14d0ce556c15d96b53a0a76b5fdca0cd00c491"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/62.json": {
+          "sizeBytes": 9866,
+          "sha256": "6720731159c51acd6be5b8135393bfaa4feeb1d9414e8c387eb4e0bbef151d7b"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/63.json": {
+          "sizeBytes": 7007,
+          "sha256": "d808a17e38608aecbc357a93207aebec9ca16b138ce2ddab22f9b76166dcaf8a"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/65.json": {
+          "sizeBytes": 1275,
+          "sha256": "9e24b6f148346e9dbd7854bfd3b90702a45fc3d2a7d0d6d034a01b82487a19f2"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/66.json": {
+          "sizeBytes": 4737,
+          "sha256": "bc551329259e55454c86993b079b4af1b389a343db45c8d8c27a13e8dc8acdd7"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/70.json": {
+          "sizeBytes": 1563,
+          "sha256": "74a4352b107b614f6002e9aa8bd11f0e42624d1fbff01d7dbafcf5a0c70d1769"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/71.json": {
+          "sizeBytes": 2742,
+          "sha256": "5078b26bc04d7de7408f0c13f6f61aef5252d47e412b19652d93649fd987e0fc"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/72.json": {
+          "sizeBytes": 1229,
+          "sha256": "9c3011ad07ff6d35526eabca856cae4572d8a9617ed6a8a91e914e3193c5a0d3"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/73.json": {
+          "sizeBytes": 8018,
+          "sha256": "939381f7c3a020e343185c0b76d93b0eef6f78a9ab6660382cc81443add59a5c"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/74.json": {
+          "sizeBytes": 9933,
+          "sha256": "8dc0b7b033d754f02766cfb121111e05e4dc06301b9bb7c98484898fa4c81bba"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/75.json": {
+          "sizeBytes": 5088,
+          "sha256": "7ed94ee2beac8af13b039e65b66c076f8d69cfce295ad6c692cdd74e767ca155"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/76.json": {
+          "sizeBytes": 11432,
+          "sha256": "e1a24c165c2c1bbedc0359ecda557bfccce1b51da1b7612529f375afc6efaa71"
+        },
+        "config/betterquesting/DefaultQuests/QuestLines/77.json": {
+          "sizeBytes": 5274,
+          "sha256": "ba4c68a09269b4562524b94ec532f7a90ff635578c0b6d4115c36fba7674e06a"
+        },
+        "config/betterquesting/DefaultQuests/QuestSettings.json": {
+          "sizeBytes": 224,
+          "sha256": "02b0a114fee442c3377b3e36cc0c48e564100632d9e8a63a7b47bb77f81e54b7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10000.json": {
+          "sizeBytes": 1229,
+          "sha256": "58e0c4833085c9c69c10776dedbffb4157283a2171458129e7785a5d271e6cf8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10001.json": {
+          "sizeBytes": 1302,
+          "sha256": "48b06fcdaebca1894c0313378f92891464429713cf7cc5384a7d7ba0d5498175"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10002.json": {
+          "sizeBytes": 1259,
+          "sha256": "17d85c4fbade9cfbfd0aa8f07917145058d205e7298f65dff95857ea982528db"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10003.json": {
+          "sizeBytes": 1245,
+          "sha256": "72268894d1dab169a59788621e91b92eed5d4ca455dab058c71e11f73761a14b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10004.json": {
+          "sizeBytes": 1346,
+          "sha256": "f95d1aaf3595fc9c79d35a3e6f2c516ec0fa699760f8b3ae5974f68f049bafd2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10005.json": {
+          "sizeBytes": 1237,
+          "sha256": "14a835cf6d8c7e7e5cbd23febf8db45160194ea7b68a49760e725c60f3c7f33d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10006.json": {
+          "sizeBytes": 1408,
+          "sha256": "a2f997e4820e5db3d789272c7d2c4bb2d9636f1406703d69430f818e66d38c5c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10007.json": {
+          "sizeBytes": 1271,
+          "sha256": "412d81d2883be87176bcfc12355ee9c61cae25afcde4fa655c03377ca305a25c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10008.json": {
+          "sizeBytes": 1292,
+          "sha256": "5ab0d4102e02db06a37fdbb06d733bee22f35cb15c76be7bd8faad4877655cce"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10009.json": {
+          "sizeBytes": 1198,
+          "sha256": "d7783abc9ee8b3d0ef1a3d176c36ef43a8b8da4edd83f1842c6da594345f2d11"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10010.json": {
+          "sizeBytes": 1245,
+          "sha256": "4dd0eaa07aba8e28bb5649a756d9ac6aedef93bbbef757da387541c8b3294a39"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10011.json": {
+          "sizeBytes": 1304,
+          "sha256": "c283ee381c4acde89f0a11ed6fdf9126e75541377ca9ef548aa9ec1ed1631411"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10012.json": {
+          "sizeBytes": 1402,
+          "sha256": "12ddbcfc37c8870bb24b3f4caa0ac4f56e762172e35d9990f43b5f08c800aaa8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10013.json": {
+          "sizeBytes": 1275,
+          "sha256": "57c954aec1676c7b1ce4bdf1c80eb24933d07c490f0d8b974d6b60a829f0641b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10014.json": {
+          "sizeBytes": 1303,
+          "sha256": "907c7bf5c74fb994fdeb300111a4c81b0a9cd0c692a551ba0db1d095aed0927d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10015.json": {
+          "sizeBytes": 1309,
+          "sha256": "802af48e4a9fb381329ee333075cd62a8264b6d24da216d8fecc3643977a4300"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10016.json": {
+          "sizeBytes": 1325,
+          "sha256": "3b6cd8c200f66e90c8d6f41e48a7bc9ba0308891ecc44fac5fffe07d4f3ef089"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10017.json": {
+          "sizeBytes": 1370,
+          "sha256": "ae8af3e54aa4d3744312ef01498bc7c0550296a7ac601724ae2ad355cea6ee6b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10018.json": {
+          "sizeBytes": 1296,
+          "sha256": "f8882b074ccb7665d3344a46256b653bdc8e095155d0617edcbbddd7a090a221"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10019.json": {
+          "sizeBytes": 1387,
+          "sha256": "699c12533228a13c190024f207accfa49d20014f2b34e8b46ca8665f0c8e4a0f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10020.json": {
+          "sizeBytes": 1382,
+          "sha256": "6c45f73179963757eff03a37763cb60cd43e4edc35d195904f93254476511e94"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10021.json": {
+          "sizeBytes": 1286,
+          "sha256": "dff8bdbc562909314f0de90564f65953bc4f8a2437e315bbff3c21fb021376ce"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10022.json": {
+          "sizeBytes": 1357,
+          "sha256": "a5ef5df22dd3c48e24cb413570087d9041d63042ac018cd6d05a872221dd0a65"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10023.json": {
+          "sizeBytes": 1272,
+          "sha256": "a84d1d05a1e078a3b1eac45ab6880f67aa1a292fc09c3382a06b4b15302e9a97"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10024.json": {
+          "sizeBytes": 1356,
+          "sha256": "677271340b2403dc7bf525568912da66edbc100494d68c038ea8b60f538c770d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10025.json": {
+          "sizeBytes": 1432,
+          "sha256": "59b6898dea882330dd94656058bec3b540796fb45a1592e01ce4bc4abe9839c7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10026.json": {
+          "sizeBytes": 1651,
+          "sha256": "e2362847d5ddbcdf1148993a0515625ac905f71c5e4c250221d826294abeeec3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10027.json": {
+          "sizeBytes": 1530,
+          "sha256": "8e69885a84e72e98354f8b662f13838458dfd12865f9c727f81a5df5b1dcb3ae"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10028.json": {
+          "sizeBytes": 1358,
+          "sha256": "675b9ba32162ab7bf6963a0efd0cbe0d4466fb713dbd0e9e2fab5e6e14fcb1b0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10029.json": {
+          "sizeBytes": 1570,
+          "sha256": "deb5be740b40cce493042a861081b8536b28744a41536b0eacac303483aa0bc0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10030.json": {
+          "sizeBytes": 1294,
+          "sha256": "f4dd490e865104abbddd5358b8dd33f5280a215d9e544f13a468e4b8e7006ca9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10031.json": {
+          "sizeBytes": 1176,
+          "sha256": "cd5409f43cd7397db857a82774cfb2f2a141e6ff999cca4dfceb7c3e1f2c4d4f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10032.json": {
+          "sizeBytes": 1213,
+          "sha256": "31c88b48189c649c2b02d84f29238d85475c80713200bd712f0b9f1fd1f7ff16"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10033.json": {
+          "sizeBytes": 1364,
+          "sha256": "fc794a519b4fea94ab287f6c0acdf34f41f3e21fc144910fd651cac726e34486"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10034.json": {
+          "sizeBytes": 1348,
+          "sha256": "35549ee824ab6ae07a46453a1781b8aec10356bf6e16ef04f6b53abe39fafcae"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10035.json": {
+          "sizeBytes": 1501,
+          "sha256": "b16e6c5f2d7fd565166a8ac1b86b61fa9036cc958f192e74b3f4802d48f8481d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10036.json": {
+          "sizeBytes": 1230,
+          "sha256": "c81e80ff59ab7bd53ae9a3582cd702420491266c655d2b88e303e9cdd09a1193"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10037.json": {
+          "sizeBytes": 1741,
+          "sha256": "a932db55e6da836c2d492ef838a4121d6506d0367e083165f253fbaae53b7b11"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10038.json": {
+          "sizeBytes": 1558,
+          "sha256": "3dcbc0d8b8b3c7b6fa8e8044629802858e755dadad35e5ae55103112fe9144e8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10039.json": {
+          "sizeBytes": 1397,
+          "sha256": "a1d72b20fb11c97860aa6318d62c72d17f3ebbfa9aba228d8dcaa31965ecdf67"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10040.json": {
+          "sizeBytes": 1537,
+          "sha256": "92cbad5f9b6bac4226a712110a65fa8c3aba60effdcb37a155e70d0694d9cfe2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10041.json": {
+          "sizeBytes": 1512,
+          "sha256": "07e7a9ada103f248ac0488a1185dc040496c544bab0ae57448338cf1d1821a25"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10042.json": {
+          "sizeBytes": 1816,
+          "sha256": "11697a0fa3077868ac2948e6af120760a6818536ed7e2cdaa8b498f74f735254"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10043.json": {
+          "sizeBytes": 2183,
+          "sha256": "2274879431050a3be3b3f63a8d0df737e587048cd54df0e24a129970aada6db7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10044.json": {
+          "sizeBytes": 1302,
+          "sha256": "4b9daec983f8e578d47df7efd33e778184270812bce6b6348bf6113b6290018f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10045.json": {
+          "sizeBytes": 1304,
+          "sha256": "f36b0fa0f56b0298bc6c8ec595ea1dabf13473e8cb7779dd3ec5303cb5b83744"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10046.json": {
+          "sizeBytes": 1841,
+          "sha256": "e0d80482861ba161340c0b42d0fabc7cfef586e979ce9c2b0cc0db5d58e25d71"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10047.json": {
+          "sizeBytes": 1414,
+          "sha256": "233e41e3044c916bfaae62a74024ebee9495b350de419b58c5b4e3e660cb839f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10048.json": {
+          "sizeBytes": 1317,
+          "sha256": "287c405b46b8913b0205f52b229b116efedfc69389cb50b767521ffa27f30d26"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10049.json": {
+          "sizeBytes": 1878,
+          "sha256": "002b74c2f2167766cb77de41aec7e25eb89a0608f845a9a64f600386e20e6059"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10050.json": {
+          "sizeBytes": 1446,
+          "sha256": "298bd715358818375c0b72d88411c954f39fa177a765a9d134f03163479ea1ab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10051.json": {
+          "sizeBytes": 1400,
+          "sha256": "2d6976ea773fe9c04dfdf16af31d301660f491768bb00fb6e58788c29e511370"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10052.json": {
+          "sizeBytes": 1167,
+          "sha256": "1d6e7c513194e2e885c4b748132b4c8410bd0e6fabf7ba71580304418ceef0c4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10053.json": {
+          "sizeBytes": 1387,
+          "sha256": "2f95a3630ef0c109c08bf3bb6f9ef3dfc4b0937bc62c0ee8926da8d536bfd9e1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10054.json": {
+          "sizeBytes": 1556,
+          "sha256": "2c765288edbe240f19ad60628e30a95a2482c5ada06a6f04aa2218a55dcc9595"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10055.json": {
+          "sizeBytes": 1371,
+          "sha256": "cde37fe124be8bcd489f0248f1cba2723eb97cb7775412da9a26fef6428d3258"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10056.json": {
+          "sizeBytes": 1358,
+          "sha256": "67de1b668de1e34f7872c6a17f8d1bd580b632a7779414c99f1d8d4f25ff1065"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10057.json": {
+          "sizeBytes": 1381,
+          "sha256": "9c97efbf263d42cd5bbc13f9bb78bbe7a6ef901fed08ea0717caab0e56b6c60d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10058.json": {
+          "sizeBytes": 1467,
+          "sha256": "480f923ae4bb49fd89d3ba4e376285835766cf80142dbba9e580ff470e3cd23f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10059.json": {
+          "sizeBytes": 1299,
+          "sha256": "46d624f2c7ae47fddae1124547a4bbcaacd8ce275d7506434a062b2def2f73ea"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10060.json": {
+          "sizeBytes": 1462,
+          "sha256": "36771e60f37850a7f7590aa128148ddce4ed15b2c5722994ecdfa67514eab690"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10061.json": {
+          "sizeBytes": 1346,
+          "sha256": "c4bd0498e35faae6e8f60eb26c171149079e764073ead08d331cec8ba6b7f11a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10062.json": {
+          "sizeBytes": 1500,
+          "sha256": "9fa44bd1b241a93389e182a16a8f06e673c8e61117e2f8418dbcf61bee5166ce"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10063.json": {
+          "sizeBytes": 1315,
+          "sha256": "65b559c3e3a396064ab17368a3feb1f58964d321e485cb8bcd0997201395e669"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10064.json": {
+          "sizeBytes": 1293,
+          "sha256": "3c106b121e6622de66003237412954ed924dc0fd1297b5e935993bee487aebcf"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10065.json": {
+          "sizeBytes": 1500,
+          "sha256": "991235aa2224fb573b0d9348261832dd1afaaf0e331039357588ee1b0912a898"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10066.json": {
+          "sizeBytes": 1337,
+          "sha256": "77c2c048e4583bcb7b4938874aea855a756e37884029be66e3815038965a83bc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10067.json": {
+          "sizeBytes": 1423,
+          "sha256": "0b590b293d65f7c15f1dbb1273a4ddbf4c1509015900b9f6376ae1a4212553e1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10068.json": {
+          "sizeBytes": 1393,
+          "sha256": "d816da744de12785e9006f5c5e0805ff3afaab048e1f7d3f0a3ff1fb2918e5a1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10069.json": {
+          "sizeBytes": 1357,
+          "sha256": "1815e9a25ae791d67749805459411cbc366fa4a9c3796cc954ebbe06b73d07cc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10070.json": {
+          "sizeBytes": 1367,
+          "sha256": "0b808a9b4bcf80ab2c143cfee3b8e6b136a95cc68723e84a8e6b05ef7d9b878e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10071.json": {
+          "sizeBytes": 1343,
+          "sha256": "89f5e7e6b093001a25fa63725964f5ac110766179ce74f4e032591a2e61f0bc1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10072.json": {
+          "sizeBytes": 1354,
+          "sha256": "e4a9212057e016c9bb49d57d7f4514f05f2ee7fd1fdafb8a73c3bbf8e9c97975"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10073.json": {
+          "sizeBytes": 1449,
+          "sha256": "309dd6dfcc7e3ea97b51353e74843847684be68fb5d0021824b13a022cd3495e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10074.json": {
+          "sizeBytes": 1481,
+          "sha256": "819513ed108b9a08a8ef00d11601f9b741a351f011347dc2483c64071c0ddf0b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10075.json": {
+          "sizeBytes": 1305,
+          "sha256": "041862931f1fa65a94017b3ab4d7a2d3f8ab78ced172da224856d0af57f341db"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10076.json": {
+          "sizeBytes": 1341,
+          "sha256": "0df71fd94cd1ba79874e444f2b2de7eff2bd38f61d2b7a9d471db5c859425900"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10077.json": {
+          "sizeBytes": 1385,
+          "sha256": "1cf2819b4a69f7f05213c38ca73b3eed92bb4d24827d59ff495981a0461d7983"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10078.json": {
+          "sizeBytes": 1350,
+          "sha256": "5e93742d99181d5d3c60448a6774ebad662c4861b47d0b7a687510889856025d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10079.json": {
+          "sizeBytes": 1468,
+          "sha256": "bad2a13983578949a6fd3826e6cd779aafb5b06c70be8299245522ed3a85c0ad"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10080.json": {
+          "sizeBytes": 1292,
+          "sha256": "ff5c9af45ac06b9eaacff6368b552773c3a52b33e3c492e0bf097ac969cac593"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10081.json": {
+          "sizeBytes": 1574,
+          "sha256": "6a404df4585502fe9a44ae72e5d662031558604dfce8fd0ff76ff2aa5c50e87c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10082.json": {
+          "sizeBytes": 1564,
+          "sha256": "5a09795fb26ab142496113dada13556d312c70ae2a8ae3a5c1ac0cee620abf9d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10083.json": {
+          "sizeBytes": 1389,
+          "sha256": "70d8991168b59fb7465cdfb203dbb7c65eb52290db8b350dd88b5090d119b61a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10084.json": {
+          "sizeBytes": 1360,
+          "sha256": "d6e8ac1633d662392f35d492e0e1886d8e1c913dc32ca9512605479e1ff29b8f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10085.json": {
+          "sizeBytes": 1396,
+          "sha256": "d8d95300431f15bb15a14a0658b82b007ece72f6a7e0d33d085c5c529b0cf428"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10086.json": {
+          "sizeBytes": 1885,
+          "sha256": "d40c24f669d7a43f8f528f40f3426d9e996f27d5ee7371829c3b0bc5c4f82b20"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10087.json": {
+          "sizeBytes": 1190,
+          "sha256": "0ca53bb36a5788453aad2945436723d741c2ba41aeb7ac2cf2e17b634c80fa6f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10088.json": {
+          "sizeBytes": 1234,
+          "sha256": "7986e6adecbe13368023a7b9c187b7243b764b581014acc4c0f00a7d82d9709c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10089.json": {
+          "sizeBytes": 1282,
+          "sha256": "0c4fd3faca2a4a3ab9ac6f77d4c58ab81810dc1c4fb9627ccda1335a7cf6d827"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10090.json": {
+          "sizeBytes": 1362,
+          "sha256": "cfb56c0ba09b5eeb5912fe272cc385bf6f68e7c6141389c07c7108e155e5fc2a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10091.json": {
+          "sizeBytes": 1503,
+          "sha256": "a079b77b983003f21677754787ba3e547d799677f86e54a20fef5ab246b0daed"
+        },
+        "config/betterquesting/DefaultQuests/Quests/100/10092.json": {
+          "sizeBytes": 1402,
+          "sha256": "aaf4a21b7b038eb5c121fe4e42c67e5c4635e95b8ca61d9e6e411656c2612ebd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/409.json": {
+          "sizeBytes": 1515,
+          "sha256": "1ae955b09caf9b1458ed3a43336b2f90fde07bb8411a88721486637a13c96df5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/413.json": {
+          "sizeBytes": 1480,
+          "sha256": "722083d809919be97ba864fbfd5a17b87b01037f23b4ba302d68ae405c4e2240"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/414.json": {
+          "sizeBytes": 1179,
+          "sha256": "92d39a949cd7444fe2533451a06adf347813d29c5d20b58799f01049c30249a8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/415.json": {
+          "sizeBytes": 1205,
+          "sha256": "89bd49222922dd3dbd6acd59d037e65dc579cf6e3db6a0aa98b5ac13d718b8aa"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/416.json": {
+          "sizeBytes": 1330,
+          "sha256": "e4a85102d54bc19b3b9de55f9cfb7f6fe2d0fac38f84c6153a19597ef63c0927"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/417.json": {
+          "sizeBytes": 1376,
+          "sha256": "478604cfe4f873ae38c890359f22042a6ab8458a5462ef4d881f04e26bc68288"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/418.json": {
+          "sizeBytes": 1420,
+          "sha256": "b9cb2c9bf83e18e6c3fae3d980b3a4e4d52eebb976ee1773dbda8a3c19dfe13a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/424.json": {
+          "sizeBytes": 1306,
+          "sha256": "edb7631cf9c73bb5dc4f2706bed6e405236580f4a5f753fa612ae6fe5ad0085a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/425.json": {
+          "sizeBytes": 1295,
+          "sha256": "6b0e8163a1563ef1a061eebdd3db1af912501e1fbdf24061ee512850f2d7dd07"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/427.json": {
+          "sizeBytes": 1883,
+          "sha256": "b9a26e12f0ec34b5650ad10354d78307b419d83e1c54832a70c8cd531968a48b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/429.json": {
+          "sizeBytes": 1451,
+          "sha256": "8108baa70250d62ad181f4c50d4cdb8aba8c454457cc71f5e7d70e61a36bf64e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/430.json": {
+          "sizeBytes": 1333,
+          "sha256": "ab15fc01bb3b1fcf13b9eac9f7fc70c47c80f4590671598d70f9a5bc39ab2b28"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/431.json": {
+          "sizeBytes": 1202,
+          "sha256": "80666065482e3676fdb219c137e693fc896b689a15e187163156ab2036c4bd78"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/436.json": {
+          "sizeBytes": 1449,
+          "sha256": "4ddb6d0c947d081274f3aa5c1d71a6ef953b12f78bcaf607e2fc8be78dcc7a9a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/437.json": {
+          "sizeBytes": 1361,
+          "sha256": "1806d7a46cabd8fd67f20c49633dbdd871502802bb687bb55c990093eefd7fc8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/439.json": {
+          "sizeBytes": 1611,
+          "sha256": "fdd319a7130f57ecad55ad63ad3ff02820ca7645f0dd1e7c48c933d0153ac0ab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/440.json": {
+          "sizeBytes": 1549,
+          "sha256": "1c1a58fbe4943e00639610df183744eedc176ae7d822263473159ddce614ca00"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/441.json": {
+          "sizeBytes": 1243,
+          "sha256": "6456cfb5dea607469b9c7ee5315c12578ccca16cf28cedede3ece4fe20f70bc1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/444.json": {
+          "sizeBytes": 1327,
+          "sha256": "5ab3b8c5264f5e00d49e74e804a010281360d332cce2c18cd65e6000f660905f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/446.json": {
+          "sizeBytes": 1390,
+          "sha256": "11321e6131395911e0f43c5d4940927fe643e31a6f43ba2852ab160f35dacea2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/447.json": {
+          "sizeBytes": 1373,
+          "sha256": "4436345c9fc74ad137c6376e02e0a7b1f9e3d36d2dc03590901c7d9bdb52d41a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/448.json": {
+          "sizeBytes": 1313,
+          "sha256": "796d76567d1451567d244e5394ce1b40c3a68c660a3ae7cfcbfc81a436b6d3a9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/456.json": {
+          "sizeBytes": 1348,
+          "sha256": "2b7e55696b691615beb2f10ae847be7eefec006a0440bda1445a0f51495aab2d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/457.json": {
+          "sizeBytes": 1281,
+          "sha256": "8f0ec9e67e6fc9539cb012863626e18a492aae07214d3d29f5f39525129c07d1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/460.json": {
+          "sizeBytes": 1335,
+          "sha256": "d58ee110eba36d301f53556f97d2a558d45d2c83aa2697d9930c84d802064857"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/461.json": {
+          "sizeBytes": 1022,
+          "sha256": "764164bdc068231993058ae0201f273d10740b70627e49d3eb860aa38f62cfb7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/463.json": {
+          "sizeBytes": 1379,
+          "sha256": "ef42125241b6c7fd3dfb972ba5ace1f15eb8b20340a1cd7ae6db8ab07ed99260"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/465.json": {
+          "sizeBytes": 1406,
+          "sha256": "f27b630488ab309cc3543a99a5edd8c9a48cbdbbf4ff6b1736abcf3ccccf9cb2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/472.json": {
+          "sizeBytes": 1355,
+          "sha256": "ee1383cb92c35c64de438125bf7df5e0e220f864878f62436c17da555f7ec259"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/474.json": {
+          "sizeBytes": 1324,
+          "sha256": "675e9c05cfdf468990cc7ba35d19e836300bfea00a45f00655a8f0240da23e64"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/475.json": {
+          "sizeBytes": 1331,
+          "sha256": "a9762e23a24b04de5b82afa2e7c980e388d1f24438897d71df942eb7e4cac5b5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/476.json": {
+          "sizeBytes": 1356,
+          "sha256": "0d29b644ce2a7aa841b83f6aba12678f6fe277694079b0772efbad02fa0f2ca2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/477.json": {
+          "sizeBytes": 1719,
+          "sha256": "d3666fa3d3db24c6371f33bcb2932a789822a81f76bace9985c815a31862c6aa"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/478.json": {
+          "sizeBytes": 1635,
+          "sha256": "bb4a37f364cb763eb135073fe7d6e2c6f558f0457ea75360d06088df493579c1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/482.json": {
+          "sizeBytes": 1358,
+          "sha256": "dabe42c858c62822ba25b47611ea334b9363146339283252193b1d85ee998ed3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/483.json": {
+          "sizeBytes": 1616,
+          "sha256": "288e6ff584ca47c86da8cd9af5c5a29a3c54c00db1fa6ef751490f1f086774a7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/484.json": {
+          "sizeBytes": 1300,
+          "sha256": "ac4c383d40029688cb1cc00dfb7f69bb0694043762bf8d3c61f1f76bbc8f8c34"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/485.json": {
+          "sizeBytes": 2343,
+          "sha256": "e2df5e1aa24134439a279d2b7b68fc4cbc59d267c8f1748258c686d80abfafc5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/486.json": {
+          "sizeBytes": 1331,
+          "sha256": "8c82563266b08f73f51767817f0a9a34ee2bf3dbc3fa147c0e85474ad61faf6c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/487.json": {
+          "sizeBytes": 1468,
+          "sha256": "cb0baebf03ad1fc24d3dba07623af272cd8f2aa960c61796fbe89e0fa30b6ac2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/26/488.json": {
+          "sizeBytes": 1337,
+          "sha256": "dc65d2f18634bdad97a271e3f49794055633aaa5cad9f07d69629b8d372cb347"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/20000.json": {
+          "sizeBytes": 1428,
+          "sha256": "77bdd9b65c8fcd32b5909051fabe59f21fb59fcf9696c4aa42a5389fdab23f67"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/20001.json": {
+          "sizeBytes": 1409,
+          "sha256": "6d2dc619e96f0537421a80a7a7b6e18c306ef4dfe5849ad1caa5d1344b2d5706"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/20002.json": {
+          "sizeBytes": 1313,
+          "sha256": "e76af480a42612aa2d21b5adb4b09ebfeda2995fd62e9663385f773374ffd95a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/20003.json": {
+          "sizeBytes": 1414,
+          "sha256": "1161b963f690942bcba21ee5e1c2753078bc1bd6c815ef618fc3103283e0978f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30220.json": {
+          "sizeBytes": 1386,
+          "sha256": "d0687c79be8e191aa168240009e1d4be089bab6d76ade312c6aa320b3ded8d57"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30221.json": {
+          "sizeBytes": 1386,
+          "sha256": "4d182bc76687b5130424d55e082d6f940859b04444e0456aceb3d7cc95f42b33"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30222.json": {
+          "sizeBytes": 1357,
+          "sha256": "bd8b5c08f9bd8f85e983b5beb6ee836e8b1760e8640dd6a2990d2fd126b2d00b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30223.json": {
+          "sizeBytes": 1393,
+          "sha256": "51d411ca646d60a4205f808a3c878444345c80a5e606d164fd0712068174cea2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30224.json": {
+          "sizeBytes": 1262,
+          "sha256": "ccf1496e67b3fe3d6edcb2c140ebda4e73999007b1bb248b2ed386768f867621"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30225.json": {
+          "sizeBytes": 1165,
+          "sha256": "017f306021f79ca5bebfab9ac52a758d4e6ef7baa9facd68a0fcd0f9f945fe71"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30226.json": {
+          "sizeBytes": 1379,
+          "sha256": "b00abfdbef3aaad0051db40f0a6965e777d47fefe7626131ceb25032a69fbd73"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30227.json": {
+          "sizeBytes": 1320,
+          "sha256": "55d7ca8d0fca8076884b9fe9f5d6c772cc17862768f6226121565f9f4b2216bf"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30228.json": {
+          "sizeBytes": 1464,
+          "sha256": "259d74e5f4c0371ce065089fd6de09cb4b594cc0fbee0471423a796c7094216d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30229.json": {
+          "sizeBytes": 1312,
+          "sha256": "679e71d6a617a5a4b0d47670fecacd88f78f083c1294bdd84ac2a9f97ea28862"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30230.json": {
+          "sizeBytes": 1330,
+          "sha256": "e2130ab3a16c77827c95216de7563421b86ad92afc4d53968bfb4b44e5718519"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30231.json": {
+          "sizeBytes": 1294,
+          "sha256": "6a53a595febc71d366be27a610fea707cfe22a06f17edd8970645a7227f99699"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30232.json": {
+          "sizeBytes": 1333,
+          "sha256": "b76a3117803ca06f86334bf382ccaec049c25c92fdb7fd930ad96d0537a7ed7e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30233.json": {
+          "sizeBytes": 1380,
+          "sha256": "a2cef13bfdeb4a538ce7a0329d2eadb340100110f64c18343b4e23349fac2029"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30234.json": {
+          "sizeBytes": 1572,
+          "sha256": "11aeac6a3050c4f915f1a6df16322d032c2fdd791653129d0e2efd35eba48125"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30235.json": {
+          "sizeBytes": 1489,
+          "sha256": "5f9fbd6f0fc12f393132541d48006eb3607ee8985fed790f58bf713843b92185"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30236.json": {
+          "sizeBytes": 1260,
+          "sha256": "7da385b39c8f6e5cf1ed00fde539573687c6b7b5538c473d48bae4a41913cfd3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30237.json": {
+          "sizeBytes": 1510,
+          "sha256": "5a4b909678c072412097a0c56b61114ac1f0a9e336f8a51a458ecb89f527f30a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30238.json": {
+          "sizeBytes": 1291,
+          "sha256": "e5cdd793c36add26873510205f3528e1d50d09382b9813ecd82bac8baf3d9b18"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30252.json": {
+          "sizeBytes": 1950,
+          "sha256": "b7a4bf74da8c522e454011917a5a5b3216beb61d6963c5ddd7e19a74e87a0b09"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30253.json": {
+          "sizeBytes": 1770,
+          "sha256": "23f83693b4f9bac2ab10cb8d61127c1a4ecb095ee5913a5fb4824bb9635860c0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30254.json": {
+          "sizeBytes": 1690,
+          "sha256": "83aeb70d3c22030b82e366ca5ee33e1e4edc4dc38ba211973fab15295dc63143"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30268.json": {
+          "sizeBytes": 1567,
+          "sha256": "b0a7142f31951b8c869786c965824f8819284b44c880706e4470ad8f3108cbf9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/50/30269.json": {
+          "sizeBytes": 1675,
+          "sha256": "3b608dffc0a6835ce93a6d760344521af9eea6e3b38d37b049326bfa04e232b9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/56/30258.json": {
+          "sizeBytes": 1756,
+          "sha256": "26916b19880992c58e91aae5fe868a1ef1b3d0382c571c5f81a668b41757b298"
+        },
+        "config/betterquesting/DefaultQuests/Quests/56/30259.json": {
+          "sizeBytes": 1816,
+          "sha256": "45b2726d8cc6bc50d3108f89b6439f7dd7acda26cec69f4f1d9af93c34cddff8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/57/30260.json": {
+          "sizeBytes": 1730,
+          "sha256": "e4f9e3b5ead666f547fdd4ac795613b9c69b81dc272d23b1819e218e915912d1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/57/30261.json": {
+          "sizeBytes": 1949,
+          "sha256": "c70398815c06ea5247fd3ac3445dcef4f40aefc64b08552a5b095d87d63cc33b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30140.json": {
+          "sizeBytes": 1231,
+          "sha256": "a8f0d298b2b1b56921e7b2f3240413a8ae329051fa2fe5dac190c40991d5805e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30141.json": {
+          "sizeBytes": 1288,
+          "sha256": "3afe5f357cb179aaf9e4695012b46361b50ca74f46d517cdea5a86671562b2c6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30142.json": {
+          "sizeBytes": 1238,
+          "sha256": "6b4a4f34e35a6e9d4f5f29f62e7cad318b31e057abae5541d1189982ea3067b8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30143.json": {
+          "sizeBytes": 1201,
+          "sha256": "97c549bddb34ecd2bae65ce9c3a8e754ffdf9e57ec32021904e8b3146e79b606"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30144.json": {
+          "sizeBytes": 1660,
+          "sha256": "b8db528d5a84c6a7063d9cd932ab5b379a7f72d6d9999cfafbdcc7432ed6a9c3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30145.json": {
+          "sizeBytes": 1323,
+          "sha256": "79927bc3e280e3af52f1e47851967828dcca45f3eda874f452e76ea9a84387f4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30146.json": {
+          "sizeBytes": 1233,
+          "sha256": "5a827557202bea618ee4a6f653bf3c721846e121d3c7f09ee466437c72a77799"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30147.json": {
+          "sizeBytes": 1330,
+          "sha256": "80871e6632962f8624a8eb6dcf743f1067b87615b5289d6403149a059c0dd3e4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30148.json": {
+          "sizeBytes": 1744,
+          "sha256": "80e57c2c1c8e7b7687d2c90a8aed8cf92f1fe3a59ea6967594c91887b8993004"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30149.json": {
+          "sizeBytes": 2194,
+          "sha256": "9822c774cde9ed4f787cbbadc44603b97daf66b517cd539f1d2e61274415432a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30150.json": {
+          "sizeBytes": 1407,
+          "sha256": "7335d8818c4b174a3a942570acc4c60b9cd0790c06808327c8751c7c59587cef"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30151.json": {
+          "sizeBytes": 1314,
+          "sha256": "1743a8eaf53683a32c358f997082b5090bb6efa20110828892b75471678cf43c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30152.json": {
+          "sizeBytes": 1322,
+          "sha256": "bb8d927eb4a3212f0feddfe04b7fe2d6c2716fb217d680fe35b76ccc8676986a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30153.json": {
+          "sizeBytes": 1356,
+          "sha256": "e1bc1e54a385b6322b679cf295f740dc62b20b3a8611c7d70f540b5ac13d9a96"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30154.json": {
+          "sizeBytes": 1245,
+          "sha256": "a9b98788e067ac445032e9449e20873ddcced777e0342886447536b7c4988527"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30155.json": {
+          "sizeBytes": 1398,
+          "sha256": "c5f78ac88ab8c3fe2cd38e6703f917964e8e00afdb3e8afdf80192dd79192ed3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30156.json": {
+          "sizeBytes": 1271,
+          "sha256": "f55244fce3eb1374ada8cab9909b13515a839c8e2a167780c383ddd2028a0dee"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30157.json": {
+          "sizeBytes": 1324,
+          "sha256": "307e9ca6af3fd6f923a42d24b54b10080ce3b2a4b43b0ed1b4dbfa41b82db6f1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30158.json": {
+          "sizeBytes": 1285,
+          "sha256": "e8fbab400c70fd56379779852a30b08476b6e29f968da1871c7c634384095a56"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30159.json": {
+          "sizeBytes": 1321,
+          "sha256": "82814096e2f998415dad79b833b4edc3d62614e484a28d5b9fe514f2f1594011"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30160.json": {
+          "sizeBytes": 1254,
+          "sha256": "1b9cef230ad392d824b996d6ae2a2cd6eb45a4679c7ab1298f9a3187875855e5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30161.json": {
+          "sizeBytes": 1208,
+          "sha256": "20384725d243e095cc5b5efd7d0829d57f1275a76c53dbc9869da529a092737c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30162.json": {
+          "sizeBytes": 1221,
+          "sha256": "2c5dad290a355acba97fe2aeaff729659436383cd9a0da167e64592341c4e1bd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30163.json": {
+          "sizeBytes": 1672,
+          "sha256": "fc5ef998dc6cc22b5b878d88cc02e54ea68a13aa8dc9b48006f27cc98af7041f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30164.json": {
+          "sizeBytes": 1632,
+          "sha256": "527547c79604084ee89ca5a01fecd1c2dcd1c4cda57d26248a5f7a0363e8f297"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30165.json": {
+          "sizeBytes": 1653,
+          "sha256": "c2247f6b1b9704a4d2ee9ed2a883ff9bb7a63a802a7c08317418f5119be84e39"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30166.json": {
+          "sizeBytes": 1563,
+          "sha256": "e76feb499c80d262f4a65077723fb21ea75ef7f3e9786481debf0436ba093719"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30167.json": {
+          "sizeBytes": 1636,
+          "sha256": "d277c1e486fd0385bae8ae282ba9f0dea03007544eafb1b48d1c90a1b4a12c52"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30168.json": {
+          "sizeBytes": 1651,
+          "sha256": "4be7c8ff90b33ce502af559f737f011cc4f55da00f3cb2f904b4e3fa80b447ff"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30169.json": {
+          "sizeBytes": 1308,
+          "sha256": "aea09277b159c80f3eaceaf36e18ca3378651e4f4982cadf675756031997612f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30170.json": {
+          "sizeBytes": 1252,
+          "sha256": "e0153c1598091aedbce288067dc70ffac141ff0705c6605c8212a8cb4752e484"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30171.json": {
+          "sizeBytes": 1256,
+          "sha256": "4dafacc9d0d35a59ef0ae300407ba05ecc7708e9ccfde6977ca63c56f2b3c9e6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30172.json": {
+          "sizeBytes": 1325,
+          "sha256": "59e75082e99d4699b4eff52defaaed709424ff75e11e8445978fdf97303a2ec4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30173.json": {
+          "sizeBytes": 1253,
+          "sha256": "b77857aae592dce3f4601890ff2cb4e0da42cbb1b464cf70d29f592f08f6883c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30174.json": {
+          "sizeBytes": 1258,
+          "sha256": "b37d0b6ffe07724db41cf5f3d08965f09854dedaf8c65d55de3dcb7722998784"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30175.json": {
+          "sizeBytes": 1283,
+          "sha256": "c75ff72dda8f0169b0a78cb10f8368145d5d29769edc267f14bf3291993dee75"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30176.json": {
+          "sizeBytes": 1263,
+          "sha256": "0966a2c7c7ad8893d723de79fb3dd8f7f5f993fd44dddf52687607687dc5c4fe"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30177.json": {
+          "sizeBytes": 1221,
+          "sha256": "81e29f12881b2ca5228555b2fce4da146687601885460ee402183467d60ef938"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30178.json": {
+          "sizeBytes": 1317,
+          "sha256": "9c62749afa85ae528f010ab1ff53fb7fafe29501a2bfe177a2d1bb548dcc223f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30179.json": {
+          "sizeBytes": 1334,
+          "sha256": "7d8b3fff168e04264d2c6fe664cb47862834357a663e7ef97c9e24ebcb2d7e82"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30180.json": {
+          "sizeBytes": 1405,
+          "sha256": "8874b878b45a2596f7c7e6395e6934f075466724d37e352886875076b4ca409d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30181.json": {
+          "sizeBytes": 2041,
+          "sha256": "a06cd0be6106013fdba46392b17072a3ecd1862d8c4f48213dddc8b7cac39531"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30182.json": {
+          "sizeBytes": 1731,
+          "sha256": "f514d65dafb8ff09a67ccb379d2da1142e20e4090e9f1be9e6306f25a3350288"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30183.json": {
+          "sizeBytes": 1476,
+          "sha256": "d58ba67f652ed34f2d44263493b66c46716158f85bb4d34dc178622826cddc90"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30184.json": {
+          "sizeBytes": 1501,
+          "sha256": "7d32cd3ca71433cad7b483456449d3c7d97c95ae33eff9773d3d89100fe58a2b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30185.json": {
+          "sizeBytes": 1308,
+          "sha256": "96f56bd50868afec743692e5aa4314c6e28f46ba13be80817d0baae66e6c19bd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30186.json": {
+          "sizeBytes": 1207,
+          "sha256": "43ab02cbd56ac073284078390c272491e17f9db720ba6545cb50baab6d0d2875"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30187.json": {
+          "sizeBytes": 1365,
+          "sha256": "e21b9443d894ae84bc5b610192599fabb469ce417092e01e064d2294a696359a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30188.json": {
+          "sizeBytes": 1583,
+          "sha256": "278b08cb5d8a81036b80e24f6084c83816d01ed384665cee1fd0089578f73181"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30189.json": {
+          "sizeBytes": 1332,
+          "sha256": "488f3682b0c13069c1474df94af3cd4af270d18cee2912c0cbdc236fb1ec52b3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30190.json": {
+          "sizeBytes": 1347,
+          "sha256": "1f3d1efc018982f6ce8cf32ea42c47a55e524ecf476287f2707bea7149f99aee"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30191.json": {
+          "sizeBytes": 1386,
+          "sha256": "414510d5aad92ab21ca62c6f647bd333ada9f53be95b820a32257b485f3c3e05"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30192.json": {
+          "sizeBytes": 1669,
+          "sha256": "3278eda2f5102a523e8e7ff08060119cf4ed2f5e32c83a309f682f4ae49b9bae"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30193.json": {
+          "sizeBytes": 1354,
+          "sha256": "35047f2734bee034b27fc2d81f5a00ee87ceb1803aa2a14428e47cc4bc49e801"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30194.json": {
+          "sizeBytes": 1363,
+          "sha256": "9210e45261c6ad91656a5c44404f21382db75a0d215f279841fab7b69cb5bee3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30195.json": {
+          "sizeBytes": 1940,
+          "sha256": "2ade10b5412b9432d14efc20b948407586166220b06caf5b0266972ad5fdb4c7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30196.json": {
+          "sizeBytes": 1276,
+          "sha256": "f249da786d13da14b654208050f34a9a57e7412913a90c901570d600028c736c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30197.json": {
+          "sizeBytes": 1302,
+          "sha256": "e64e0b0de6f5cc9d19321e27b24711d4297a470216d33eb62d212d461f720718"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30198.json": {
+          "sizeBytes": 1397,
+          "sha256": "3d0cb03df7e1ca6a6779e647b95d2c77080574112e07666c0279903f95dcc0dc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30199.json": {
+          "sizeBytes": 1518,
+          "sha256": "c3353d68e5db78afd016b2381081a884a5017205234bef173bd38beea5e817b2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30200.json": {
+          "sizeBytes": 2080,
+          "sha256": "01d9c76202164a80a796064e51dfb282db28205927a646bc0beffeb461a83278"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30201.json": {
+          "sizeBytes": 2035,
+          "sha256": "413fe79586bdc7b02c67e824b50ec4a44bb7fbe4c2c67e9ae982b860f585c04b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30202.json": {
+          "sizeBytes": 1375,
+          "sha256": "578ee5805286de42d95f498b7b81ca5243ca10c0a67195e793de4d0d9a74dfd9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30203.json": {
+          "sizeBytes": 1351,
+          "sha256": "d5a9324dabc6eb9a44c56cf32d10fe20ead4099f3268fef536f95eb6e99f2387"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30204.json": {
+          "sizeBytes": 1301,
+          "sha256": "6ce9e9c39efc6ab65fd45055fa8e21b8e22a7a40f390b3e52e1ac496676a2c9b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30205.json": {
+          "sizeBytes": 1267,
+          "sha256": "00e7482ef1e58b8c7c79264d12e5666ce830315c7bfb7a20f367053bdeac9272"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30206.json": {
+          "sizeBytes": 1330,
+          "sha256": "7c973331a276377f8caa2f9faffe63958224c3867f3074a45bd10918313caa02"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30207.json": {
+          "sizeBytes": 1226,
+          "sha256": "b136b12ecfa08bc57d828794011c88988e958f290db6456325678611f02e3c9d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30208.json": {
+          "sizeBytes": 1306,
+          "sha256": "04363a168753aea9d5eca28cde605a6974b4b1ee7d68df7dc85bcb5baa161007"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30209.json": {
+          "sizeBytes": 1230,
+          "sha256": "34a6695e2f9eb3251d6601356becf366e2fe7e031cee6911e4ed6f2979d53269"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30210.json": {
+          "sizeBytes": 3016,
+          "sha256": "35d152b1912f8b501dea49f48b16d264da76046d72bda639cb7c89c9177a6272"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30211.json": {
+          "sizeBytes": 2576,
+          "sha256": "4fd3a0f06fab1b1051eef18c2863c36b8a7f39a65d4e8923d9b0e4eb9fd83acb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30212.json": {
+          "sizeBytes": 1619,
+          "sha256": "535fc76a3d56b34466c2df0fec12e8c0dca79ccd2b364029a6ace7aa3fa6e125"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30213.json": {
+          "sizeBytes": 2437,
+          "sha256": "4b9f8e870195721ad368eac2a4572d50e554d19cdcc76d7ee00dd016ed21ab85"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30214.json": {
+          "sizeBytes": 1369,
+          "sha256": "49177ff77d4b94e735a00b392336b9a40abde0fba2970a0a81dd651e2e38dc7f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30215.json": {
+          "sizeBytes": 1639,
+          "sha256": "d00bbf0816a7f2c8dcd0a065e35f534b2aafee38ae66592b665f616a3c3837bb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30216.json": {
+          "sizeBytes": 1226,
+          "sha256": "aa10df79626db3dfee4259e599bfef8f759d0217b418fab9ce2c820dd9ac291f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30217.json": {
+          "sizeBytes": 1232,
+          "sha256": "cae5c330fd5152138109f71e2c3fb79ef487b9f489f85309859f8b131f705057"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30218.json": {
+          "sizeBytes": 1318,
+          "sha256": "33bccc5cb409487f2992ca1228c1f536d6c01e665661f9c522984d2e8c0d4393"
+        },
+        "config/betterquesting/DefaultQuests/Quests/62/30219.json": {
+          "sizeBytes": 1253,
+          "sha256": "af50aa6a2d3b029fe674cd46f7012dacd8f702ae597c07c34c13cab0c5279ab8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/1745978809.json": {
+          "sizeBytes": 1846,
+          "sha256": "b17350104ea516ac47ac041d9e950ab7ab859f1746f077a45b2b3f3d1957ae81"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/1862473233.json": {
+          "sizeBytes": 1350,
+          "sha256": "6906c27ef2b4724f11e659e1fd63757fef1d958e212431be5704913b2da9cf27"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30018.json": {
+          "sizeBytes": 1534,
+          "sha256": "00734791bc836f3d2ae3910667df86b3b6d794d10808dc3404a87e2736d6df06"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30019.json": {
+          "sizeBytes": 1561,
+          "sha256": "3668447cb952898c997ab337cbc147d801ad822711a62b89374016e458e2b152"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30020.json": {
+          "sizeBytes": 1360,
+          "sha256": "283179ea0dbf8d20e86a845fa82ed877a89117b1d33e8ea166885c63b499e985"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30021.json": {
+          "sizeBytes": 1341,
+          "sha256": "17ee46c04a57c42d21e415556304dc4b22e37c32d94117ad4759e78a0bc2552e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30022.json": {
+          "sizeBytes": 1389,
+          "sha256": "9206a7f06ea1c3bbc73a81bb55b11a615e1688442f25cf9870ce4457567462c2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30023.json": {
+          "sizeBytes": 1449,
+          "sha256": "3a57336a99bf4f464386e18ebc1af5fc5849dcbfe45390f6101194a6f61999a6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30024.json": {
+          "sizeBytes": 1313,
+          "sha256": "2d117e8829c931fabb7721f40e69fbf7ac65208089babb21b45a11fa50302317"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30025.json": {
+          "sizeBytes": 1308,
+          "sha256": "dbb484805b564831a774cb9323f03016d92a863b02757405b634575085d04804"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30026.json": {
+          "sizeBytes": 1736,
+          "sha256": "f6f3a0a185a6b1c1188ad237dd4b242127563b36337d37f704b559e4a857b171"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30027.json": {
+          "sizeBytes": 1239,
+          "sha256": "2811a46a987ce2041a211423ae65401f5416b76a8d0fa1daf1c291c8a8848635"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30028.json": {
+          "sizeBytes": 1264,
+          "sha256": "96c933b878ca250de7080b53687e9867bc9e6374e50a78c3cbab28076f7d2f3f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30029.json": {
+          "sizeBytes": 1258,
+          "sha256": "a4ceb16be27b5b93cd270abab9233a56c90521abb2562e53ad2e1214461e5dc6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30030.json": {
+          "sizeBytes": 1278,
+          "sha256": "a2fa32ac7b66569a97ad859d5f3272cd50ceb4d3db258b2c2491ac7813ee374f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30031.json": {
+          "sizeBytes": 1288,
+          "sha256": "60be32396f736db4ee8c5f1a1d13596afa57445f09aa6bd0c08c04624d45b343"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30033.json": {
+          "sizeBytes": 1165,
+          "sha256": "65090019ba3a3f3877142a706931fa21718a1d950997ae6d6c8391cf92243b9d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30034.json": {
+          "sizeBytes": 1273,
+          "sha256": "3949290d46614c34d6879b3b80442019d40f444c25ede3314b9e719c8a2a3042"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30035.json": {
+          "sizeBytes": 1352,
+          "sha256": "653438e2dcc7562b892bb26fde6cc8a71a96ea12e130ba804a4702e22731f58e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30036.json": {
+          "sizeBytes": 1293,
+          "sha256": "6132e8d4253689e769b50c0b8257ac07d2ed049ce5e5971f4b4e80cda9d15b3e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30037.json": {
+          "sizeBytes": 1395,
+          "sha256": "665aee1ede030607394008fbbaed9a78d6d26800adc8ceeb887cac3c16ccf57d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30038.json": {
+          "sizeBytes": 1356,
+          "sha256": "4373fe1f0bba25d3759a62a66115ef5a9825e6d1ef3fc10ddb7630bd95cbc550"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30040.json": {
+          "sizeBytes": 1454,
+          "sha256": "b42df8fb47b78ea2d20d57c448420336be925ec4066466e8f7c380200446a7ec"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30041.json": {
+          "sizeBytes": 1204,
+          "sha256": "5714a61714bd8f375ee15a610bd4404b5a767b9c8669378522f4650d9611af19"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30042.json": {
+          "sizeBytes": 1205,
+          "sha256": "7310da731dc90f64890ceee0e7e948aab209340215d4b5a9c09b500c5a3130b6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30043.json": {
+          "sizeBytes": 1649,
+          "sha256": "9d631ebb7fb92b77d959368d6c11c3491b69d034eb9c29d10a4f8b2dce0df5f1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30044.json": {
+          "sizeBytes": 1327,
+          "sha256": "af4698b88ebd74ed11f4b38f5640b4295c42f3112e29c2ea08882268958399b3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30045.json": {
+          "sizeBytes": 1200,
+          "sha256": "dcd6944c9a979fdf80ef68e8b1fc3ca7509cfc8268e0967866fcdf5206d42988"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30046.json": {
+          "sizeBytes": 1475,
+          "sha256": "25369c3ccb7372276731871cfff610b2935da9de1c7acab921b3f339d24030ca"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30047.json": {
+          "sizeBytes": 1448,
+          "sha256": "6621175a77ef52a367f683d24ae6ce63b52fe1a30678739fcb22de54729ac354"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30048.json": {
+          "sizeBytes": 1343,
+          "sha256": "7eda3788a38e278ef52e846cf51ecd8f347f15793e23a30749f6f823f7b7569e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30049.json": {
+          "sizeBytes": 1341,
+          "sha256": "e910295246d7b15a6507778855d46b98cdd3fd8bfafe0ccf06f5c255524d5bdd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30050.json": {
+          "sizeBytes": 1622,
+          "sha256": "2d5ac57399f98761a08eccd5bf8ce4c723e48981a0fb630591302cf050af0c55"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30051.json": {
+          "sizeBytes": 1138,
+          "sha256": "b0f7f9092d73d21c3359ae09fb14f73c4c313057fed062646d9d1712c7db7ebb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30053.json": {
+          "sizeBytes": 1470,
+          "sha256": "5a192ab142282faea23f73a9577d35da245b417b7403ab55bd3009a8c6a94f51"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30054.json": {
+          "sizeBytes": 1352,
+          "sha256": "50f00e6e25e0a20ef21ee8677f07f55092e5f96aff983324861f5b9b5d4d91a1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30055.json": {
+          "sizeBytes": 1303,
+          "sha256": "ffd093a3a0c4ee77c0164fdde063121a07f30841a0aa233ee4ed1339e33ddf79"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30056.json": {
+          "sizeBytes": 1505,
+          "sha256": "09efb0e4c8fb24e610d00ead2cbf18ba49db6f58f18b8885691f48eced67e169"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30057.json": {
+          "sizeBytes": 1282,
+          "sha256": "faeb9c202015647323a09aef0f372a19ab0cad1a33344560157bb4a099a5664f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30058.json": {
+          "sizeBytes": 1301,
+          "sha256": "4becba14be9efd4d43f97855c4264edd5986654efecab9d3c5a24655643d5986"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30059.json": {
+          "sizeBytes": 1253,
+          "sha256": "f0903154d2e791c98d37236748bae70ceceeeea0a5072cf8c7bbf8216bd9490e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30080.json": {
+          "sizeBytes": 1300,
+          "sha256": "d9914cb818e65beb0e28b9ce01bb6fee3969418e0da2e473a9b20db39d65ffa8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30081.json": {
+          "sizeBytes": 1289,
+          "sha256": "91350b234d3336c6018b813d657fe977b995b82d82a85c5e7bb98ec528759f4b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30082.json": {
+          "sizeBytes": 1270,
+          "sha256": "2ef8fd309c88e0e48d4601db192b0d2861af171aecd793e41e893f84b7128020"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30083.json": {
+          "sizeBytes": 1304,
+          "sha256": "823e1c0109b8b6d5019dabc19da59dc1d5bdeac904741e64dccaeff8b58bf0de"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30084.json": {
+          "sizeBytes": 1293,
+          "sha256": "ab40349dfed71933cc9ea3c92ab0b88560ffbe783614bd3b12706bc2918438d2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30085.json": {
+          "sizeBytes": 1288,
+          "sha256": "07c98d4ad692873b1c4eac4655edcca27ade461a0e364c16b454c68eda548417"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30086.json": {
+          "sizeBytes": 1379,
+          "sha256": "64daaf2ec3aa9879962a78da677fefd35f3f0851075c0a92c10f1468cfc6e459"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30087.json": {
+          "sizeBytes": 1264,
+          "sha256": "5b723e075cc1980a6df667351ae792070e8640148213552b71d98a15a3b4b4b4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30088.json": {
+          "sizeBytes": 1314,
+          "sha256": "3b7a045acc81385760b6c9215fd9355798b0b8b5225479a395bc5d2dded5408c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30255.json": {
+          "sizeBytes": 1226,
+          "sha256": "7f901d6cb4f61c525f12fecc7d2f414a565a5fd0193476bbd5f1d751632dd312"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30256.json": {
+          "sizeBytes": 1345,
+          "sha256": "dc7e3b0830619974cd0fcf8f5dec82d29b057314b7cbb4ba6d8dd90648719222"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30257.json": {
+          "sizeBytes": 1291,
+          "sha256": "278f5fa682861596530539d155752f5298745913983869d776c99dd082cc6ae5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30262.json": {
+          "sizeBytes": 1350,
+          "sha256": "31610fc9985dbbde794615b93ac224018cdaa379562faff8e220790932d30b4d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30263.json": {
+          "sizeBytes": 1362,
+          "sha256": "7716f8bc53fcb7b1b27c0d520440bdaaaead0ec96d10c6295bb33c803c3ff3b1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/63/30264.json": {
+          "sizeBytes": 1242,
+          "sha256": "467f7cc29622dfa1193808beeddbc0416a6ba703be32c1a7f69a923b0e181048"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30010.json": {
+          "sizeBytes": 1226,
+          "sha256": "2877395462df9d50c888f87e5bcc95e7cc2d2e6d564036e19ed05895d83fd4d6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30011.json": {
+          "sizeBytes": 1534,
+          "sha256": "3c9f692503bd3c9b5c80c69b03d9650aa2806bf8c47d41545fc9d70afc75e060"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30012.json": {
+          "sizeBytes": 1700,
+          "sha256": "a514bef55a5cb6ac50660bf842d25d1da20d148a90a8bf877020586db5bae786"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30013.json": {
+          "sizeBytes": 1383,
+          "sha256": "56229590df4b96db718315849e05fca98dd57e4e01905a26a6ee4e3ddba5f16b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30014.json": {
+          "sizeBytes": 1842,
+          "sha256": "9eb2cd72ec7d26777567a18794a1de0780985cebcd43427aade280b6aaab965f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30015.json": {
+          "sizeBytes": 1698,
+          "sha256": "5505c188539f3d5f2d73413d616d94379913f7efe224c98c809ffe563a8f945a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30016.json": {
+          "sizeBytes": 1912,
+          "sha256": "607c488a056628f1267a98a2678835ed18641fb804fc4ccae13ae60e238c803f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/65/30017.json": {
+          "sizeBytes": 1702,
+          "sha256": "db42fa9dca2d2d4f6fbef56e66c35faf024355ac2bfea331d2f8c09f00215934"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30106.json": {
+          "sizeBytes": 1243,
+          "sha256": "94e82e36d4de0884a25151b9c3a9da022ef9028cd49ab66ca3d3af581bca690d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30107.json": {
+          "sizeBytes": 1249,
+          "sha256": "8f33bb2aacd64ee121027f4cb4e859cfa9042243669de7f90e679084970cafb4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30108.json": {
+          "sizeBytes": 2467,
+          "sha256": "71abaddc95d1af2ba41fddb26f69877ac45b4680026db6c0edb18903f86f1a2e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30109.json": {
+          "sizeBytes": 3112,
+          "sha256": "0ab82c52e634ce69aca6164e3c4976a385ef3131aeb84442263ae9f8540549e5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30110.json": {
+          "sizeBytes": 1436,
+          "sha256": "b62fdca5ed2f6a7c29d73df64bda11bac4dfd6f576b1d9548d18685d32740f1d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30111.json": {
+          "sizeBytes": 1467,
+          "sha256": "e44d873ce37d412d4335cfb080db384a188b6a0e852c0019a47c4037559f23b7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30112.json": {
+          "sizeBytes": 1370,
+          "sha256": "ec89085094d4cd8760f5eb39856b95182fcadcb98ce92b919a9351c31ab15458"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30113.json": {
+          "sizeBytes": 2089,
+          "sha256": "d2044420f3269d016acfb8439a9d9c0baca529ae71b3cfa98677956cb93c0707"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30114.json": {
+          "sizeBytes": 2189,
+          "sha256": "a52463eed61c0c35f53528f5a8c8631189d53693596a117bf69d53e8ccceb0de"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30115.json": {
+          "sizeBytes": 2168,
+          "sha256": "299eb98094f5e17641dc72bddc08e6f35982f3f60473030c85b0b3264d73d6d5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30116.json": {
+          "sizeBytes": 2093,
+          "sha256": "e1b81e31f6bd3666cb4937aa4c787cca707d5d9760d0e97137d2e17490661c38"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30117.json": {
+          "sizeBytes": 2463,
+          "sha256": "b1e2d5243ca2f391266b65f84bdd05e27525fcb8b3d9c305a366ae9cd873064d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30118.json": {
+          "sizeBytes": 1926,
+          "sha256": "2071d38c6ae2f6ba05decb28cd186ef52231f50832db694887d9d871dcc900d8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30119.json": {
+          "sizeBytes": 2175,
+          "sha256": "20f2a1844f8b64343f74cb042812d217615eb0e182ef7bf8199d4e71ed176519"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30120.json": {
+          "sizeBytes": 2279,
+          "sha256": "ccaa91610eaca6f07a091228770d5c6cf002743e9510c6528debe7466ada7e4e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30121.json": {
+          "sizeBytes": 2034,
+          "sha256": "0aa4a69ad5ed3c29941ae1e1fa636cdc2ba183feee4de8099869e9eba2595d3a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30122.json": {
+          "sizeBytes": 2188,
+          "sha256": "a2f72024e04b29e94b26c556239ce2a207baa9d0dcb808ab2d92e6c632601caa"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30123.json": {
+          "sizeBytes": 2068,
+          "sha256": "d437b43dc323d8fa87e22d0ae358d78f5de94a9fd70ea281cf128903081e0a31"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30124.json": {
+          "sizeBytes": 2089,
+          "sha256": "f716382ca5a832572ec0f41e9824bc1b65d70fdc9d491c28f12913396ee7c688"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30125.json": {
+          "sizeBytes": 1483,
+          "sha256": "38609085b79bd060bd808c8b0732b087c2ea0f212d4d4e8c3675dddb5cfcff3b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30126.json": {
+          "sizeBytes": 1932,
+          "sha256": "c6ce127f5d05f2efce5465fad865b5067a26047437e68ce1c124b36c8897d4a2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30127.json": {
+          "sizeBytes": 1873,
+          "sha256": "6dc35ca92b0d3be89cb4662e08eddd4676d8e2bb27d29861fce2f0becc1596af"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30128.json": {
+          "sizeBytes": 1926,
+          "sha256": "87b1f0def35c1a19f472f853c682ff6fec5a4e21b1a885ac9b5ee62ed51ea077"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30129.json": {
+          "sizeBytes": 1754,
+          "sha256": "7bc4c4000006f9d7cb23822bb2fcf321807427c304799ac4f96dffcd937ce669"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30130.json": {
+          "sizeBytes": 1401,
+          "sha256": "583369043022d384664a3c409cf9b447cc3eb4a97595b5f1e0d5ba2480772763"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30131.json": {
+          "sizeBytes": 1732,
+          "sha256": "a3c455d04ac8e1d58e1745b1243dc673b7d4ceb4278c5fc7f09e78d24083f8ac"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30132.json": {
+          "sizeBytes": 1795,
+          "sha256": "d4fdf30f8de7c9923ce0ec43a597ec8f0b5f5acc3f8bdca211984890b1b62421"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30133.json": {
+          "sizeBytes": 1776,
+          "sha256": "0076fcff9a9465b5bb395cdb8ebe4b30ada6326b2bc0b77c03ffed559b655244"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30134.json": {
+          "sizeBytes": 2225,
+          "sha256": "5d74cbf9fa4407bcd948618adbbc17d55f603d87da95de6964e267f900fa612b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30135.json": {
+          "sizeBytes": 1475,
+          "sha256": "b65c08410aa01a32b14cb668be848461627352bb0001ec3477f6544170d368a2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30136.json": {
+          "sizeBytes": 1877,
+          "sha256": "5fa6ab1540e24d22f69f247861b83def6754379225d92c9fc4091666a46a0ee7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30137.json": {
+          "sizeBytes": 1628,
+          "sha256": "2ed517c03fdcaa57484f899576df7793a7333f05fd1693527f2fd3f5e8713ae6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30138.json": {
+          "sizeBytes": 1867,
+          "sha256": "0aeb5d82f14a984355d4da483855b4aa3458e934d43c21f26be11fa30b74fb38"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30139.json": {
+          "sizeBytes": 1976,
+          "sha256": "a1540b076c996e63ccc19926f6f5f79d26e2dd50970fc25a96987962006b0074"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30249.json": {
+          "sizeBytes": 2100,
+          "sha256": "cfe7154e539b7844bf4a9ae4d14b88fb80d0601899dd025049bec6a231dbdc97"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30250.json": {
+          "sizeBytes": 2045,
+          "sha256": "60e3225570ae5d22d5a6b12f8ba2eac98d0a1250f03d14a7b6c89721bd0dca0d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/66/30251.json": {
+          "sizeBytes": 1703,
+          "sha256": "156549e6e5246c7538729c2f128a443ffb3e684afd80021a3d8c040cce30f134"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4000.json": {
+          "sizeBytes": 1516,
+          "sha256": "427711955914e431050cdee7f9eab36bf8843e47ae8ec6508f1189a5f49802cd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4001.json": {
+          "sizeBytes": 1322,
+          "sha256": "9295a94cb7d51d5e43b543807b37743691f12028038089fe5ec4803efd4f25e1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4002.json": {
+          "sizeBytes": 1378,
+          "sha256": "3002c8d729610e39b917b86766513ec03a43b36a1f325300ac39284a1360fc4d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4003.json": {
+          "sizeBytes": 1289,
+          "sha256": "9a934292c5f85c2636acb8c9de41dcb1aaea32b030ff9d72c72fcd936c7ce89c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4004.json": {
+          "sizeBytes": 1396,
+          "sha256": "6809a23b5833c1c8ec925bf03880cbb0fb57d29c22acc29e7de5264de3418251"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4005.json": {
+          "sizeBytes": 1597,
+          "sha256": "d24733bcb9b7934d2bbf30abd0d305fa95916be816f78a41395e4270d43e42db"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4006.json": {
+          "sizeBytes": 1427,
+          "sha256": "5d5aa078b829607a847537feb8a5aa99f6af7b86d05e5917b7449d02df87e844"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4007.json": {
+          "sizeBytes": 1493,
+          "sha256": "a9847340a5b7114f1468fa20c9474735d2d355abd45217b6173fc77e7817312c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4008.json": {
+          "sizeBytes": 1432,
+          "sha256": "fc4023704feb2e872301c85fe7194daf3848797aeb38ccd77ccc5982345f2fdd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4009.json": {
+          "sizeBytes": 1544,
+          "sha256": "01add8bc3ab36677dc5b7ede1cabfdaf1bbf7de51e2f802303e2ccb7933f9f7b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/70/4010.json": {
+          "sizeBytes": 1529,
+          "sha256": "fbab00063b68b2df27fd11695c189cfdbf0997971c851382e06eebed1dcee0ab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30239.json": {
+          "sizeBytes": 1331,
+          "sha256": "ceabdf061b808234d835cf929734818cb0dafc00af3975001a4925dc85cbf6af"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30240.json": {
+          "sizeBytes": 1403,
+          "sha256": "0d5c316bbd34abb40923be40434b8f7fa5b984ef438b815684b8c482ae01d1cd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30241.json": {
+          "sizeBytes": 1287,
+          "sha256": "0e3aa660d0c7f17767d983855bd8d6aacef46cf4003d56ea1ab99fcc5089ae77"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30242.json": {
+          "sizeBytes": 1391,
+          "sha256": "25b0d66c50d3609074700a25bfaf8b983d9a1507fb30db1764979a9472ecbd8e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30243.json": {
+          "sizeBytes": 1381,
+          "sha256": "f1dfe716de78a6b0279f35745c4057ac916f2d715f9bcb737e2a907f803fe004"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30244.json": {
+          "sizeBytes": 1311,
+          "sha256": "9c564adf7ac49e40204baf54a51d77949b7cd64de6f0c97adb3817fae4841745"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30245.json": {
+          "sizeBytes": 1345,
+          "sha256": "09927a141bc2e7e67e6a480718703aa58c4b084ae42d2d36adae2273d889981b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30265.json": {
+          "sizeBytes": 1438,
+          "sha256": "b7b2e4ac0e98b700d8af31834b18a7dd3b90702f55812718c1c81aa834637737"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30266.json": {
+          "sizeBytes": 1583,
+          "sha256": "6a2a09c89328f5fbb9e68b7b86c8325cfd29f097d7880ddb0e1d01aa3560c843"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/30267.json": {
+          "sizeBytes": 1498,
+          "sha256": "7fef79b87469ec43074248a6e1418ef4eef64a04b4ad700e40a8c9a48ed76d19"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4100.json": {
+          "sizeBytes": 1283,
+          "sha256": "31e0cd49eca77320b1aa153efbc5f83a6e87405f0052bed7108447d04456dfc1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4101.json": {
+          "sizeBytes": 1361,
+          "sha256": "d2caabcc46de9dadadc24fe8eeef48423c2e43e28b374c07ad675f25fb669a72"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4102.json": {
+          "sizeBytes": 1395,
+          "sha256": "3d482205ac5b5c3ed786a6cf3ba09bee9ed5bf2a87926d01d5c7001ef96fd38f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4103.json": {
+          "sizeBytes": 1378,
+          "sha256": "12f4c147287ca72f93600294b8a06befd74fbb78110d8c494585459b50d84b52"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4104.json": {
+          "sizeBytes": 1531,
+          "sha256": "5e072e624b434f940a13495341aca350703cd3ac3ea68d64b5994c23994bb5fc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4105.json": {
+          "sizeBytes": 1524,
+          "sha256": "b227d162aa2300ef41bc2fd97efea7da48c606a94012ad791b6f310469a35a29"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4106.json": {
+          "sizeBytes": 1518,
+          "sha256": "baf88d2768117d310930258b506318f1ec47346f9e161a81a29aaf7133e76617"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4107.json": {
+          "sizeBytes": 1658,
+          "sha256": "9520e2181994357a03f57b1956bd19dc71a37b20b2fa8bfea3d775d850fe0af9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4108.json": {
+          "sizeBytes": 1562,
+          "sha256": "79c6e885128fc888a5c85786b12a9f13d4b9e6953d288ab346f1089ae3ce253e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/71/4109.json": {
+          "sizeBytes": 1436,
+          "sha256": "224e0843ec90af4e8d956eaf1be7d3c8d16eb0c0304bf965cdfe9ee536e3774b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4200.json": {
+          "sizeBytes": 1575,
+          "sha256": "ab053c7a78944de5af6f385c0684d20e1dda865a586b8f37092856e5b13e0964"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4201.json": {
+          "sizeBytes": 1846,
+          "sha256": "bcfc8ca3e3f38cfeba03bd329e35a63a2454d207ebdd3337b00667b854154965"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4202.json": {
+          "sizeBytes": 1996,
+          "sha256": "cff687fa71e9a81191529795e836387ac8057bf177d474b63e55384060b87edc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4203.json": {
+          "sizeBytes": 1894,
+          "sha256": "90514d708603c5f467b174776780fe7d9c6b1d01cbd215fa1757700383aa4d44"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4204.json": {
+          "sizeBytes": 2254,
+          "sha256": "810b608a39009b29880723101ee249cf85d77aec1df4327773f46cc7391a5671"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4205.json": {
+          "sizeBytes": 1895,
+          "sha256": "29c5bdce004a9b30e01c312a3331efe8be421abd98ccca8afb7d90d7406e8501"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4206.json": {
+          "sizeBytes": 1973,
+          "sha256": "a52d78cd4b177b18634d4340209a40157354cbbb3791dec38cbcef461efd7bda"
+        },
+        "config/betterquesting/DefaultQuests/Quests/72/4207.json": {
+          "sizeBytes": 1817,
+          "sha256": "22bd9ae4f2d03ad07e0b9db522dc74f68b0af1951e0f5242842b6b420a2a5dad"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40000.json": {
+          "sizeBytes": 1645,
+          "sha256": "95819ea71553a513ac2e662b09c9a60aab66e0dd55a121f2397e2cd0d763d2cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40001.json": {
+          "sizeBytes": 1329,
+          "sha256": "ca3ba9951c2076a00e308ec87671c9e3b2226c4005a5e1395fa116fa101020f9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40002.json": {
+          "sizeBytes": 1260,
+          "sha256": "a8f0821cc0cd3cb66bb179b2f033d4c935163b92fd869a68d836322b5bf6b4ec"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40003.json": {
+          "sizeBytes": 1258,
+          "sha256": "b0905168fb9be5460e84ccc7cb2e9c7afb864be25625cad56307ff5f233539c8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40004.json": {
+          "sizeBytes": 1247,
+          "sha256": "0b9b9e3238501b242ebe7a48000178cd02b8feb0aa75d2f5ae0443eb01ed85cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40005.json": {
+          "sizeBytes": 1271,
+          "sha256": "7f3f9bc24320399f130821adb675d4504262378bea3e92172b96652e0880440b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40006.json": {
+          "sizeBytes": 1260,
+          "sha256": "728f2510bedf83aa9699c3dcd5151fb6478adb728c11862f8264c11f47de83cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40007.json": {
+          "sizeBytes": 1326,
+          "sha256": "4aecc7096e11d4df0c2fbcdbf6baa276ca94ce7455d42b92ea8b7d5b06fdac5f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40008.json": {
+          "sizeBytes": 1289,
+          "sha256": "9f30ee688b520ade9d761bbc67d660e74b632a0deff9a5cdb0367e60db56d07e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40009.json": {
+          "sizeBytes": 1210,
+          "sha256": "fe70b492b13736736fa7758d7bcf9b4c7750f8ed829dde23f719dd64481de653"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40010.json": {
+          "sizeBytes": 1245,
+          "sha256": "b244d859278e469f1cc12a2fd581236b31a64f28980beb436c9aa77cfd405d0b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40011.json": {
+          "sizeBytes": 1252,
+          "sha256": "bf792e238c6fb12acea3bdf2cfb3731d21cbd11fa7b1e4e8e468cdc6e3ed131a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40012.json": {
+          "sizeBytes": 1356,
+          "sha256": "2a5b41cfa1e530fe2f9cd254e8032487de7d523e91338dcec3274e547f721704"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40013.json": {
+          "sizeBytes": 1271,
+          "sha256": "e811d970ed38ba2800281350620bce76c0fe8bceacc91b7a67eaa46947604eee"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40014.json": {
+          "sizeBytes": 1234,
+          "sha256": "d0210d5727c0533fa4038c3423901ec36728a77966d5cae52e5b90065fca59ec"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40015.json": {
+          "sizeBytes": 1267,
+          "sha256": "5164f10f817e09f7df0a674e2ad1e210ddea797e9bb915f083bbe00c0a42c5d7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40016.json": {
+          "sizeBytes": 1225,
+          "sha256": "a7541257e9ea5cf2d44c26a5c4a71c27326296843dc308e5a798b61d1700b8ec"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40017.json": {
+          "sizeBytes": 1292,
+          "sha256": "e7cd8cd7624e1332d5398b6cfa3c94d37a20a2af034d3811199306d33d4d7e27"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40018.json": {
+          "sizeBytes": 1245,
+          "sha256": "2cbb1199c3a76e0852fd30a846238fa97532c2a69ed58e8e2c0a69a2ced47164"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40019.json": {
+          "sizeBytes": 1249,
+          "sha256": "24e75a03b81483e0bb72c278efd47e883ea6e1565bb8e55de8e11cb5649e5ee5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40020.json": {
+          "sizeBytes": 1298,
+          "sha256": "24b835bf9d817015c2ca6917f452c81ce93e26ec459f2a1e22f9d9b9a095c78e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40021.json": {
+          "sizeBytes": 1320,
+          "sha256": "5346922a9c5872a534ed18fb90acb750b5174d015899c7c63a8e0f61d8dd9832"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40022.json": {
+          "sizeBytes": 1430,
+          "sha256": "edd18a0674c485ea6fee6778c59312dcd6c35621abecc00f7fe2e7e2ce17b655"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40023.json": {
+          "sizeBytes": 1227,
+          "sha256": "6a853c05403b1cf032767fc135612b224423a6b40f3017967cc381b758125cc6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40024.json": {
+          "sizeBytes": 1688,
+          "sha256": "06bffbda9ad70a749b3666b2030f53163f53d03b95d6a841a253e5c05ea06073"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40025.json": {
+          "sizeBytes": 1191,
+          "sha256": "a34f2428be8de1a843aaa7dc2056581bdab474d5a6e49660de90e923cb28f1dd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40026.json": {
+          "sizeBytes": 1432,
+          "sha256": "4f46b68ea3a54e19e0d5a47bd050043f33a7453187f3f804e210f69e773af8e8"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40027.json": {
+          "sizeBytes": 1185,
+          "sha256": "e03be1993c2b573e0f3c27a8f66d4db5af30d4b6ab79f4b00a2840cc5f67bb92"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40028.json": {
+          "sizeBytes": 1331,
+          "sha256": "a8dcc8fb30de06ffbd3257cd621dbe3d8e68be624497c2b090c3820d7cad9b16"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40029.json": {
+          "sizeBytes": 1525,
+          "sha256": "6563d5da3f587e68a481507ae4c72e31e00faad6441c46d65f9c71cae306fa50"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40030.json": {
+          "sizeBytes": 1270,
+          "sha256": "99114866341a9185141521b45cf9c20a265fc53aedda8438a1d00f310327595e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40031.json": {
+          "sizeBytes": 1247,
+          "sha256": "2367f3ccbd422a0081cd0e03b0a75f2e04adfe31a963fb2efa38f91124184e34"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40032.json": {
+          "sizeBytes": 1290,
+          "sha256": "ca0099797c1de50346104c9be1f8b4c534d56741357d6171149dd8140db4bb99"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40033.json": {
+          "sizeBytes": 1276,
+          "sha256": "75252d846936b0ae783b69808f9408f98ff04afedf465671dcc2b99272fb4f50"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40034.json": {
+          "sizeBytes": 1247,
+          "sha256": "c412c03a09e1ddabb865afa435401df9c8c87e1409d2692f790d8f290028aa3f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40035.json": {
+          "sizeBytes": 1203,
+          "sha256": "05d802326f013c24f4449abb144c3b4b938b3e2277fea6f11467add82dc80f69"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40036.json": {
+          "sizeBytes": 1316,
+          "sha256": "7d0eca2a8e69808a13192f1ca0e55228b0bb9e784d0116a0fcbdf0e717afc831"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40037.json": {
+          "sizeBytes": 1676,
+          "sha256": "7e90b5a8f80ce8a212951f64eec0d2960846f24b141543a9c91ff7484622fbf2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40038.json": {
+          "sizeBytes": 1352,
+          "sha256": "0ca60871c52285704bd905c6cef9b73fb2bc27ef1fbe99d5832223b17b6df5fd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40039.json": {
+          "sizeBytes": 1422,
+          "sha256": "a39ce906697310fcb25a4570e9a8ee18980cd5bb69348d24dabd443f58edae42"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40040.json": {
+          "sizeBytes": 1684,
+          "sha256": "9f560afb7b67ace56e3737963db8ed8b4c9d6be51cd0e1b819a2b8d7ccb4f670"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40041.json": {
+          "sizeBytes": 1355,
+          "sha256": "d73c0c32d256c8553f341d10ab3639356188215ae4f30f5b32433f05475e4490"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40042.json": {
+          "sizeBytes": 1154,
+          "sha256": "0ee4a42a288b26907e2eb7f23d72660f5901b282afe3070134dc26b2b098ad2d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40043.json": {
+          "sizeBytes": 1187,
+          "sha256": "dcbfcf371a78a6431067d02f500df1cfdbd9783e263ccba92c1b4672032bad9b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40044.json": {
+          "sizeBytes": 1331,
+          "sha256": "c7aa60ada4561f1d2e7493b52cd7951d3586cf1fe4d2ba761b0c705c29fdc86d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40045.json": {
+          "sizeBytes": 1231,
+          "sha256": "9d22cabb66acecd332ffd45be8de7c49b28cea3ac30bcfd53e080895531e0117"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40046.json": {
+          "sizeBytes": 1261,
+          "sha256": "0a2d5f5abccd4d31468a0bdfaa5294ad6293b248b5025c1c1a9a2765e6c7471a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40047.json": {
+          "sizeBytes": 1250,
+          "sha256": "435fcfaeaa9c0e0c37a7edb6f042d7360e8120a4b4de64ab1b54fd73121a7318"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40048.json": {
+          "sizeBytes": 1256,
+          "sha256": "0e4dd66607a0c2ecabe75adf38c2386e8623b082c7a773b9501c86397fde539d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40049.json": {
+          "sizeBytes": 1241,
+          "sha256": "fd0ba436a204708aba1c8ee8b7f5c45ce5997844731159d5459f03a2f6d43def"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40050.json": {
+          "sizeBytes": 1210,
+          "sha256": "b965932621c1f8bb53038b130620b8bfea5793d4ed3419f76e3a973d6a2fa6cd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40051.json": {
+          "sizeBytes": 1227,
+          "sha256": "017796f6ea3825f2bf4cacf5b1a773847c3ff4dc02e9423a7c3c2ce95e91b35b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40052.json": {
+          "sizeBytes": 1175,
+          "sha256": "b62dc0b2f7ec3f769b30b11051986d359300cc8222248932c53c048ff1877696"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40053.json": {
+          "sizeBytes": 1405,
+          "sha256": "1555853c8497ae002a97e1ec6d49d82d873b1faae68d9aaa24c01e0532585842"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40054.json": {
+          "sizeBytes": 1219,
+          "sha256": "c397fd67bad300b82695ab08371fb0f19799720a6542d4dcf0f52b504c56c94b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40055.json": {
+          "sizeBytes": 1456,
+          "sha256": "e46afaacff7cc19257eb1e9b4674c9d6be9a62a626b89ef5354368f85a7d24b5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40056.json": {
+          "sizeBytes": 1472,
+          "sha256": "1815debd11affad05f3a29d7d520703176a19235c1f050ddd55a4504924c8250"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40057.json": {
+          "sizeBytes": 1258,
+          "sha256": "b8c3e268e9387a58792c64e07221a674991d846bc47b4e1adf63d4f1fdb8f7a5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/73/40058.json": {
+          "sizeBytes": 1429,
+          "sha256": "c978e13e716e99460e4c6ed4a67384858d468cc727d505d96d342435c442ee13"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40060.json": {
+          "sizeBytes": 1577,
+          "sha256": "666563928d73b7aff769360c675ffa868e9654f0f381f42b1f91c3e1949874de"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40061.json": {
+          "sizeBytes": 1376,
+          "sha256": "3fc1278da644d41cc61b2aca4e7a47142b0e184f3d764df12d9c3ce3e437d9dd"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40062.json": {
+          "sizeBytes": 1433,
+          "sha256": "e75f86bd844342bb70efffbe5ec2ae0ab904cef9972946b4a0b5b342da5a3e41"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40063.json": {
+          "sizeBytes": 1398,
+          "sha256": "60e2e51da49d3bd7c3eb178e59b9b941661cc067774a32eef4dcf1f8b18bdaeb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40064.json": {
+          "sizeBytes": 1557,
+          "sha256": "a7dfa1a66e1afdd99a3f649fab8689b8f0bcf9f55cace3c6eba1e76cc3aa2343"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40065.json": {
+          "sizeBytes": 1566,
+          "sha256": "9158b6fb656147d40867d55d3b5d76ae9285bf3d5e3d45e997e5aa1d1015e98a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40066.json": {
+          "sizeBytes": 1641,
+          "sha256": "7bd10556a5079faa749841a05bf9cfc768f3417d29279dec694554492008cd3e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40067.json": {
+          "sizeBytes": 1756,
+          "sha256": "f59a2e7c8c7e8051575333c3ba63447c73aebfe6e97aad29bbfb3bb131e8744c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40068.json": {
+          "sizeBytes": 1516,
+          "sha256": "56a6a0e7903dc9a84fa85aa93bd97c3893891650eea7b10d9eadee4c4a9d9542"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40069.json": {
+          "sizeBytes": 1614,
+          "sha256": "59553b4d81c62747c8ad5a7a8ec55e8fb7c15077b1bf4be93c8a3bd0d69a0a8c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40070.json": {
+          "sizeBytes": 1790,
+          "sha256": "e926e58a093f1f990242236fe1d0c0315e0ac1ff358bba309835fdec4d4b077b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40071.json": {
+          "sizeBytes": 1693,
+          "sha256": "37a9c8cf328799c9fd06aada17e9e3837bbf981808049e9a37afa93a9df8464e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40072.json": {
+          "sizeBytes": 1680,
+          "sha256": "44250ffff6c0caefb63456b353232297556957fa0e60aa0ceff8a222e4b929ea"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40073.json": {
+          "sizeBytes": 1666,
+          "sha256": "eb80ad7f3e20d1ce4050232e317832d193dd8318ef04d83d2e25e949ce8251c6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40074.json": {
+          "sizeBytes": 1830,
+          "sha256": "356242bf7746426b20adc04091c4c677536556f56766e48ce21fa0a93768e0b6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40075.json": {
+          "sizeBytes": 1467,
+          "sha256": "75b1e89658fb69f8593b5081b5829796040f2cf3fa1c7f2ffda3cef56a846039"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40076.json": {
+          "sizeBytes": 1721,
+          "sha256": "115114ff4588f49541e3cb4b2ce032de50b8b2206e32401164edd8b8ca46247f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40077.json": {
+          "sizeBytes": 1669,
+          "sha256": "44bbe9884ed73e60d82b499a9b30374581054f0ad2a4cadc055e6aec47182f5b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40078.json": {
+          "sizeBytes": 1631,
+          "sha256": "64cd707624a6b0d836b38da10e195a8614a400bd572ba4c7902e42ba94f8c750"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40079.json": {
+          "sizeBytes": 1724,
+          "sha256": "60182913f5d7996de278b6838b8f22550cd37e2870c1ec4d9edb9347c75ba09b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40080.json": {
+          "sizeBytes": 1659,
+          "sha256": "2359edeab4e251d39b46c9c3c58d146d2c3cd6e12c3602cb0e0e65c71d113688"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40081.json": {
+          "sizeBytes": 1664,
+          "sha256": "2df217896d945be3f0248a0b4ded8f142930a90f24c6693e7da27dfb25d61216"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40082.json": {
+          "sizeBytes": 1696,
+          "sha256": "d7f4f10ff58a3a7979c403d1923dfcb8530638f71171fb1ad83b391de89ccc74"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40083.json": {
+          "sizeBytes": 1882,
+          "sha256": "f4c2a8dcaee803c5e0bd45ebbbfe8a681d7ed534c91ec6a19571e540bfd562cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40084.json": {
+          "sizeBytes": 1670,
+          "sha256": "0545d1acb64b6f9992e18c9432922932654dd8bb705400abfcc547768f87a6e6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40085.json": {
+          "sizeBytes": 1762,
+          "sha256": "473758b9e2025c2d652cebfcbf229ee29ca16b8399d09ff001ecf4f6c29c32f6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40086.json": {
+          "sizeBytes": 1757,
+          "sha256": "e323947ee087265c257efc0ba88fdf2a4f5a33647265016ce9c215461a0d6c22"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40087.json": {
+          "sizeBytes": 1693,
+          "sha256": "10ae5fbb2f7ecb8b913b059a77ef8d7d808d95ff4ad521ae115fe1933d3f205f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40088.json": {
+          "sizeBytes": 1766,
+          "sha256": "da7572bf828a32f13ce2fc6f9746923c08632e7167c025b9a1dd872dac470a3a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40089.json": {
+          "sizeBytes": 1776,
+          "sha256": "5db5ea4da95f8dc3d80ee0042c467dad6518bb00b02ac1fcc2e3c36736b2a7be"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40090.json": {
+          "sizeBytes": 1862,
+          "sha256": "e3d691d5dbef3ec573efacf4054d8c707ec771174137ac7c87d277d5a78e0a88"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40091.json": {
+          "sizeBytes": 1627,
+          "sha256": "3c418fb167e31779063e4c94412333582255d290046f9431445f629755d3daa3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40092.json": {
+          "sizeBytes": 1783,
+          "sha256": "e7e76776797a19fcab3ee5e939c63b6ca0eae655c87b22b3b0153aec20f3d783"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40093.json": {
+          "sizeBytes": 1675,
+          "sha256": "d1b5b2c09451d9b50587da34c407076b5bb75ff86ad40d37ae1a05c045219895"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40094.json": {
+          "sizeBytes": 1698,
+          "sha256": "37a9a5acbb285862cddbace65a66cf877f7d6228cb3abbf289ef6a49a65d4bff"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40095.json": {
+          "sizeBytes": 1740,
+          "sha256": "77f40a2c40d8415ddd0bdfb2647bea682c39f1cf32194f178a856baf9ab96a46"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40096.json": {
+          "sizeBytes": 1765,
+          "sha256": "e5f6f64cdf2a1ef58bf850aa421071295c0ca1fe07b5fa3e9f9336e1329f5c8e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40097.json": {
+          "sizeBytes": 1788,
+          "sha256": "d7e6e213e977a7f7586b5782ca5e67e3c52a13cc72e88ae553b46e80fe6ddcab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40098.json": {
+          "sizeBytes": 1791,
+          "sha256": "3fc148df6e3ba067fd7303d73ad627822c2e5050779c4a4c3af9abe64efe5c5b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40101.json": {
+          "sizeBytes": 1514,
+          "sha256": "a86e047311d43f0f5e297047cec4d3b1848415c0bb1b58718f749491e7aac5db"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40102.json": {
+          "sizeBytes": 1513,
+          "sha256": "322531d1b0c289a79f8fccd65dac3d3cc1e96b5496e0665ab8a9244e4f770fad"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40103.json": {
+          "sizeBytes": 1647,
+          "sha256": "49270716c6f2f7438101677f7a14b8403d555f1ccb9fcd620a7f45f23429ee21"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40104.json": {
+          "sizeBytes": 1527,
+          "sha256": "cf659cb42d197d2255b40210fb7c79e5beb579e8a582b85c16b760069b5446d9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40105.json": {
+          "sizeBytes": 1549,
+          "sha256": "89b3e9d04f91939301dee7ee867dd31d513abdcb91172088454f10961d866bf0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40106.json": {
+          "sizeBytes": 1520,
+          "sha256": "93a432ff26a80315c08142703fbe10d83fd090584369e7ff78c096da84b8d69f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40107.json": {
+          "sizeBytes": 1506,
+          "sha256": "0f6c5bcfde15b3ce1f3133ba23e09331409746227944604f21235372a1acc952"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40108.json": {
+          "sizeBytes": 1566,
+          "sha256": "944a472417f6365d1b0a5e2b8eab93584b663ee5bf345862161952c12d3df2f1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40109.json": {
+          "sizeBytes": 1726,
+          "sha256": "9b1be380ac27133365b50266655a3a698b844e164c10104e7e02d0a02fa8f375"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40110.json": {
+          "sizeBytes": 1477,
+          "sha256": "57fd1d48e9816b18713b96536eed32d795f03183fea5c98190fbbaf7fcd1a9a7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40111.json": {
+          "sizeBytes": 1636,
+          "sha256": "278a73a02968e0a9ea9da30a10cf668106c45e77b421b675abf9ff5fc92d492c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40112.json": {
+          "sizeBytes": 1678,
+          "sha256": "9de6a0bb28acaa036258b505827a35d9b662cb4a6690f33afecce208fbb5e298"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40113.json": {
+          "sizeBytes": 1576,
+          "sha256": "7f23b86c1805dee29e85434ddf9e47d1b77f76bb4cd19fefcaa4584aa3b7188e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40114.json": {
+          "sizeBytes": 1476,
+          "sha256": "4a67e06e82e2a8d48891373480acd2dede902b6c6d70b2e5de0f538c02d90582"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40115.json": {
+          "sizeBytes": 1384,
+          "sha256": "053d9a0c1b3514be5db1bd7aa249fb62c94e73ae7d63acd980301a4d9d6d14f9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40116.json": {
+          "sizeBytes": 1503,
+          "sha256": "5fc13ddc39819fce48ead082eea7f668ffc73facc7d95461eb111776439c05d2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40117.json": {
+          "sizeBytes": 1584,
+          "sha256": "aac8c0907a18a3ece7964712ef662b091c4b9954745c563a000d07c63d994d8b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40118.json": {
+          "sizeBytes": 1555,
+          "sha256": "df09ca045c37687557c3b70b745dcffe4d8895d5fc61954e5c88e4b3d6439251"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40119.json": {
+          "sizeBytes": 1785,
+          "sha256": "ceb4d9cbb0e962973f56de8f53ccff78a31debd1ddef7fcb97d159d859420552"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40120.json": {
+          "sizeBytes": 1571,
+          "sha256": "beab931117c511262a78ed63dc71c78429a8b4753ceaf513534f6cce9dafb74c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40121.json": {
+          "sizeBytes": 1622,
+          "sha256": "a8bc0c7d254711277881686205a1d4756882b684f6b5ad1d3bd8cd7fdd23c6a3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40122.json": {
+          "sizeBytes": 1562,
+          "sha256": "7e1734b51489a9b2a8d25c3d0e48cb5e67eaeecf85a46091cd0413b4e13fcc9b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40123.json": {
+          "sizeBytes": 1743,
+          "sha256": "cd3242512eaea8570edfed993e89fd57e56b9e458e6748dc47e556dca6ddc124"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40124.json": {
+          "sizeBytes": 1684,
+          "sha256": "651f6be7790e650483a416bdb903543a69c24a459e6b6508a1b8652a4258d0f3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40125.json": {
+          "sizeBytes": 1611,
+          "sha256": "4b5f047cfd0c1566ae3d54e7be563e696399d51f9a11a70cd1775d06638596fa"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40126.json": {
+          "sizeBytes": 1810,
+          "sha256": "8f034677c5f5cb4a6e43f421e27febfd714c064c5d2414c53238792c98f5cf1f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40130.json": {
+          "sizeBytes": 1620,
+          "sha256": "5dee47b182a5a9f6e8a092ba24a270c32b6099a784524457eaa01db0e4c8a15d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40131.json": {
+          "sizeBytes": 1755,
+          "sha256": "395a49ec5bb22120d0106570cdc2bc06bbb98a9947f0fdb8aed8284078eeb730"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40132.json": {
+          "sizeBytes": 1721,
+          "sha256": "0da6b9d03ae3ec349bedc819ae50d14e1e14a5b344874c6543379559e3bc7097"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40140.json": {
+          "sizeBytes": 1804,
+          "sha256": "8812625bf4dfe4c9d81f3478daed71d19985ae73f07b28fa9c5968256775bf45"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40141.json": {
+          "sizeBytes": 1652,
+          "sha256": "005e7ba1b34abbd0cba70477e732a0efb66c35d9568673eac9f0701a4bba07ff"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40142.json": {
+          "sizeBytes": 1900,
+          "sha256": "8f88c84744e10445de310243167d4fface7aa0c81e235a8a8d5c3cca2df37c86"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40143.json": {
+          "sizeBytes": 1634,
+          "sha256": "5b82d0106b93aa7a33badc0f86dd1f870567e2073841de64b78d1dd41fbede16"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40144.json": {
+          "sizeBytes": 1970,
+          "sha256": "e3d1dfe883ef6f7287d4f386d52797179c6eecabf974ca9a857e040e5de9824d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40145.json": {
+          "sizeBytes": 1547,
+          "sha256": "66bf30089eb44b6a7c6ad3dbdb94ea7926a53349b010c5c64b685747f0ac3c1e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/74/40150.json": {
+          "sizeBytes": 1654,
+          "sha256": "9d2a45e526b59edebd928d23a505f15888c81f6568cbc090a03b3729b4510763"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40151.json": {
+          "sizeBytes": 1350,
+          "sha256": "462d73b80c6bf31661e56c2e2c8be700a162023de423f5b622474fb36fd13605"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40152.json": {
+          "sizeBytes": 1385,
+          "sha256": "fcfcc1275946324ef3002c29b4e3788fe5127adf31bee4d09c56604bb863519f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40153.json": {
+          "sizeBytes": 1396,
+          "sha256": "def67c6cd2af0ba6f2d8a6062a5e7463766bbccfe2e525cb559cac5956e3e8ab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40154.json": {
+          "sizeBytes": 1349,
+          "sha256": "a80df95dd3adaa0d3925498e54ea9bdd25ba1fe5861a60c1ba39d6ae83ef4e2a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40155.json": {
+          "sizeBytes": 1289,
+          "sha256": "8d134e66f9a2d6a87aedef8df82079a26426715fd6b6259e6e3cf89a33560cb0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40156.json": {
+          "sizeBytes": 1404,
+          "sha256": "21ab182ddb375ab5364f6effdbc985de939d471db1ef3c11737d7c4430f36ce6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40157.json": {
+          "sizeBytes": 1378,
+          "sha256": "43b9b22b8c337bbf1ad7df3613ab0e78f27d5d688b2dbef391c5dbe015ccdc02"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40158.json": {
+          "sizeBytes": 1429,
+          "sha256": "873cb3fe3f0e6c73f2980675d645b9fa655f92b93902241ca02d3b783c4ccd65"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40159.json": {
+          "sizeBytes": 1366,
+          "sha256": "cff005ab55846160cf168335b4a9c0496e4eb7580df61f080312d783725ea905"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40160.json": {
+          "sizeBytes": 1399,
+          "sha256": "2a75780a9ea7c70dc5f7fa3cf970b2ef14561165cb6f51e023dd8c902d483cbc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40161.json": {
+          "sizeBytes": 1494,
+          "sha256": "add750d61a0b88a43ee4377c25aff888228ab0eb93a1fe403c922648d4bcf3bb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40162.json": {
+          "sizeBytes": 1274,
+          "sha256": "72b6e7d56789525eb57930c4408e7d0735d965b3e065bc812e74d42f0e6a3880"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40163.json": {
+          "sizeBytes": 1432,
+          "sha256": "d046926b218fcf7570314e74f56e16eb928cddfa14a0fc11a9ce5905c910a28b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40164.json": {
+          "sizeBytes": 1439,
+          "sha256": "f7d2da510f893c4b56ddf4baa0281321b1641584954dd9ba153cdaf1afa3a99e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40165.json": {
+          "sizeBytes": 1408,
+          "sha256": "65ab74ffbcd6b38927c3547c2af45c22b3488ce2a5d8beefa6e2a7f8bf3c4e96"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40166.json": {
+          "sizeBytes": 1372,
+          "sha256": "a1fef32a604225d1d860a2cc117cf5f7576f6adcc0f125ba3a30391419fa063b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40167.json": {
+          "sizeBytes": 1371,
+          "sha256": "4e6da4ebe105cfe5e13d27f2452c48f8a156492bfe3747f7c05d444bd607aacb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40168.json": {
+          "sizeBytes": 1549,
+          "sha256": "e2a7fcbec87c87647c18f61ad42eee520afaf83b5557bf0ce3191adb66ef3af7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40169.json": {
+          "sizeBytes": 1443,
+          "sha256": "d6ee012628ad3121ebf029615240d98faa2319e13a9d3b91b03e67ec3a7db595"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40170.json": {
+          "sizeBytes": 1461,
+          "sha256": "7ad55cf480a531c93cabf22bb7e16dc0a4a28a0485e64c96df9e83bb3e02011b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40171.json": {
+          "sizeBytes": 1493,
+          "sha256": "82cbe0d5f370b377dae5c46dd246a447576d5d78bb9fe0818ada4992c6986505"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40172.json": {
+          "sizeBytes": 1440,
+          "sha256": "2c3b13a96aede607fd5bdde2ceb13b9f4ddd6144be9594c4c1c0aaf661c6f1cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40173.json": {
+          "sizeBytes": 1377,
+          "sha256": "c8ce578e2637fd56b9cf3cca349493faeec36eae918ef4ffc36edc922deb8553"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40174.json": {
+          "sizeBytes": 1410,
+          "sha256": "8b2804997a2e9ab803f3269a352c701f3897285dae8be3acff89e9532bff87b1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40175.json": {
+          "sizeBytes": 1464,
+          "sha256": "a06818dfbc0e354210a6322bc069acbe7b66a7afed8262433ad43fa37557a742"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40176.json": {
+          "sizeBytes": 1517,
+          "sha256": "8e51679701bc731b8181c8b778ecd091bea1a7de69bfdec94ed177c97b75fb86"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40177.json": {
+          "sizeBytes": 1392,
+          "sha256": "976c1a8063964f09aa232a3e29002f4f4b0a2fdade82059c78fbd87d11bd680d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40178.json": {
+          "sizeBytes": 1322,
+          "sha256": "065fcccdeceeb748b9c7f3011af4bb858f8df835060fe9981e2361f703175ae5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40179.json": {
+          "sizeBytes": 1387,
+          "sha256": "cc36e239efe6bf9ad62552c3e0401cc98089e974f8e1108b192eb796b4ce945a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40180.json": {
+          "sizeBytes": 1452,
+          "sha256": "0fd31f311f0423193273451e4d1e93621489a8b5ed06aaf145958b990fd05d2f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40181.json": {
+          "sizeBytes": 1501,
+          "sha256": "6b65cd0282029d3170b5f23720a9d453afe68ba55b858a1a6f317882ba9631bb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40182.json": {
+          "sizeBytes": 1362,
+          "sha256": "357d3b326e1c465f8efd2742afc47ad1693299a17e40ad82e06a1c171bb6a560"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40183.json": {
+          "sizeBytes": 1371,
+          "sha256": "7818eacffd191b01173fa144fe0754918d170bba0aeb53072355b1d90d37094c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40184.json": {
+          "sizeBytes": 1432,
+          "sha256": "787c91aa64fc19ae2d8789af4a5cba644e9d801de1b527fa641d7c7ea575f600"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40185.json": {
+          "sizeBytes": 1376,
+          "sha256": "239b155dadcf6173e311c66045a38aaeb0705d7a343e8420729c367e2454ab8b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/75/40186.json": {
+          "sizeBytes": 1513,
+          "sha256": "5987bfb4ce6fd1ea4ed0dffaf29b475c2081f5a103fcf3634c27b8cb2b8d9b1f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40187.json": {
+          "sizeBytes": 1805,
+          "sha256": "de9a931bb90744e1ba610814470b5f8a7bb0eab56e4803ce4b11d54c2dd4aae7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40188.json": {
+          "sizeBytes": 1548,
+          "sha256": "ec6213b265f6009f080ff57ca08700dbcd417ba72ec551335a12470334a39010"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40189.json": {
+          "sizeBytes": 1783,
+          "sha256": "9997205c0eb26a9f7887f286dc1fce76bc37268c73c4b4db54439b445a055c4d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40190.json": {
+          "sizeBytes": 1763,
+          "sha256": "a64a8f43b6195dc0059798b8d807b3464b492dd0c970920c423baeb4c064a501"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40191.json": {
+          "sizeBytes": 1606,
+          "sha256": "d6a64c6362df237261c8baa4080ed35edfa3bfaa2e69ac18cba2ed64e7fc2aa7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40192.json": {
+          "sizeBytes": 1758,
+          "sha256": "18c4893c8de7b2ea47917dde8d2635d5d2afc6b4d43570f94401faffcc9df948"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40193.json": {
+          "sizeBytes": 2247,
+          "sha256": "3183aa9f6fd3315ccbffd7c7f21b15543713d451caf407f4ce707f3ac761b9e3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40194.json": {
+          "sizeBytes": 1587,
+          "sha256": "169c04f9e0aeb469789851c5d7c614a293ff726cb51c637c93cb52244c7baa0a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40195.json": {
+          "sizeBytes": 1690,
+          "sha256": "0a75abc73f70a8fcf830d8e03ef788b4549daa539f3ed5325d8f09d7aed8677b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40196.json": {
+          "sizeBytes": 1633,
+          "sha256": "4dd42e13f88949d7e2ec66b72eda677b3178743ded1f13d07abcde57f2db4c22"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40197.json": {
+          "sizeBytes": 1807,
+          "sha256": "b3b74b1bbeb425d8d705e6ddf00681906647622b85ae25ffd5c468597012d00e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40198.json": {
+          "sizeBytes": 1787,
+          "sha256": "cae9fd1bad96aaf19e8573260b8e92b3a272c5a0e0f9ea4ca6aa3c139a51573f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40199.json": {
+          "sizeBytes": 1897,
+          "sha256": "148e274d78d69072608939e4dd42d92b93f0e461334fe31344e3da1e1e406e5b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40200.json": {
+          "sizeBytes": 1849,
+          "sha256": "2ccf2c3f10ebe17de217111fa0bbb004433d91fee8c0cdddaca626eb1365cf98"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40201.json": {
+          "sizeBytes": 1594,
+          "sha256": "866805fa1f6963d61f4854fa4afe2f097d24c14fa701c399f7352fad1ef9e677"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40202.json": {
+          "sizeBytes": 1643,
+          "sha256": "51e2a0721367a393fdbf9b2428685a5910df7d3ffa921dfeec913dac70e3fa15"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40203.json": {
+          "sizeBytes": 1981,
+          "sha256": "264192d69412ed5ee141c33edfecfed3c825e2994ed58c19ea3838217bd5f86a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40204.json": {
+          "sizeBytes": 1923,
+          "sha256": "deb7d73a73e091b358825f3ade3813708b12f3c13811fa0d4539684281f1583f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40205.json": {
+          "sizeBytes": 1914,
+          "sha256": "b431d286e04b485758a786a8673c4431f3b1949f7cf5e82f34a640d345426c5e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40206.json": {
+          "sizeBytes": 1539,
+          "sha256": "faf40d3bb198f150dc14d83d6c1d76609ff0951236ecea5995c1cb63b1bc05b6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40207.json": {
+          "sizeBytes": 1681,
+          "sha256": "94acb395d8b7a7b41585d30d3bf06595781f0c6028e0c5544afc7c00514ce856"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40208.json": {
+          "sizeBytes": 1845,
+          "sha256": "e53102c3da705da7e0d9827f92fd1eab37c220eed14c1436a3c6abadbce01cdb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40209.json": {
+          "sizeBytes": 1799,
+          "sha256": "3907dd66b1d6893e613502b973aa1aa4b8cf89a5c4eb8bb5ff99a083f984b595"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40210.json": {
+          "sizeBytes": 1721,
+          "sha256": "6d62d21ca36a00caa88dd6460007fdb6c51a7f397f67b80c282921b70e03fc71"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40211.json": {
+          "sizeBytes": 1388,
+          "sha256": "89574d8c38105013015f36139317aaf22939beeb97eca1de669da3c29ee18e74"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40212.json": {
+          "sizeBytes": 1444,
+          "sha256": "fb457fbad9214d9e4bacc8dddb397fcce567428c11bc658960e88402b6cfebb6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40213.json": {
+          "sizeBytes": 1598,
+          "sha256": "baef23109e6973ec616cf7aa2ece20dc98c13fd74c0dcad24797f7e7d5b1be60"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40214.json": {
+          "sizeBytes": 1528,
+          "sha256": "18638e58ab1c63e635799d67bf3ef1326923160cfec8b83294e0f412c648c016"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40215.json": {
+          "sizeBytes": 1460,
+          "sha256": "a5a38031886777d96cfaf657013aabcebafa795cc770d01d4950aaceae37882a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40216.json": {
+          "sizeBytes": 1515,
+          "sha256": "5cf805880ef2601808241e1af9a9ec7fe308dc7237eed546eebff9e0a566a3f5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40217.json": {
+          "sizeBytes": 1672,
+          "sha256": "36317f53f4cba1c8e271fc30d0864f248449cd33dc6ea174236eda44a163605f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40218.json": {
+          "sizeBytes": 1627,
+          "sha256": "0e53947e498752e68a56176929c1683ae30594cc2259105c48b14a5dbc510d93"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40219.json": {
+          "sizeBytes": 1598,
+          "sha256": "b7ff3f2dd9acd1b477b3b08c540078e5f138c55e078c6d56519535d4a0a8d2e2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40220.json": {
+          "sizeBytes": 1605,
+          "sha256": "ad696163687c0138d3dc07ed930c64354dbfbaa6a3f988e9fff1584ba56bf3cc"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40221.json": {
+          "sizeBytes": 1513,
+          "sha256": "117617a76a44115ed27dcf960a4a602d43b1444a5401d0871e05236dd61c7173"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40222.json": {
+          "sizeBytes": 1505,
+          "sha256": "da016667a9836d8db31ff2256c599d567b91cc2aa70b5fdd10a56b3b069594c5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40223.json": {
+          "sizeBytes": 1651,
+          "sha256": "c1526315d6034cce3a8ad6d65838a89d91b295b08d9d0c6d7e9577d6cfa1c8de"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40224.json": {
+          "sizeBytes": 1741,
+          "sha256": "c6c6decb0705e272f24b409244c13f1e02cb207c49f2c234c842595c76e36db1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40225.json": {
+          "sizeBytes": 1892,
+          "sha256": "54a457cdb31c93253e2a782c5a6566ce5300e56b92e5b2a25140a4bf313ac014"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40226.json": {
+          "sizeBytes": 1945,
+          "sha256": "da779be61ee5556deae1d1349845d5f045781183408d66d57b0296469f48a135"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40227.json": {
+          "sizeBytes": 1803,
+          "sha256": "157370e89272d2b340406d969c60472eb72bbdb08392e4028bdff4ce8d5c95d3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40228.json": {
+          "sizeBytes": 1476,
+          "sha256": "230a1fbdf71a6df4223425bff63ce4b3884f59fe2865f8491f5dcd2476510b76"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40229.json": {
+          "sizeBytes": 1521,
+          "sha256": "82886327a22c83da550f430b4f5f7ef178d67e460008d94f899b3c565de6e33d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40230.json": {
+          "sizeBytes": 1428,
+          "sha256": "fbf45906114e49f3a4c743f0a716da4dc28a3727d3ada193095dccd09948a5b3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40231.json": {
+          "sizeBytes": 1847,
+          "sha256": "451f27c2c46531c479b5359bc743a2e9ec08737a5ab0a02747d408842e74e473"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40232.json": {
+          "sizeBytes": 1811,
+          "sha256": "bcd1beef5faab7bb7421322ac7ae8b8b220b2d0885ea7cdf5cb6f7036cdb7f6b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40233.json": {
+          "sizeBytes": 1649,
+          "sha256": "141aaba3d6cfe5efe342fc8bbb5e4a40053c082082e2e0e6d9cc676530ec15c3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40234.json": {
+          "sizeBytes": 1575,
+          "sha256": "ba71259f661ef4e7ec52c21ab150f4c0f166c24a87894c0176bfb3fa9956b739"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40235.json": {
+          "sizeBytes": 1805,
+          "sha256": "415a090ce6899aefefad9e5eae387fb4634a0e5ce3bca202e39a78fe5caf2c4d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40236.json": {
+          "sizeBytes": 1739,
+          "sha256": "ee3f5ac6a7b00a69ac92f788e2ebe3868490716965d34bd9cc66e24a39d09d14"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40237.json": {
+          "sizeBytes": 1626,
+          "sha256": "73395c139030ba6dfb651405d084aac355cf63513753574fcbddaf210bdffed4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40238.json": {
+          "sizeBytes": 1615,
+          "sha256": "5deecf4012ba94f43a9a940653c7a39d0129ec58ab09315438ab64c40eff4f1e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40239.json": {
+          "sizeBytes": 1361,
+          "sha256": "24399bf5e6a44b8ef255763a56a00493bad494efe29b3ef58d0f7261f4835dc5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40240.json": {
+          "sizeBytes": 1539,
+          "sha256": "7c457837b583335a50eecad9d9ee581a8521628ebaf24bf40b368fff2a15396d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40241.json": {
+          "sizeBytes": 1515,
+          "sha256": "061ac2860d8bce5ed9acfe1b8ff7601be4d29a415331026583405b777d043298"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40242.json": {
+          "sizeBytes": 1624,
+          "sha256": "6cbca4f785c65c9e4512daa3809731160bb3c4aa30f2aa3c712054f0b718f28b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40243.json": {
+          "sizeBytes": 1636,
+          "sha256": "9ce460e7d39f4b1491ea6ed73d659b5910b20b143c96decd5fe901ab4fa67cf2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40244.json": {
+          "sizeBytes": 1771,
+          "sha256": "f8e2323ef74bb58bfa808c1f88811216c23ab937a9fee12bd2984206ecc73105"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40245.json": {
+          "sizeBytes": 1572,
+          "sha256": "79d2c794f778da2af3e966e6bd18f52d1db81d7d65b441caf9df929cd94f60f0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40246.json": {
+          "sizeBytes": 1756,
+          "sha256": "69846fb1026ac54af06e900b1a1d5ab35ad81ab4210caaea8fba785a65bf69d5"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40247.json": {
+          "sizeBytes": 1379,
+          "sha256": "bacef07afd00520e1685d20d96603647e4fb9cbf324df41c3aed91d95bc45f25"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40248.json": {
+          "sizeBytes": 1364,
+          "sha256": "60632e07de6f5114c5532bebd09372752c12a7577fad4021b33c66ea8617555a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40249.json": {
+          "sizeBytes": 1473,
+          "sha256": "5cd08b6f4aeaaa0ee4900d38c725e62059d8c98d5381b6d6725c27650fda75cb"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40250.json": {
+          "sizeBytes": 1458,
+          "sha256": "3200ead6fc767ba87ebca7de5e079ab2736635481470dce34cf093e12245bad9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40251.json": {
+          "sizeBytes": 1328,
+          "sha256": "83c7841d6f527b5cd3e35dd5a635e2b1d48ded1b7417297c853bd734507516df"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40252.json": {
+          "sizeBytes": 1367,
+          "sha256": "b11d00e1d5c5937cdd01f44c24fbd1649a2e69fecae6458342ec12d37551237e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40253.json": {
+          "sizeBytes": 1499,
+          "sha256": "62b6ff5478c7cf3af788e6a56c9468339ad5fc882f269dd4be2315efacccbbce"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40254.json": {
+          "sizeBytes": 1776,
+          "sha256": "879586870c079bd358ccc58994067b67a2cc67a97ed33dbda9f1e427c55cef11"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40255.json": {
+          "sizeBytes": 1695,
+          "sha256": "f07820ccf5ef0919b637cd3828896694ced1ae0adc292987721302ac302b400f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40256.json": {
+          "sizeBytes": 1684,
+          "sha256": "a8213e014f0ffcac7d40f939dec2417c79341da68132d4e979c08afdd50643c2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40257.json": {
+          "sizeBytes": 1398,
+          "sha256": "ddcebc7e1495338b5af83dc4c4e643eacf7fae6261cbd3d3c9164416c998ff8d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40258.json": {
+          "sizeBytes": 1404,
+          "sha256": "c13caf2e31e091e5e31cc920945e83c99cdf42a28c62d474395649e8011887a0"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40259.json": {
+          "sizeBytes": 1349,
+          "sha256": "252ecfb8ec7e03a289ef1f4136055adffd88066b26277b6fa9eac71071590640"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40260.json": {
+          "sizeBytes": 1954,
+          "sha256": "35ed006afff4333c63a09b61b4ed5aadc307e97a9ed8989a0ed64d3fc85cc545"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40261.json": {
+          "sizeBytes": 2049,
+          "sha256": "2aa4f10d8046025ec7d88cfed3004adc19a09f87d8f4e1b4fccc8473cd5c430e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40262.json": {
+          "sizeBytes": 1525,
+          "sha256": "757f1b4037015747671bb19c320ea8a98e66bc44c93db36f707cc0e5cbe1af9d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40263.json": {
+          "sizeBytes": 1582,
+          "sha256": "7a559fb5c29df9d5fa693e1df1212f08c21436b371bbd5a18257bc5c19ce27e7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40264.json": {
+          "sizeBytes": 2023,
+          "sha256": "a77101b7bffa5ce315f16b3b24547607910771aebfa1f566132b3556eac4caab"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40265.json": {
+          "sizeBytes": 1325,
+          "sha256": "cf07f780f6ee50ac1af09574c96dc4099e0fbce4eeac9a96eb63a53ef6d3c737"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40266.json": {
+          "sizeBytes": 1555,
+          "sha256": "f1d66d23ddfc243e98c1d35e5fd85eec5f5a6452f0fb3c0956378c0c573fb6c2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40267.json": {
+          "sizeBytes": 1889,
+          "sha256": "6073ce575cb115a66e7d14c19d87fb737e492eb913c0e529f61df98338391721"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40268.json": {
+          "sizeBytes": 1506,
+          "sha256": "cf764ee526a02e30f8903743ff90fc4d018d628ca174c53c1fc74be6b6ee2e99"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40269.json": {
+          "sizeBytes": 2026,
+          "sha256": "76b2c3742c2d9c7242b107a57eb88803ebae7c0062d0ccdcfe676ae51def8233"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40270.json": {
+          "sizeBytes": 2757,
+          "sha256": "49aad96fad6530b6b73f87186aac049ead1bb87a99e630552380c8dd37a08aad"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40271.json": {
+          "sizeBytes": 2453,
+          "sha256": "2eeaccebcc6c70ee4aac66e37de388ff33163f0d172d2f85f3756c05303d5e47"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40272.json": {
+          "sizeBytes": 2554,
+          "sha256": "4495a67becc570bf16d98cfc3e3182a556af54af92992a45285ad6b3abb120f3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40273.json": {
+          "sizeBytes": 2692,
+          "sha256": "ba2590ce799bb00048009e0060b12d814078a2beb3f389ba116388d1fb4a8d1d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/76/40274.json": {
+          "sizeBytes": 2258,
+          "sha256": "2644c82a2f470c56fd4dfb84d78322e0273e9bc293ac7243d8fff2ff72689dde"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40275.json": {
+          "sizeBytes": 1885,
+          "sha256": "5ef6eac2bbbbf86e89c18a8a6c070a4351f7d30568aebefe27f25fa3a82b50a1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40276.json": {
+          "sizeBytes": 2038,
+          "sha256": "2415b49268de27bf1d40218c8bfeb28bb76b0b2463df40b6cb198315e8df85a4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40277.json": {
+          "sizeBytes": 1801,
+          "sha256": "1427e3384fa9050c8c397fce23e05965baa6a81039a5096fb14fda33d14fe7b1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40278.json": {
+          "sizeBytes": 1645,
+          "sha256": "910c250f3680234e23e5a4f4ebb5ce30c269f0b2b1d47a18ec89c65a85973cc6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40279.json": {
+          "sizeBytes": 1856,
+          "sha256": "3bb22a6ea46f80568111db2597b4b86daa8fe8af4fef1f1075529482abe54254"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40280.json": {
+          "sizeBytes": 1708,
+          "sha256": "7a0c35d34728117e89b1aa47c411b263907927e58f49b2cbb268da7fa053d896"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40281.json": {
+          "sizeBytes": 1538,
+          "sha256": "a8c865027715da4b0977d1bafde3fd0f320449284d3ee764bae590cd8427cf7f"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40282.json": {
+          "sizeBytes": 1719,
+          "sha256": "2092f818839d90f6700ff0723e0d19deefe53d575da445646dc95f096c73014a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40283.json": {
+          "sizeBytes": 1719,
+          "sha256": "39312d95ad67a990689c0efc22ad837b95d33642ca5901414308ed091c21dd1b"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40284.json": {
+          "sizeBytes": 1514,
+          "sha256": "6166cd3f66590b26aeffd2c897738420aed121a569f0765519b1c0c945140bd1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40285.json": {
+          "sizeBytes": 1560,
+          "sha256": "51ce1ce732a5c42f4a2bdc5c77053dff523a48cfb8fc96bd89f617dd0d375b9a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40286.json": {
+          "sizeBytes": 1808,
+          "sha256": "dbd114a115b6163c74ab8df9acba82f27c2b59737fc349d1bd516fe315d76558"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40287.json": {
+          "sizeBytes": 1691,
+          "sha256": "2e7bd60f867930548ee9eb008d180224c9eded72c10779fab6c59523e74854d4"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40288.json": {
+          "sizeBytes": 1707,
+          "sha256": "2da4d76932468cdac5822da885716c7a507fef0b99ff48c027aca51c3bf34aa7"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40289.json": {
+          "sizeBytes": 1609,
+          "sha256": "b5a394ef99d49ae7b4eb39e53fb16dc7a8a359e778f147635befad87c4271d6e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40290.json": {
+          "sizeBytes": 1541,
+          "sha256": "28385dbc6ac67017e5f4154aa80f203ab3fb9a3dc51200cef3989eebb91b7b02"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40291.json": {
+          "sizeBytes": 1671,
+          "sha256": "dce4c3f015a64b8433cbaeb87df43b654757a70f3ff46490aaaa41eb006dc1b9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40292.json": {
+          "sizeBytes": 1611,
+          "sha256": "d1df4dafe80d240b2a7628d9de8fa6f0e0aa909d4a61889dd2101a69ca4b20fe"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40293.json": {
+          "sizeBytes": 1882,
+          "sha256": "f944c2a50b67550621973c9fb90b4e25e581f93ce491eff392af2e24141ad23d"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40294.json": {
+          "sizeBytes": 1775,
+          "sha256": "58c85b7c2e02d6a78ba6e026083e297c22929c0bf8c1b32aacfec44d71305c18"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40295.json": {
+          "sizeBytes": 1582,
+          "sha256": "ada296efe793765291eaedeb96d677675a4d6eb9f05f24d6047af7097ede05fa"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40296.json": {
+          "sizeBytes": 1437,
+          "sha256": "4f590467a980a7fb6694f303b1f37071c8434a2051f2b7e7ed926d5814910e41"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40297.json": {
+          "sizeBytes": 1661,
+          "sha256": "640689157008a5f8ad3b1b4c695d6ba1244426f0f6e29ea5d1a21eb8f76f0a52"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40298.json": {
+          "sizeBytes": 1490,
+          "sha256": "0b003a873aaba9e3a01d94c94c9db7c0a41f777b485e6d3f31528e7da76daeda"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40299.json": {
+          "sizeBytes": 1565,
+          "sha256": "2c1db71dc2fb83710da7d5b9f936b5be2a6bd67a7816b9e982f0f13f69013dd6"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40300.json": {
+          "sizeBytes": 1592,
+          "sha256": "f55c728e5a48676dbca1c2f9c11536ce09e3be266d3e96dd6a254adccb733def"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40301.json": {
+          "sizeBytes": 1768,
+          "sha256": "27280bebb93f2037350ed5401bcb8ea778ee136a03fd53adbe0039d398c9c1c1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40302.json": {
+          "sizeBytes": 1555,
+          "sha256": "e29c9b931087b759ffdf866bacd844639820338a234c5e3368c9995649424be2"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40303.json": {
+          "sizeBytes": 1641,
+          "sha256": "7628a43af3d830833ca852651d132d003e9a338ef181cc61edf4b9264f0456af"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40304.json": {
+          "sizeBytes": 1708,
+          "sha256": "9b55bfec003c9c7bdf4cae8c41beef8281a27a9ce38aab9351406d7920d8f37a"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40305.json": {
+          "sizeBytes": 2237,
+          "sha256": "82077783a6cc021861db45a87cb8abb2d9b62b4e33e251bd82d121d9970c6033"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40306.json": {
+          "sizeBytes": 1697,
+          "sha256": "8fbd461a87050777e753894eedac6322cc1188cc1ead6c789537060f8e9261c9"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40307.json": {
+          "sizeBytes": 1581,
+          "sha256": "3a1e8cbfa4bef8b47b199c0703b0f4029b4366939b6431af4406c7ad772cfa8c"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40308.json": {
+          "sizeBytes": 1652,
+          "sha256": "59ea13125358d413eee06eedfc101d85101ab03dd9378ebb464e4a2929bb9b32"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40309.json": {
+          "sizeBytes": 1654,
+          "sha256": "e7d0df1a20f7e0e4147332fa04ff26d56bbbc79c305429be068dea99389b5316"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40310.json": {
+          "sizeBytes": 1720,
+          "sha256": "076831b3530fe527b243edd0477a0eee5068c980f1b977768e3b7083b49a29c1"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40311.json": {
+          "sizeBytes": 1818,
+          "sha256": "4ccdb5cc7404922ee3cfccb8f70e009d720c1022d570356d884b043cb22654f3"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40312.json": {
+          "sizeBytes": 1737,
+          "sha256": "0065ff7a67d045027b45921ee8ee9c4bd3eb017230f5875d223706f25480c53e"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40313.json": {
+          "sizeBytes": 1536,
+          "sha256": "45d6df6915dfa7cf0e500b45a8b96966a42db13b456a0825671c3db13ba51668"
+        },
+        "config/betterquesting/DefaultQuests/Quests/77/40314.json": {
+          "sizeBytes": 1713,
+          "sha256": "b54e08844198c04ce5c7940d32bd6e8ff14a4dfe5f3074d95bffd65cbc676795"
+        },
+        "mods/BetterQuestingUnofficial-4.3.2.jar": {
+          "sha256": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b",
+          "sizeBytes": 2041719,
+          "projectId": 629629,
+          "fileId": 8097689
+        },
+        "mods/theoneprobe-1.12-1.4.28.jar": {
+          "sha256": "f3e5048dbe58f37f98f8130886ede880ac5b3333ee73cae2381c337e500c4bd1",
+          "sizeBytes": 301893,
+          "projectId": 245211,
+          "fileId": 2667280
+        }
+      },
+      "output": {
+        "sizeBytes": 2379565,
+        "sha256": "3d64a21b5de29211b1e0054f127ae5b263b357314e1e59c37918c6cb8081601f"
+      }
+    }
+  ]
 }

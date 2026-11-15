@@ -1,0 +1,20 @@
+{
+  "The One Probe Read Me": "Памятка по The One Probe",
+  "Things you should know about": "Как пользоваться",
+  " The One Probe": " The One Probe",
+  "This mod can show a tooltip on screen": "Мод показывает подсказку, когда вы",
+  "when you look at a block or an entity": "смотрите на блок или существо.",
+  "In this pack the probe is configured to be": "В этой сборке датчик нужен,",
+  "required in order to see the tooltip": "чтобы видеть подсказку.",
+  "In this pack the probe is configured to be not": "В этой сборке датчик не нужен,",
+  "required to see extended information (when": "чтобы видеть подробности при приседании.",
+  "sneaking) but not for basic information": "Базовая подсказка видна и без датчика.",
+  "This is set server side": "Это настраивается на сервере.",
+  "Check out the 'Mod Options... for many client'": "Остальные настройки есть в меню модов.",
+  "side configuration settings or sneak-right click": "Или нажмите ПКМ с памяткой в руке,",
+  "this note for more user-friendly setup": "удерживая клавишу приседания.",
+  "You can change this here:": "Режим можно поменять здесь:",
+  "Needed": "Нужен",
+  "Not needed": "Не нужен",
+  "Extended": "Для деталей"
+}

@@ -8,6 +8,8 @@
 /launcher/jvm-args.txt text eol=lf
 /launcher/controls-preset.txt text eol=lf
 /tools/keybinds/** text eol=lf
+/tools/localization/** text eol=lf
+/config/lanminecraft/nuclear-book-ru.tsv text eol=lf
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf

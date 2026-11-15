@@ -1,3 +1,4 @@
 config/Universal Tweaks - Tweaks.cfg
+config/lanminecraft/nuclear-book-ru.tsv
 config/log4j2.xml
 lanminecraft/nuclear-legacy-skins.jar

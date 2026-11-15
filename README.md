@@ -10,7 +10,7 @@
 python -B LocalSources/Nuclear-Tech-Reborn/tools/skin-agent/prepare_release.py . stage --pack-source LocalSources/Nuclear-Tech-Reborn --output $stage --locked
 ```
 
-`tools/upstream-client-lock.json` закрепляет исходный ZIP и overrides. `tools/upstream-lock.json` добавляет исходные JAR, размеры, SHA256 и официальные источники. `tools/overlay.json` выключает в Universal Tweaks две функции меню, `LAN Server Properties` и `Toggle Cheats Button`, и устанавливает настройки журналирования для Forge 1.12.2. Остальные настройки автора, включая квесты, оформление и конфигурацию Simple Voice Chat, остаются побайтно сверяемыми.
+`tools/upstream-client-lock.json` закрепляет исходный ZIP и overrides. `tools/upstream-lock.json` добавляет исходные JAR, размеры, SHA256 и официальные источники. `tools/overlay.json` выключает в Universal Tweaks две функции меню, `LAN Server Properties` и `Toggle Cheats Button`, устанавливает настройки журналирования для Forge 1.12.2 и добавляет отдельный словарь для квестов. Авторские квестовые данные, оформление и конфигурация Simple Voice Chat остаются побайтно сверяемыми.
 
 `tools/network-logging-proof.json` закрепляет проверку Forge 14.23.5.2859 и его Log4j 2.15.0 на Java 8. Сетевые исключения сохраняются со вложенными причинами, а обычный DEBUG-поток пакетов отфильтрован. Атрибуция и условия поставки находятся в [NOTICE.md](NOTICE.md).
 
@@ -38,3 +38,7 @@ Authlib. Состав и порядок загрузки MixinBooter сохра�
 ## Пресет управления
 
 Кнопка «Пресет управления» предлагает раскладку из `launcher/controls-preset.txt`. [Назначения, проверка и публикация](tools/keybinds/design.md) описывают контексты модов и границы проверки вне игры.
+
+## Русский квестбук и памятка
+
+Выберите «Русский» в настройках языка Minecraft. Переводятся названия и описания в Better Questing и стартовая памятка The One Probe. Перевод применяется при отображении текста, включая сохранённые миры с теми же авторскими текстами. [Обновление словаря и проверка](tools/localization/README.md).

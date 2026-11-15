@@ -100,6 +100,7 @@ def stage(launcher_source, output, revision, base_sha):
     policy_files.update({row["path"]: {key: row[key] for key in ("sizeBytes", "sha256")}
                          for row in [*recipe["additions"], recipe["bootstrap"]["artifact"]]})
     policy_files.update({row["path"]: row["after"] for row in recipe["patches"]})
+    policy_files.update({row["path"]: row["output"] for row in recipe.get("bookLocalization", [])})
     release_overlay.verify_manifest(manifest, policy_files, author)
 
     output.mkdir()

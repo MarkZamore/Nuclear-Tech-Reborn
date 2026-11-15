@@ -8,6 +8,7 @@ from zipfile import BadZipFile
 
 AGENT = "lanminecraft/nuclear-legacy-skins.jar"
 PRESET = "launcher/controls-preset.txt"
+BOOKS = "config/lanminecraft/nuclear-book-ru.tsv"
 AUTHLIB = {
     "version": "1.5.25",
     "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
@@ -17,8 +18,23 @@ AUTHLIB = {
 
 def install(prepare):
     original = prepare.overlay_bootstrap
+    original_book_path = prepare.book_localization_addition
+    original_books = prepare.book_localizations
     # The shared tool uses this set for pinned additions in both the overlay and its manifest verifier.
     prepare.LOGGING_FILES = prepare.LOGGING_FILES | {PRESET}
+    prepare.book_localization_addition = lambda path: path == BOOKS or original_book_path(path)
+
+    def verify_book_sources(recipe, pack_source, author):
+        outputs = original_books(recipe, pack_source, author)
+        if BOOKS in outputs:
+            quest_root = "config/betterquesting/DefaultQuests"
+            expected = {row["path"] for row in author["overrides"]
+                        if row["path"] == quest_root + ".json" or row["path"].startswith(quest_root + "/")
+                        and row["path"].endswith(".json")}
+            dictionary = next(row for row in recipe["bookLocalization"] if row["path"] == BOOKS)
+            actual = {path for path in dictionary["inputs"] if not path.startswith("mods/")}
+            prepare.require(actual == expected, "Review the complete Better Questing source inventory")
+        return outputs
 
     def verify_skin_bootstrap(recipe, pack_source, author, additions):
         bootstrap = recipe.get("bootstrap")
@@ -55,6 +71,7 @@ def install(prepare):
         return {AGENT: data}
 
     prepare.overlay_bootstrap = verify_skin_bootstrap
+    prepare.book_localizations = verify_book_sources
 
 
 def main():
