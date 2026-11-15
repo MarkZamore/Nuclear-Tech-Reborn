@@ -34,3 +34,7 @@ Authlib. Состав и порядок загрузки MixinBooter сохра�
 [Нативный отчёт](tools/qa-java8-steam.json) фиксирует проверку Java 8 и публичного лаунчера 497, хеши файлов и границы проверки. [Патч проверки](tools/nuclear-tech-reborn-native-witness.patch) добавляет проверку прав JEI, принудительной ошибки публикации и списка серверов. Применяйте его к копии [Forge112SteamQaAgent.java](https://github.com/MarkZamore/LANMinecraft/blob/6b3ad0331934f06395375bfc4923c73de464e3f9/tools/PackData/CurseForge/Forge112SteamQaAgent.java) с исходным SHA256 из отчёта. Компилируйте копию в каталоге временного стенда по разделу о Forge 1.12.2 [инструкции инструментов](https://github.com/MarkZamore/LANMinecraft/blob/7400fab6ff971161922d6014dac22c36d4523b8f/tools/PackData/CurseForge/README.md), передайте хеш итогового архива карточки и исходного `level.dat` второму запуску. Проверочный агент и его мод-помощник используются только в стенде.
 
 [Отчёт о публикации](tools/qa-public-release.json) содержит ревизию каталога, SHA256 манифеста и карточки, результаты полной установки из GitHub и холодного старта публичного EXE. [Выпуск `pack-latest`](https://github.com/MarkZamore/Nuclear-Tech-Reborn/releases/tag/pack-latest)
+
+## Пресет управления
+
+Кнопка «Пресет управления» предлагает раскладку из `launcher/controls-preset.txt`. [Назначения, проверка и публикация](tools/keybinds/design.md) описывают контексты модов и границы проверки вне игры.

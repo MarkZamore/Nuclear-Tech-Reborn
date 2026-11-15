@@ -6,6 +6,8 @@
 /launcher/pack-owned.txt text eol=lf
 /config/log4j2.xml -text
 /launcher/jvm-args.txt text eol=lf
+/launcher/controls-preset.txt text eol=lf
+/tools/keybinds/** text eol=lf
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf

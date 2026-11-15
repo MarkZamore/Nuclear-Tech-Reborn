@@ -1,0 +1,33 @@
+{
+  "revision": "60b0d7b389ae1446c2c83fe3feb0778bbd789688",
+  "manifestSha256": "d201d12e7f2ef16508fd6cc8e129e70fed599d5632b3ca30d9f2f90fd35f2ce7",
+  "jars": {
+    "AdvancedRocketry-1.12.2-2.0.0-17.jar": "809c2f212da1c2ab46a9e849922e7902f592fa57bef669d6a95c09b473ef12e4",
+    "BQUTweaker-1.3.7.jar": "07189bb7370839386d4b76073eee50c3c684b54544590dcd3545bdc91cfe1fee",
+    "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar": "0bb50f545b87f19087d9dbdb9930d6be2d66ee8c76d2a1982eef9e3d2bb43108",
+    "BetterQuestingUnofficial-4.3.2.jar": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b",
+    "CarbonConfig-1.12.2-2.0.2.1.jar": "1c435bd2eda5bfb4f9778301aab97091f0925c891edfae9dd6794f1dfe123482",
+    "Chunk-Pregenerator-1.12.2-4.4.9.3.jar": "32161d8965e07f91a769cdf0325b368f7d2a4459af15abef165b57b91213b2bb",
+    "CoFHCore-1.12.2-4.6.6.1-universal.jar": "e07b0c48def9ce8cfaa4cf7a7c656bf7f7d6815f74fbcc2957dd43efa78486a9",
+    "CosmeticArmorReworked-1.12.2-v5a.jar": "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+    "Exchangers-1.12.2-2.10.3.jar": "19f56f24a0a2481926b1035b1619bd0958938a88630a1d439bb3b03d607f8c0a",
+    "FTBUtilities-5.4.1.131.jar": "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
+    "ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar": "21e155cacd664ba822862ce459cd4b5c8aa56d4273d66d1408904b71b6115104",
+    "IronJetpacks-1.12-2-1.1.0.jar": "3007220a56179c5665faa68077372cc99fb91f8f7bd6a88f7fe497a7db15e00f",
+    "NTM-CE-1.12.2-2.6.1.0.jar": "43b0a3f71e58cca548d3ff1aa01faf45ad2eaa5477adfcaa9d161300b589266d",
+    "OpenComputers-MC1.12.2-1.8.10+258943363.jar": "9ba075d1bbdebe0c253bd6594deedcb81cdec3158ec7afc6c76ff8f5986c6816",
+    "TreeChop-1.12.2-0.14.7.jar": "049b91d2dc2cf56448cbb51818531d2771f71fc633bbe3feef21aae4997bfcd3",
+    "UniversalTweaks-1.12.2-1.21.0.jar": "9386ed5a00cc8b86ae5369a8c0d71ae8fa12711ad419767c2a7da1977c7f7870",
+    "ae2-uel-v0.56.7.jar": "dfca9f74cfebb4e79806ae77cd6bcedc30649be2b0e505e06d629386b0c3074e",
+    "esm-legacy-1.12.2-1.0.10.jar": "3a44f7d45f8388682f3f3c5bb28811ba97692eebe0cfddae572be49025acddb5",
+    "flare-0.8.0.jar": "2ef35ce392c086127a8c5a8364c1ca0af29fdcb7cb1fe303fdfbbf9f03aeff99",
+    "ftb-ultimine-1202.3.5.jar": "97642be69016944afab202f3a3edbce422af3d6485b60fdc81025bf7e29b99de",
+    "groovyscript-1.4.3.jar": "07617b7ce9170a857199bd61d730a0db3af2685cf83d31734a2d4b628fda7533",
+    "jei_1.12.2-4.16.5.1030.jar": "73357b5c3b5f44f6d0ce667bbed21ba4c5db49070944ca2bc0fa73b8d9061d51",
+    "journeymap-1.12.2-5.7.1p3.jar": "b72c9dd7e6dd0f7438c01ea8e440519bf4a3c0b47674810929a9c899dc98b406",
+    "rftools-1.12-7.73.jar": "558c38d0f7852d17a03aef81e4bd6cc2f28e60db8a8749c710c9ee829f2de0a4",
+    "theoneprobe-1.12-1.4.28.jar": "f3e5048dbe58f37f98f8130886ede880ac5b3333ee73cae2381c337e500c4bd1",
+    "u_team_core-forge-1.12.2-2.2.5.375.jar": "92d27852bd081fc9cd2d95172cbf4473fa697653f6236bb3f5779eef60960ad4",
+    "voicechat-forge-1.12.2-2.6.22.jar": "c282698b1ddd7fe7acd4aee47ccd3574486e4bda009cea43a57281ddb59005e7"
+  }
+}

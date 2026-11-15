@@ -7,6 +7,7 @@ from zipfile import BadZipFile
 
 
 AGENT = "lanminecraft/nuclear-legacy-skins.jar"
+PRESET = "launcher/controls-preset.txt"
 AUTHLIB = {
     "version": "1.5.25",
     "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
@@ -16,6 +17,8 @@ AUTHLIB = {
 
 def install(prepare):
     original = prepare.overlay_bootstrap
+    # The shared tool uses this set for pinned additions in both the overlay and its manifest verifier.
+    prepare.LOGGING_FILES = prepare.LOGGING_FILES | {PRESET}
 
     def verify_skin_bootstrap(recipe, pack_source, author, additions):
         bootstrap = recipe.get("bootstrap")

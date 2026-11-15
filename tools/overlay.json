@@ -9,6 +9,11 @@
       "path": "launcher/jvm-args.txt",
       "sha256": "3b05c48d3515fea871eb45eeb29b4c30718a5bbcda92ab614dc437806ff4c855",
       "sizeBytes": 93
+    },
+    {
+      "path": "launcher/controls-preset.txt",
+      "sha256": "46f5f65aa8128abd6ad79aa6c40aa107f42be280e23776a0ab3fe1210b4d3e56",
+      "sizeBytes": 5289
     }
   ],
   "authorArchiveSha256": "070375a4d93bc1af9765ab5fefa6d8bf56cde5d0d1b548d64d34e3c6f442296c",
