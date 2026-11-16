@@ -16,6 +16,9 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 public final class LegacySkinCompatibility implements ClassFileTransformer {
     private static final String SESSION = "com/mojang/authlib/yggdrasil/YggdrasilMinecraftSessionService";
     private static final String SESSION_SHA256 = "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7";
+    // Forge 14.23.5.2859's SideTransformer reserializes this class with ASM.
+    // The reviewed class has the same instructions and texture checks.
+    private static final String FORGE_SESSION_SHA256 = "e2519fbdb0a274214cb0755e05250f82b84d1cd4882a921e690cc52e5e2bf1ff";
     private static final String SKINS = "lanminecraft/nuclear/skins/LegacySkinProfiles";
 
     private LegacySkinCompatibility() { }
@@ -27,7 +30,8 @@ public final class LegacySkinCompatibility implements ClassFileTransformer {
     @Override
     public byte[] transform(ClassLoader loader, String name, Class<?> type, ProtectionDomain domain, byte[] bytes) {
         if (!SESSION.equals(name)) return null;
-        if (!SESSION_SHA256.equals(sha256(bytes))) {
+        String fingerprint = sha256(bytes);
+        if (!SESSION_SHA256.equals(fingerprint) && !FORGE_SESSION_SHA256.equals(fingerprint)) {
             System.err.println("[Nuclear Tech Reborn] Skin compatibility skipped for unreviewed Authlib.");
             return null;
         }

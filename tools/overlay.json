@@ -21,12 +21,13 @@
     "authlib": {
       "version": "1.5.25",
       "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
-      "sessionClassSha256": "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7"
+      "sessionClassSha256": "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7",
+      "forgeSessionClassSha256": "e2519fbdb0a274214cb0755e05250f82b84d1cd4882a921e690cc52e5e2bf1ff"
     },
     "artifact": {
       "path": "lanminecraft/nuclear-legacy-skins.jar",
-      "sha256": "11322a2227b56375b5a4797c2d39d5d1ffdd62cc61dd291cec92d0d66de68a44",
-      "sizeBytes": 25463
+      "sha256": "5eea768ce9911d51e4896bc158f7536daf6f741be3c3d5d9844284cc618fce37",
+      "sizeBytes": 26304
     }
   },
   "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",
@@ -49,6 +50,23 @@
         {
           "from": "B:\"Toggle Cheats Button\"=true",
           "to": "B:\"Toggle Cheats Button\"=false"
+        }
+      ]
+    },
+    {
+      "after": {
+        "sha256": "b6395679d7af21c694f934cdf9a906c6793587ae5f414faf44c163758113ee25",
+        "sizeBytes": 9002
+      },
+      "before": {
+        "sha256": "e473a751e9a51e81a37754c37414f3d8f6095ec430467ab064543208ed9c6ca6",
+        "sizeBytes": 9001
+      },
+      "path": "simple-rpc/simple-rpc.toml",
+      "replacements": [
+        {
+          "from": "#Enable/Disable the mod\n\tenabled = true",
+          "to": "#Enable/Disable the mod\n\tenabled = false"
         }
       ]
     }

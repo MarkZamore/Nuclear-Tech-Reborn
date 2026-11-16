@@ -13,6 +13,7 @@ AUTHLIB = {
     "version": "1.5.25",
     "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
     "sessionClassSha256": "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7",
+    "forgeSessionClassSha256": "e2519fbdb0a274214cb0755e05250f82b84d1cd4882a921e690cc52e5e2bf1ff",
 }
 
 

@@ -1,9 +1,13 @@
 package lanminecraft.nuclear.skins;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Base64;
 import java.util.Collection;
 import java.util.UUID;
@@ -20,16 +24,22 @@ public final class LegacySkinProfiles {
         try {
             UUID id = (UUID) profile.getClass().getMethod("getId").invoke(profile);
             if (id == null) return false;
-            String url = PortableSkinProfiles.registeredUrl(id);
-            if (!validUrl(id, url)) return false;
+            UUID skinId = id;
+            String url = PortableSkinProfiles.registeredUrl(skinId);
+            if (url == null) {
+                skinId = tunnelSkinId(id);
+                if (skinId == null) return false;
+                url = PortableSkinProfiles.registeredUrl(skinId);
+            }
+            if (!validUrl(skinId, url)) return false;
             Object properties = profile.getClass().getMethod("getProperties").invoke(profile);
             Method propertiesNamed = properties.getClass().getMethod("get", Object.class);
             propertiesNamed.setAccessible(true);
             Collection<?> before = (Collection<?>) propertiesNamed.invoke(properties, "textures");
             Object prior = before.size() == 1 ? before.iterator().next() : null;
-            PortableSkinProfiles.apply(profile);
+            PortableSkinProfiles.apply(profile, skinId);
             Collection<?> after = (Collection<?>) propertiesNamed.invoke(properties, "textures");
-            if (after.size() != 1 || !url.equals(PortableSkinProfiles.registeredUrl(id))) return false;
+            if (after.size() != 1 || !url.equals(PortableSkinProfiles.registeredUrl(skinId))) return false;
             Object replacement = after.iterator().next();
             if (replacement == prior || !projectedTextureContains(replacement, url)) return false;
             APPLIED_URL.set(url);
@@ -38,6 +48,29 @@ public final class LegacySkinProfiles {
             System.err.println("[Nuclear Tech Reborn] Could not attach the launcher skin to this profile.");
             return false;
         }
+    }
+
+    private static UUID tunnelSkinId(UUID tunnelId) {
+        if (tunnelId.version() != 3 || tunnelId.variant() != 2) return null;
+        String configuredPath = System.getProperty("minecraft.portable.identity.registry", "").trim();
+        if (configuredPath.isEmpty()) return null;
+        Path path = Paths.get(configuredPath);
+        String tunnelKey = tunnelId.toString();
+        UUID skinId = null;
+        try {
+            for (String line : Files.readAllLines(path, StandardCharsets.UTF_8)) {
+                String[] fields = line.split("\\|", -1);
+                if (fields.length != 3 || fields[0].isEmpty() || !tunnelKey.equalsIgnoreCase(fields[2])) continue;
+                UUID listed = UUID.fromString(fields[1]);
+                if (!listed.toString().equalsIgnoreCase(fields[1]) || (skinId != null && !skinId.equals(listed))) {
+                    return null;
+                }
+                skinId = listed;
+            }
+        } catch (IOException | IllegalArgumentException failure) {
+            return null;
+        }
+        return skinId;
     }
 
     private static boolean projectedTextureContains(Object property, String url) throws ReflectiveOperationException {

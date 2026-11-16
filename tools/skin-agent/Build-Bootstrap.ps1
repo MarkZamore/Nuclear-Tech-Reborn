@@ -44,6 +44,18 @@ $generated = foreach ($name in 'PortableSkinProfiles', 'PortableIdentityReflecti
         Replace('value.isBlank()', 'value.trim().isEmpty()').
         Replace('Path.of(configuredPath)', 'java.nio.file.Paths.get(configuredPath)')
     if ($name -eq 'PortableSkinProfiles') {
+        $apply = '    public static void apply(Object profile) {'
+        $legacyApply = @'
+    public static void apply(Object profile) {
+        apply(profile, null);
+    }
+
+    static void apply(Object profile, UUID skinId) {
+'@
+        $lookup = "            SkinEntry entry = loadEntries().get(id);`n            if (entry == null) {`n                return;"
+        if (!$text.Contains($apply) -or !$text.Contains($lookup)) { throw 'Pinned skin projection API shape changed.' }
+        $text = $text.Replace($apply, $legacyApply).
+            Replace($lookup, $lookup.Replace('get(id)', 'get(skinId == null ? id : skinId)'))
         $getter = @'
     static String registeredUrl(UUID id) {
         SkinEntry entry = loadEntries().get(id);
