@@ -9,6 +9,13 @@ from zipfile import BadZipFile
 AGENT = "lanminecraft/nuclear-legacy-skins.jar"
 PRESET = "launcher/controls-preset.txt"
 BOOKS = "config/lanminecraft/nuclear-book-ru.tsv"
+JOURNEYMAP = {
+    "projectId": 32274,
+    "fileId": 5172461,
+    "path": "mods/journeymap-1.12.2-5.7.1p3.jar",
+    "sizeBytes": 6851584,
+    "sha256": "b72c9dd7e6dd0f7438c01ea8e440519bf4a3c0b47674810929a9c899dc98b406",
+}
 AUTHLIB = {
     "version": "1.5.25",
     "sha256": "c8a095123be93c59d4ac29e4a0616495b3d479ac65913cb719a81ee583e9dfcd",
@@ -42,8 +49,16 @@ def install(prepare):
         if not isinstance(bootstrap, dict) or "authlib" not in bootstrap:
             return original(recipe, pack_source, author, additions)
         require = prepare.require
-        require(set(bootstrap) == {"authlib", "artifact"} and bootstrap["authlib"] == AUTHLIB,
+        require(set(bootstrap) == {"authlib", "artifact", "journeymap"} and bootstrap["authlib"] == AUTHLIB,
                 "Review Nuclear Tech Reborn's exact Java 8 Authlib compatibility")
+        dependency = {key: JOURNEYMAP[key] for key in ("projectId", "fileId")} | {"required": True}
+        require(bootstrap["journeymap"] == JOURNEYMAP and dependency in author["declaredDependencies"],
+                "Review JourneyMap's directory and server config hooks after an author mod update")
+        if "files" in author:
+            installed_maps = [row for row in author["files"] if row["path"] == JOURNEYMAP["path"]]
+            require(len(installed_maps) == 1
+                    and all(installed_maps[0].get(key) == value for key, value in JOURNEYMAP.items()),
+                    "JourneyMap differs from the JAR used to verify the world-routing hooks")
         platform = author["pack"]
         descriptor_bytes = prepare.overlay_bytes(pack_source / "portable-pack.json")
         descriptor = json.loads(descriptor_bytes)

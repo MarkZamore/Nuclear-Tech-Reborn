@@ -16,6 +16,7 @@ public final class NuclearSkinAgent {
                 LegacySkinCompatibility.register(instrumentation);
             }
             NuclearBookLocalization.register(instrumentation, agent.toPath().getParent().getParent());
+            JourneyMapWorldCompatibility.register(instrumentation);
         } catch (Exception | LinkageError failure) {
             System.err.println("[Nuclear Tech Reborn] Client agent could not initialize: "
                     + failure.getClass().getSimpleName());

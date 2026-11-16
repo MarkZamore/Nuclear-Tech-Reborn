@@ -24,10 +24,17 @@
       "sessionClassSha256": "aa73c7c67dd321b50cf4f0c148896af500e53668cac28d74d963af1188854ba7",
       "forgeSessionClassSha256": "e2519fbdb0a274214cb0755e05250f82b84d1cd4882a921e690cc52e5e2bf1ff"
     },
+    "journeymap": {
+      "projectId": 32274,
+      "fileId": 5172461,
+      "path": "mods/journeymap-1.12.2-5.7.1p3.jar",
+      "sizeBytes": 6851584,
+      "sha256": "b72c9dd7e6dd0f7438c01ea8e440519bf4a3c0b47674810929a9c899dc98b406"
+    },
     "artifact": {
       "path": "lanminecraft/nuclear-legacy-skins.jar",
-      "sha256": "5eea768ce9911d51e4896bc158f7536daf6f741be3c3d5d9844284cc618fce37",
-      "sizeBytes": 26304
+      "sha256": "b1323d19917bf6dfd8f8c5e37d043dd47ae342581c2c48113ff0d4b34512ee08",
+      "sizeBytes": 47035
     }
   },
   "descriptorSha256": "f2bd4294daa3a67a0e0c90ca0b870a4b623d6e9de52623135d02e66cd9e8973c",

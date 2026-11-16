@@ -14,6 +14,8 @@ $source = Join-Path $PSScriptRoot 'NuclearSkinAgent.java'
 $legacySkins = Join-Path $PSScriptRoot 'LegacySkinCompatibility.java'
 $skinProfiles = Join-Path $PSScriptRoot 'LegacySkinProfiles.java'
 $books = Join-Path $PSScriptRoot 'NuclearBookLocalization.java'
+$maps = 'JourneyMapSaveIdentity', 'JourneyMapGuestWorld', 'JourneyMapWorldRouting', 'JourneyMapWorldCompatibility' |
+    ForEach-Object { Join-Path $PSScriptRoot "$_.java" }
 $work = [IO.Path]::GetFullPath($WorkDirectory)
 $output = [IO.Path]::GetFullPath($OutputPath)
 $run = [IO.Path]::GetFullPath($RunDirectory)
@@ -71,7 +73,7 @@ $generated = foreach ($name in 'PortableSkinProfiles', 'PortableIdentityReflecti
     [IO.File]::WriteAllText($path, $text + "`n", $encoding)
     $path
 }
-& $javac '-XDignore.symbol.file' -encoding UTF-8 -source 8 -target 8 -d $classes $source $legacySkins $skinProfiles $books @generated
+& $javac '-XDignore.symbol.file' -encoding UTF-8 -source 8 -target 8 -d $classes $source $legacySkins $skinProfiles $books @maps @generated
 if ($LASTEXITCODE -ne 0) { throw 'Java 8 bootstrap compilation failed.' }
 & $JarTool --create --file $output --manifest $manifest --date 2000-01-01T00:00:00Z -C $classes lanminecraft
 if ($LASTEXITCODE -ne 0) { throw 'Bootstrap JAR packaging failed.' }
